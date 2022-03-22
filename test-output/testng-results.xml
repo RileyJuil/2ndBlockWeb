@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-21T17:23:35 KST" name="Default suite" finished-at="2022-03-21T17:24:27 KST" duration-ms="52021">
+    <groups>
+    </groups>
+    <test started-at="2022-03-21T17:23:35 KST" name="Default test" finished-at="2022-03-21T17:24:27 KST" duration-ms="52021">
+      <class name="test.JoinAccount">
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.JoinAccount@273e7444]" started-at="2022-03-21T17:23:35 KST" name="createAndStartService" finished-at="2022-03-21T17:23:39 KST" duration-ms="4871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAndStartService -->
+        <test-method signature="scenario_01_facebookLogin()[pri:0, instance:test.JoinAccount@273e7444]" started-at="2022-03-21T17:23:39 KST" name="scenario_01_facebookLogin" finished-at="2022-03-21T17:23:59 KST" duration-ms="19420" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario_01_facebookLogin -->
+        <test-method signature="scenario_02_joinAccount()[pri:0, instance:test.JoinAccount@273e7444]" started-at="2022-03-21T17:23:59 KST" name="scenario_02_joinAccount" finished-at="2022-03-21T17:24:26 KST" duration-ms="27520" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario_02_joinAccount -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.JoinAccount@273e7444]" started-at="2022-03-21T17:24:26 KST" name="quit" finished-at="2022-03-21T17:24:27 KST" duration-ms="183" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- test.JoinAccount -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
