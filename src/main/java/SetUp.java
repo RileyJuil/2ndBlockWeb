@@ -20,7 +20,7 @@ public class SetUp {
 		driver.manage().window().maximize();
 		// driver.get("https://www.secondblock-front.dunamu-2ndblock-dev.com/"); //DEV
 		// 서버
-		driver.get("https://www.2ndblock.com/"); // PROD 서버
+		driver.get("https://2ndblock.com/"); // PROD 서버
 
 		Common = new Common(driver);
 	}
