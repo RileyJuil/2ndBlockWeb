@@ -1,9 +1,11 @@
 package test.java;
 
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import main.java.SetUp;
 
+import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
@@ -14,7 +16,7 @@ import org.testng.annotations.Test;
 
 
 public class JoinAccount extends SetUp{
-  
+
 	@Test
   public void scenario_01_facebookLogin() throws InterruptedException {
 

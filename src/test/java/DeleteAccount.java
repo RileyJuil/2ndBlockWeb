@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import main.java.SetUp;
 
+import java.io.IOException;
 import java.time.Duration;
 
 import org.openqa.selenium.*;
@@ -16,9 +17,9 @@ import org.testng.annotations.Test;
 
 
 public class DeleteAccount extends SetUp{
-  
+	
 	@Test
-  public void scenario_01_facebookLogin() throws InterruptedException {
+	public void scenario_01_facebookLogin() throws InterruptedException {
 
     Thread.sleep(3000); 
     driver.findElement(By.className("home-start-button")).click(); //시작하기

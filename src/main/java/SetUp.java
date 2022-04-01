@@ -12,26 +12,22 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
+
 public class SetUp {
 
 	public static WebDriver driver;
 	public static Common Common = null;
 
-	@BeforeClass
-	public static void createAndStartService() throws IOException {
+	public static void main(String[] args) throws IOException {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
 		
-		DesiredCapabilities cap = new DesiredCapabilities();
-		cap.setBrowserName("chrome");
-		cap.setPlatform(Platform.WINDOWS);
-		URL url = new URL("http://localhost:4444/wd/hub");
-		WebDriver driver = new RemoteWebDriver(url, cap);
+		ChromeOptions chromeOptions = new ChromeOptions();
+		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
 		driver.manage().window().maximize();
 		driver.get("https://2ndblock.com/");
 		
-		
-		
+			
 		
 //		ChromeOptions chromeOptions = new ChromeOptions();
 //		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
