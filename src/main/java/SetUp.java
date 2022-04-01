@@ -12,11 +12,10 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Optional;
-import org.testng.annotations.Parameters;
+import org.junit.*;
+import io.appium.java_client.remote.*;
 
-import io.appium.java_client.remote.MobileCapabilityType;
+import main.java.Common;
 
 
 public class SetUp {
