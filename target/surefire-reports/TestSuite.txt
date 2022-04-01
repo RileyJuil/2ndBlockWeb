@@ -1,22 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 1.322 s <<< FAILURE! - in TestSuite
-test.java.DeleteAccount.createAndStartService  Time elapsed: 1.177 s  <<< FAILURE!
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 1.122 s <<< FAILURE! - in TestSuite
+test.java.DeleteAccount.createAndStartService  Time elapsed: 0.979 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Response code 500. Message: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Could not start a new session. Response code 500. Message: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, platform: WINDOWS}
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-POJBL9N', ip: '172.17.160.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}], desiredCapabilities=Capabilities {browserName: chrome, platform: WINDOWS}}]
 Capabilities {}
 
-test.java.JoinAccount.createAndStartService  Time elapsed: 0.025 s  <<< FAILURE!
+test.java.JoinAccount.createAndStartService  Time elapsed: 0.019 s  <<< FAILURE!
 org.openqa.selenium.SessionNotCreatedException: 
-Could not start a new session. Response code 500. Message: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Could not start a new session. Response code 500. Message: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, platform: WINDOWS}
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-POJBL9N', ip: '172.17.160.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, platformName: windows}], desiredCapabilities=Capabilities {browserName: chrome, platform: WINDOWS}}]
 Capabilities {}
 
