@@ -5,6 +5,7 @@
     <classes>
       <class name="test.java.DeleteAccount">
         <methods>
+          <include name="main"/>
           <include name="quit"/>
           <include name="scenario_01_facebookLogin"/>
           <include name="scenario_02_deleteAccount"/>
@@ -13,6 +14,7 @@
       <class name="test.java.JoinAccount">
         <methods>
           <include name="scenario_01_facebookLogin"/>
+          <include name="main"/>
           <include name="quit"/>
           <include name="scenario_02_joinAccount"/>
         </methods>

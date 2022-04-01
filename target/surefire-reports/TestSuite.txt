@@ -1,26 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 9.416 s <<< FAILURE! - in TestSuite
-test.java.DeleteAccount.scenario_01_facebookLogin  Time elapsed: 3.024 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "test.java.DeleteAccount.driver" is null
-	at test.java.DeleteAccount.scenario_01_facebookLogin(DeleteAccount.java:25)
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 6, Time elapsed: 0.406 s <<< FAILURE! - in TestSuite
+test.java.DeleteAccount.main  Time elapsed: 0.267 s  <<< FAILURE!
+org.testng.TestNGException: 
 
-test.java.DeleteAccount.scenario_02_deleteAccount  Time elapsed: 0.009 s  <<< FAILURE!
-java.lang.IllegalArgumentException: Input must be set
-	at test.java.DeleteAccount.scenario_02_deleteAccount(DeleteAccount.java:55)
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated main.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 
-test.java.DeleteAccount.quit  Time elapsed: 0.01 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "main.java.SetUp.driver" is null
+test.java.JoinAccount.main  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
 
-test.java.JoinAccount.scenario_01_facebookLogin  Time elapsed: 3.012 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "test.java.JoinAccount.driver" is null
-	at test.java.JoinAccount.scenario_01_facebookLogin(JoinAccount.java:24)
-
-test.java.JoinAccount.scenario_02_joinAccount  Time elapsed: 3.014 s  <<< FAILURE!
-java.lang.IllegalArgumentException: Input must be set
-	at test.java.JoinAccount.scenario_02_joinAccount(JoinAccount.java:55)
-
-test.java.JoinAccount.quit  Time elapsed: 3.016 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "main.java.SetUp.driver" is null
+Can inject only one of <ITestContext, XmlTest> into a @BeforeClass annotated main.
+For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
 

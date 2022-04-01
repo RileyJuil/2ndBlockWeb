@@ -10,13 +10,15 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 
 
 public class SetUp {
 
 	public static WebDriver driver;
 	public static Common Common = null;
-
+	
+	@BeforeClass
 	public static void main(String[] args) throws IOException {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
