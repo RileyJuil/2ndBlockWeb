@@ -28,12 +28,15 @@ public class SetUp {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
 		
-		driver = new ChromeDriver();
+		ChromeOptions chromeOptions = new ChromeOptions();
+		WebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
+		
+		//driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://2ndblock.com/"); // PROD 서버
 
 //		ChromeOptions chromeOptions = new ChromeOptions();
-//		WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), chromeOptions);
+//		WebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
 //		driver.manage().window().maximize();
 //		driver.get("https://2ndblock.com/");
 
