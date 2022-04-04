@@ -10,6 +10,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -30,23 +31,21 @@ public class DeleteAccount {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
 			
-//		ChromeOptions chromeOptions = new ChromeOptions();
-//		driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
-//		driver.manage().window().maximize();
-//		driver.get("https://2ndblock.com/");
-//		Thread.sleep(5000);
+		ChromeOptions chromeOptions = new ChromeOptions();
+		driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
+		driver.manage().window().maximize();
+		driver.get("https://2ndblock.com/");
+		Thread.sleep(5000);
 			
 //		DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability("browserName", "chrome"); 	//To specify the browser
-//        capabilities.setCapability("version", "100");		//To specify the browser version
 //		driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), capabilities);
 //		driver.manage().window().maximize();
 //		driver.get("https://2ndblock.com/");
 
 	
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://2ndblock.com/");
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.get("https://2ndblock.com/");
 
 		Common = new Common(driver);
 	}
