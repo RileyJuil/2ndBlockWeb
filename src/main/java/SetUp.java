@@ -23,8 +23,8 @@ public class SetUp {
 	public static WebDriver driver;
 	public static Common Common = null;
 	
-	@BeforeClass
-	public void createAndStartService() throws IOException {
+
+	public static void main(String[] args) throws IOException {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
 		

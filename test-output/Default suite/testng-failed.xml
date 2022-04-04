@@ -3,14 +3,20 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.DeleteAccount">
+      <class name="test.java.JoinAccount">
         <methods>
-          <include name="createAndStartService"/>
-          <include name="scenario_02_deleteAccount"/>
           <include name="scenario_01_facebookLogin"/>
           <include name="quit"/>
+          <include name="scenario_02_joinAccount"/>
         </methods>
-      </class> <!-- test.DeleteAccount -->
+      </class> <!-- test.java.JoinAccount -->
+      <class name="test.java.DeleteAccount">
+        <methods>
+          <include name="quit"/>
+          <include name="scenario_01_facebookLogin"/>
+          <include name="scenario_02_deleteAccount"/>
+        </methods>
+      </class> <!-- test.java.DeleteAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
