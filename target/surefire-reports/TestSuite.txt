@@ -1,26 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 9.436 s <<< FAILURE! - in TestSuite
-test.java.DeleteAccount.scenario_01_facebookLogin  Time elapsed: 3.028 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "test.java.DeleteAccount.driver" is null
-	at test.java.DeleteAccount.scenario_01_facebookLogin(DeleteAccount.java:56)
-
-test.java.DeleteAccount.scenario_02_deleteAccount  Time elapsed: 0.008 s  <<< FAILURE!
-java.lang.IllegalArgumentException: Input must be set
-	at test.java.DeleteAccount.scenario_02_deleteAccount(DeleteAccount.java:86)
-
-test.java.DeleteAccount.quit  Time elapsed: 0.009 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "main.java.SetUp.driver" is null
-
-test.java.JoinAccount.scenario_01_facebookLogin  Time elapsed: 3.012 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "test.java.JoinAccount.driver" is null
-	at test.java.JoinAccount.scenario_01_facebookLogin(JoinAccount.java:54)
-
-test.java.JoinAccount.scenario_02_joinAccount  Time elapsed: 3.01 s  <<< FAILURE!
-java.lang.IllegalArgumentException: Input must be set
-	at test.java.JoinAccount.scenario_02_joinAccount(JoinAccount.java:85)
-
-test.java.JoinAccount.quit  Time elapsed: 3.011 s  <<< FAILURE!
-java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "main.java.SetUp.driver" is null
+Tests run: 6, Failures: 1, Errors: 0, Skipped: 5, Time elapsed: 1.105 s <<< FAILURE! - in TestSuite
+test.java.DeleteAccount.createAndStartService  Time elapsed: 0.967 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: Error forwarding the new session Empty pool of VM for setup Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-POJBL9N', ip: '172.17.160.181', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [], extensions: []}}}]
+Capabilities {}
+	at test.java.DeleteAccount.createAndStartService(DeleteAccount.java:33)
 

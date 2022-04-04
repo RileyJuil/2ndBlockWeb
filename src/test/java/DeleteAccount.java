@@ -6,45 +6,49 @@ import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
 
-import org.openqa.selenium.*;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.*;
-import org.testng.annotations.*;
-
-import main.java.Common;
-import main.java.SetUp;
-
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
-public class DeleteAccount extends SetUp{
+
+
+import main.java.Common;
+
+public class DeleteAccount {
 	
 	public static WebDriver driver;
-	public static Common Common = null;
+	public static main.java.Common Common = null;
 	
-
 	@BeforeTest
-	public static void main(String[] args) throws IOException {
+	public void createAndStartService() throws IOException, InterruptedException {
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
-		
+			
 		ChromeOptions chromeOptions = new ChromeOptions();
-		WebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
-		
-		//driver = new ChromeDriver();
+		driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
 		driver.manage().window().maximize();
-		driver.get("https://2ndblock.com/"); // PROD 서버
+		driver.get("https://2ndblock.com/");
+		Thread.sleep(5000);
+			
+//		DesiredCapabilities capabilities = new DesiredCapabilities();
+//        capabilities.setCapability("browserName", "chrome"); 	//To specify the browser
+//        capabilities.setCapability("version", "100");		//To specify the browser version
+//		driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), capabilities);
+//		driver.manage().window().maximize();
+//		driver.get("https://2ndblock.com/");
 
-//		ChromeOptions chromeOptions = new ChromeOptions();
-//		WebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
+	
+//		driver = new ChromeDriver();
 //		driver.manage().window().maximize();
 //		driver.get("https://2ndblock.com/");
 
 		Common = new Common(driver);
 	}
-	
-	
 	
 	
 	
