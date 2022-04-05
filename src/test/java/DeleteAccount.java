@@ -29,7 +29,7 @@ public class DeleteAccount extends SetUp{
 		@Test
 		public void scenario_01_facebookLogin() throws InterruptedException {
 
-			Thread.sleep(3000); 
+			new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.className("home-start-button")));
 			driver.findElement(By.className("home-start-button")).click(); //시작하기
 			Thread.sleep(2000); 
     

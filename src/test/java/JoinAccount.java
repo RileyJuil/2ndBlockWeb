@@ -27,7 +27,7 @@ public class JoinAccount extends SetUp{
 	@Test
 	public void scenario_01_facebookLogin() throws InterruptedException {
 
-		Thread.sleep(3000); 
+		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.className("home-start-button")));
 		driver.findElement(By.className("home-start-button")).click(); //시작하기
 		Thread.sleep(2000); 
     
@@ -58,7 +58,6 @@ public class JoinAccount extends SetUp{
 	@Test
 	  public void scenario_02_joinAccount() throws InterruptedException {
 
-	    Thread.sleep(3000); 
 	    new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("serviceTermsOfUseAgree")));
 	    driver.findElement(By.xpath("//*[@id=\"root\"]/div/main/form/div[1]/div/label")).click(); //세컨블록 서비스 이용약관 동의 체크
 	    Thread.sleep(2000); 
@@ -89,7 +88,7 @@ public class JoinAccount extends SetUp{
 	    Thread.sleep(2000);
 	    
 	    driver.findElement(By.xpath("//*[@id=\"root\"]/div/div/div[2]/div[5]")).click(); //회원가입 완료 버튼 선택
-	    Thread.sleep(5000);
+	    Thread.sleep(3000);
 	  }
 	
 }
