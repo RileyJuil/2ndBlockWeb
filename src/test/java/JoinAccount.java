@@ -37,22 +37,23 @@ public class JoinAccount extends SetUp{
 		for(String winHandle : driver.getWindowHandles()){
 			driver.switchTo().window(winHandle);
 		}
-    
-		Thread.sleep(3000);
-		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("email")));
-		driver.findElement(By.name("email")).sendKeys("juikjuil@nate.com");
-		Thread.sleep(2000);
-    
-		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("pass")));
-		driver.findElement(By.name("pass")).sendKeys("ju09260927@");
-		Thread.sleep(2000);
-    
-		driver.findElement(By.name("login")).click();
-		Thread.sleep(2000);
-    
-		for(String winHandle : driver.getWindowHandles()){
-			driver.switchTo().window(winHandle);
-       }
+   
+//		Before & After Class 로 돌리지 않으면 세션이 유지되어 페이스북 로그인 버튼을 클릭하면 이메일, 패스워드 입력할 필요없이 바로 로그인되므로 일단 막고 진행		
+//		Thread.sleep(3000);
+//		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("email")));
+//		driver.findElement(By.name("email")).sendKeys("juikjuil@nate.com");
+//		Thread.sleep(2000);
+//    
+//		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("pass")));
+//		driver.findElement(By.name("pass")).sendKeys("ju09260927@");
+//		Thread.sleep(2000);
+//    
+//		driver.findElement(By.name("login")).click();
+//		Thread.sleep(2000);
+//    
+//		for(String winHandle : driver.getWindowHandles()){
+//			driver.switchTo().window(winHandle);
+//       }
     
 		Thread.sleep(2000);
 	}
