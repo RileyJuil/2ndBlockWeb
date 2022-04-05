@@ -21,7 +21,7 @@ import main.java.Common;
 
 public class SetUp {
 
-	public static WebDriver driver;
+	public static RemoteWebDriver driver;
 	public static Common Common = null;
 	
 	@BeforeClass
