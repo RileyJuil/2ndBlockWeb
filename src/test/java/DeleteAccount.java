@@ -40,13 +40,15 @@ public class DeleteAccount extends SetUp{
 				driver.switchTo().window(winHandle);
 			}
     
-			Thread.sleep(2000);
+			new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("email")));
 			driver.findElement(By.name("email")).sendKeys("juikjuil@nate.com");
 			Thread.sleep(2000);
     
+			new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("pass")));
 			driver.findElement(By.name("pass")).sendKeys("ju09260927@");
 			Thread.sleep(2000);
     
+			new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("login")));
 	    	driver.findElement(By.name("login")).click();
 	    	Thread.sleep(3000);
     
@@ -64,15 +66,19 @@ public class DeleteAccount extends SetUp{
 	    driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/div/div[3]/div[2]/div/div[2]")).click(); //마이메뉴
 	    Thread.sleep(2000); 
 	    
+	    new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"root\"]/div/div[1]/div/div/div[3]/div[2]/ul/li[5]")));
 	    driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[1]/div/div/div[3]/div[2]/ul/li[5]")).click(); //설정
 	    Thread.sleep(2000);
 	    
+	    new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[12]/div/div/div[2]/div/div[2]/div/div[6]/div[4]/div[2]")));
 	    driver.findElement(By.xpath("/html/body/div[12]/div/div/div[2]/div/div[2]/div/div[6]/div[4]/div[2]")).click(); //정말 탈퇴하시겠습니까?
 	    Thread.sleep(2000);
 	    
+	    new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[14]/div/div/div/div[2]/div[1]")));
 	    driver.findElement(By.xpath("/html/body/div[14]/div/div/div/div[2]/div[1]")).click(); //확인
 	    Thread.sleep(2000);
 	    
+	    new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[15]/div/div/div/div[2]")));
 	    driver.findElement(By.xpath("/html/body/div[15]/div/div/div/div[2]")).click(); //완료되었습니다. - 확인
 	    Thread.sleep(3000);
 	    
