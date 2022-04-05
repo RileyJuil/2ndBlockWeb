@@ -2,6 +2,7 @@ package test.java;
 
 
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
@@ -14,44 +15,16 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 
 
 import main.java.Common;
+import main.java.SetUp;
 
-public class DeleteAccount {
-	
-	public static RemoteWebDriver driver;
-	public static main.java.Common Common = null;
-	
-	@BeforeTest
-	public void createAndStartService() throws IOException, InterruptedException {
-
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
-			
-//		ChromeOptions chromeOptions = new ChromeOptions();
-//		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
-//		driver.manage().window().maximize();
-//		driver.get("https://2ndblock.com/");
-//		Thread.sleep(5000);
-			
-//		DesiredCapabilities capabilities = new DesiredCapabilities();
-//		driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), capabilities);
-//		driver.manage().window().maximize();
-//		driver.get("https://2ndblock.com/");
-
-	
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://2ndblock.com/");
-
-		Common = new Common(driver);
-	}
-	
-	
-	
+public class DeleteAccount extends SetUp{
 	
 		@Test
 		public void scenario_01_facebookLogin() throws InterruptedException {

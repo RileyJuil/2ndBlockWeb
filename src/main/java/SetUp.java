@@ -1,5 +1,6 @@
 package main.java;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 
@@ -23,22 +24,27 @@ public class SetUp {
 	public static WebDriver driver;
 	public static Common Common = null;
 	
+	@BeforeClass
+	public static void createAndStartService() throws IOException {
 
-	public static void main(String[] args) throws IOException {
-
+		File file = new File("lib" + File.separator + "chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
-		
-		ChromeOptions chromeOptions = new ChromeOptions();
-		WebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
-		
-		//driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://2ndblock.com/"); // PROD 서버
-
+			
 //		ChromeOptions chromeOptions = new ChromeOptions();
-//		WebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
+//		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
 //		driver.manage().window().maximize();
 //		driver.get("https://2ndblock.com/");
+//		Thread.sleep(5000);
+			
+//		DesiredCapabilities capabilities = new DesiredCapabilities();
+//		driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), capabilities);
+//		driver.manage().window().maximize();
+//		driver.get("https://2ndblock.com/");
+
+	
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get("https://2ndblock.com/");
 
 		Common = new Common(driver);
 	}
