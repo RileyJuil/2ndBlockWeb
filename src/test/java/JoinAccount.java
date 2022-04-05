@@ -38,6 +38,7 @@ public class JoinAccount extends SetUp{
 			driver.switchTo().window(winHandle);
 		}
     
+		Thread.sleep(3000);
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("email")));
 		driver.findElement(By.name("email")).sendKeys("juikjuil@nate.com");
 		Thread.sleep(2000);
@@ -53,7 +54,7 @@ public class JoinAccount extends SetUp{
 			driver.switchTo().window(winHandle);
        }
     
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 	
 	@Test
