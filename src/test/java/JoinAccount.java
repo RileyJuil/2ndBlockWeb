@@ -22,37 +22,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 
-public class JoinAccount{
-	
-	
-	public static RemoteWebDriver driver;
-	public static Common Common = null;
-	
-	@BeforeTest
-	public static void createAndStartService() throws IOException {
-
-		//File file = new File("lib" + File.separator + "chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
-			
-//		ChromeOptions chromeOptions = new ChromeOptions();
-//		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
-//		driver.manage().window().maximize();
-//		driver.get("https://2ndblock.com/");
-//		Thread.sleep(5000);
-			
-//		DesiredCapabilities capabilities = new DesiredCapabilities();
-//		driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), capabilities);
-//		driver.manage().window().maximize();
-//		driver.get("https://2ndblock.com/");
-
-	
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.get("https://2ndblock.com/");
-
-		Common = new Common(driver);
-	}
-
+public class JoinAccount extends SetUp{
+		
 	@Test
 	public void scenario_01_facebookLogin() throws InterruptedException {
 
