@@ -27,7 +27,7 @@ public class SetUp {
 	@BeforeClass
 	public static void createAndStartService() throws IOException {
 
-		File file = new File("lib" + File.separator + "chromedriver.exe");
+		//File file = new File("lib" + File.separator + "chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
 			
 //		ChromeOptions chromeOptions = new ChromeOptions();
