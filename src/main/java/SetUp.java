@@ -13,6 +13,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import org.junit.*;
 import io.appium.java_client.remote.*;
 
@@ -24,7 +25,7 @@ public class SetUp {
 	public static RemoteWebDriver driver;
 	public static Common Common = null;
 	
-	@BeforeClass
+	@BeforeTest
 	public static void createAndStartService() throws IOException {
 
 		//File file = new File("lib" + File.separator + "chromedriver.exe");
