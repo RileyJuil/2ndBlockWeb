@@ -23,7 +23,7 @@ import main.java.Common;
 
 public class SetUp {
 
-	public static RemoteWebDriver driver;
+	public static WebDriver driver;
 	public static Common Common = null;
 	
 	@BeforeTest
@@ -31,7 +31,8 @@ public class SetUp {
 
 		//File file = new File("lib" + File.separator + "chromedriver.exe");
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
-			
+		//System.setProperty("binary_location", "C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe");
+		
 //		ChromeOptions chromeOptions = new ChromeOptions();
 //		RemoteWebDriver driver = new RemoteWebDriver(new URL("http://172.17.160.181:4444/wd/hub"), chromeOptions);
 //		driver.manage().window().maximize();
@@ -43,8 +44,9 @@ public class SetUp {
 //		driver.manage().window().maximize();
 //		driver.get("https://2ndblock.com/");
 
-	
-		driver = new ChromeDriver();
+		ChromeOptions chromeOptions = new ChromeOptions();
+		chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe");
+		driver = new ChromeDriver(chromeOptions);
 		driver.manage().window().maximize();
 		driver.get("https://2ndblock.com/");
 

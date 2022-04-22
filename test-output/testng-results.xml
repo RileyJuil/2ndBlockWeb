@@ -1,209 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="0" failed="0" skipped="4">
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-04T17:16:26 KST" name="Default suite" finished-at="2022-04-04T17:16:26 KST" duration-ms="37">
+  <suite started-at="2022-04-21T18:38:11 KST" name="Suite" finished-at="2022-04-21T18:39:19 KST" duration-ms="67496">
     <groups>
     </groups>
-    <test started-at="2022-04-04T17:16:26 KST" name="Default test" finished-at="2022-04-04T17:16:26 KST" duration-ms="37">
+    <test started-at="2022-04-21T18:38:11 KST" name="Test" finished-at="2022-04-21T18:39:19 KST" duration-ms="67496">
       <class name="test.java.DeleteAccount">
-        <test-method is-config="true" signature="main([Ljava.lang.String;)[pri:0, instance:test.java.DeleteAccount@35841320]" started-at="2022-04-04T17:16:26 KST" name="main" finished-at="1970-01-01T09:00:00 KST" duration-ms="-1649060186701" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.DeleteAccount@23e84203]" started-at="2022-04-21T18:38:11 KST" name="createAndStartService" finished-at="2022-04-21T18:38:14 KST" duration-ms="2824" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- main -->
-        <test-method signature="scenario_01_facebookLogin()[pri:0, instance:test.java.DeleteAccount@35841320]" started-at="2022-04-04T17:16:26 KST" name="scenario_01_facebookLogin" finished-at="2022-04-04T17:16:26 KST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- createAndStartService -->
+        <test-method signature="scenario_01_facebookLogin()[pri:0, instance:test.java.DeleteAccount@23e84203]" started-at="2022-04-21T18:38:14 KST" name="scenario_01_facebookLogin" finished-at="2022-04-21T18:38:37 KST" duration-ms="23128" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario_01_facebookLogin -->
-        <test-method signature="scenario_02_deleteAccount()[pri:0, instance:test.java.DeleteAccount@35841320]" started-at="2022-04-04T17:16:26 KST" name="scenario_02_deleteAccount" finished-at="2022-04-04T17:16:26 KST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="scenario_02_deleteAccount()[pri:0, instance:test.java.DeleteAccount@23e84203]" started-at="2022-04-21T18:38:37 KST" name="scenario_02_deleteAccount" finished-at="2022-04-21T18:38:47 KST" duration-ms="10366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario_02_deleteAccount -->
-      </class> <!-- test.java.DeleteAccount -->
-      <class name="test.java.JoinAccount">
-        <test-method signature="scenario_01_facebookLogin()[pri:0, instance:test.java.JoinAccount@304bb45b]" started-at="2022-04-04T17:16:26 KST" name="scenario_01_facebookLogin" finished-at="2022-04-04T17:16:26 KST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario_01_facebookLogin -->
-        <test-method signature="scenario_02_joinAccount()[pri:0, instance:test.java.JoinAccount@304bb45b]" started-at="2022-04-04T17:16:26 KST" name="scenario_02_joinAccount" finished-at="2022-04-04T17:16:26 KST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Can inject only one of <ITestContext, XmlTest> into a @BeforeTest annotated main.
-For more information on native dependency injection please refer to https://testng.org/doc/documentation-main.html#native-dependency-injection
-at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:439)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:353)
-at org.testng.internal.Parameters.createParameters(Parameters.java:708)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario_02_joinAccount -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.JoinAccount@304bb45b]" started-at="2022-04-04T17:16:26 KST" name="quit" finished-at="1970-01-01T09:00:00 KST" duration-ms="-1649060186734" status="SKIP">
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.DeleteAccount@23e84203]" started-at="2022-04-21T18:39:18 KST" name="quit" finished-at="2022-04-21T18:39:19 KST" duration-ms="261" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
+      </class> <!-- test.java.DeleteAccount -->
+      <class name="test.java.JoinAccount">
+        <test-method signature="scenario_0001_facebookLogin()[pri:0, instance:test.java.JoinAccount@61c4eee0]" started-at="2022-04-21T18:38:47 KST" name="scenario_0001_facebookLogin" finished-at="2022-04-21T18:38:58 KST" duration-ms="10219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario_0001_facebookLogin -->
+        <test-method signature="scenario_0002_joinAccount()[pri:0, instance:test.java.JoinAccount@61c4eee0]" started-at="2022-04-21T18:38:58 KST" name="scenario_0002_joinAccount" finished-at="2022-04-21T18:39:18 KST" duration-ms="20671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario_0002_joinAccount -->
       </class> <!-- test.java.JoinAccount -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
