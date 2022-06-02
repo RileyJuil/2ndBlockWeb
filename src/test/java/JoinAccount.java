@@ -29,26 +29,22 @@ public class JoinAccount extends SetUp{
 	@Test
 	public void scenario_0001_facebookLogin() throws InterruptedException {
 
-		Common.clickByClassName("home-start-button"); //시작하기
+		Common.clickByText("시작하기"); //시작하기
 		Common.clickByText("페이스북 계정으로 로그인");
 		Common.WinHandle(); //브라우저 탭 핸들링
 		
 		
 //		//Before & After Class 로 돌리지 않으면 세션이 유지되어 페이스북 로그인 버튼을 클릭하면 이메일, 패스워드 입력할 필요없이 바로 로그인되므로 일단 막고 진행		
-//		Thread.sleep(3000);
-//		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("email")));
+//		Common.waitForElementByName("email");
 //		driver.findElement(By.name("email")).sendKeys("juikjuil@nate.com");
 //		Thread.sleep(2000);
-//    
-//		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("pass")));
+//
+//		Common.waitForElementByName("pass");
 //		driver.findElement(By.name("pass")).sendKeys("ju09260927@");
 //		Thread.sleep(2000);
-//    
-//		driver.findElement(By.name("login")).click();
-//		Thread.sleep(2000);
-//    
-//		for(String winHandle : driver.getWindowHandles()){
-//			driver.switchTo().window(winHandle);
+//
+//    	Common.clickByName("login"); //id, pw 입력 후 login 버튼 선택
+//    	Common.WinHandle(); //브라우저 탭 핸들링
 //       }
 
 	}
@@ -56,25 +52,16 @@ public class JoinAccount extends SetUp{
 	@Test
 	  public void scenario_0002_joinAccount() throws InterruptedException {
 
-	    Common.clickByXpath("/html/body/div[1]/div/main/form/div[1]/div/label"); //세컨블록 서비스 이용약관 동의 체크
-	    Common.clickByXpath("/html/body/div[1]/div/main/form/div[3]/div/label"); //개인정보 수집 및 이용에 대한 동의 체크
-	    Common.clickByXpath("/html/body/div[1]/div/main/form/div[5]/div[1]/div[2]/div[1]/img"); //만 14세 - 예
-	    Common.clickByXpath("/html/body/div[1]/div/main/form/div[5]/div[2]/div[2]/div[2]/img"); //메일 수신 - 동의 안 함
-	    Common.clickByClassName("terms-and-conditions-submit"); //다음
-	    
-	    Common.waitForElementByName("nickname");
-	    driver.findElement(By.name("nickname")).sendKeys("페이스북(라일리)"); //닉네임 입력
+	    Common.waitForElementByXpath("/html/body/div[1]/main/div/div[1]/section[1]/form/div[2]/div[2]/div/div/input"); //닉네임 입력란 찾을 때까지 대기
+	    driver.findElement(By.xpath("/html/body/div[1]/main/div/div[1]/section[1]/form/div[2]/div[2]/div/div/input")).sendKeys("페이스북(라일리)"); //닉네임 입력
 	    Thread.sleep(2000);
+	    Common.Assert_ExistByText("닉네임을 사용할 수 있습니다."); //닉네임 중복 확인
+		
+	    Common.clickByXpath("/html/body/div[1]/main/div/div[1]/section[2]/div[1]/label/img"); //전체 동의
+	    Common.clickByText("회원 가입하기");
 	    
-	    Common.clickByXpath("/html/body/div[1]/div/div/div[2]/div[1]/div[2]/div"); //닉네임 중복 확인
-	    
-	    driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-	    driver.switchTo().alert().accept(); //중복완료 얼럿 확인
-	    Thread.sleep(2000); 
-	    
-	    Common.clickByXpath("/html/body/div[1]/div/div/div[2]/div[3]/div[2]/div/div[1]/div"); //캐릭터 선택
-	    Common.clickByXpath("/html/body/div[1]/div/div/div[2]/div[5]"); //회원가입 완료 버튼 선택
-
+	    Common.Assert_CheckCurrentUrl("https://2ndblock.com/"); //회원 가입되며 메인으로 이동 확인
+	    Thread.sleep(2000);
 	  }
 	
 }
