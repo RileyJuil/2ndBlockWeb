@@ -2,34 +2,34 @@
 <testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-02T20:12:24 KST" name="Suite" finished-at="2022-06-02T20:13:24 KST" duration-ms="59033">
+  <suite started-at="2022-06-09T18:14:15 KST" name="Suite" finished-at="2022-06-09T18:15:17 KST" duration-ms="61628">
     <groups>
     </groups>
-    <test started-at="2022-06-02T20:12:24 KST" name="Test" finished-at="2022-06-02T20:13:24 KST" duration-ms="59033">
+    <test started-at="2022-06-09T18:14:15 KST" name="Test" finished-at="2022-06-09T18:15:17 KST" duration-ms="61628">
       <class name="test.java.DeleteAccount">
-        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.DeleteAccount@23e84203]" started-at="2022-06-02T20:12:24 KST" name="createAndStartService" finished-at="2022-06-02T20:12:27 KST" duration-ms="2269" status="PASS">
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.DeleteAccount@302c971f]" started-at="2022-06-09T18:14:15 KST" name="createAndStartService" finished-at="2022-06-09T18:14:20 KST" duration-ms="4999" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method signature="scenario_01_facebookLogin()[pri:0, instance:test.java.DeleteAccount@23e84203]" started-at="2022-06-02T20:12:27 KST" name="scenario_01_facebookLogin" finished-at="2022-06-02T20:12:50 KST" duration-ms="23148" status="PASS">
+        <test-method signature="scenario_01_facebookLogin()[pri:0, instance:test.java.DeleteAccount@302c971f]" started-at="2022-06-09T18:14:20 KST" name="scenario_01_facebookLogin" finished-at="2022-06-09T18:14:43 KST" duration-ms="23144" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario_01_facebookLogin -->
-        <test-method signature="scenario_02_deleteAccount()[pri:0, instance:test.java.DeleteAccount@23e84203]" started-at="2022-06-02T20:12:50 KST" name="scenario_02_deleteAccount" finished-at="2022-06-02T20:13:01 KST" duration-ms="10791" status="PASS">
+        <test-method signature="scenario_02_deleteAccount()[pri:0, instance:test.java.DeleteAccount@302c971f]" started-at="2022-06-09T18:14:43 KST" name="scenario_02_deleteAccount" finished-at="2022-06-09T18:14:54 KST" duration-ms="10738" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario_02_deleteAccount -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.DeleteAccount@23e84203]" started-at="2022-06-02T20:13:23 KST" name="quit" finished-at="2022-06-02T20:13:24 KST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.DeleteAccount@302c971f]" started-at="2022-06-09T18:15:17 KST" name="quit" finished-at="2022-06-09T18:15:17 KST" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
       </class> <!-- test.java.DeleteAccount -->
       <class name="test.java.JoinAccount">
-        <test-method signature="scenario_0001_facebookLogin()[pri:0, instance:test.java.JoinAccount@61c4eee0]" started-at="2022-06-02T20:13:01 KST" name="scenario_0001_facebookLogin" finished-at="2022-06-02T20:13:11 KST" duration-ms="10204" status="PASS">
+        <test-method signature="scenario_0001_facebookLogin()[pri:0, instance:test.java.JoinAccount@2a693f59]" started-at="2022-06-09T18:14:54 KST" name="scenario_0001_facebookLogin" finished-at="2022-06-09T18:15:04 KST" duration-ms="10226" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario_0001_facebookLogin -->
-        <test-method signature="scenario_0002_joinAccount()[pri:0, instance:test.java.JoinAccount@61c4eee0]" started-at="2022-06-02T20:13:11 KST" name="scenario_0002_joinAccount" finished-at="2022-06-02T20:13:23 KST" duration-ms="12340" status="PASS">
+        <test-method signature="scenario_0002_joinAccount()[pri:0, instance:test.java.JoinAccount@2a693f59]" started-at="2022-06-09T18:15:04 KST" name="scenario_0002_joinAccount" finished-at="2022-06-09T18:15:17 KST" duration-ms="12311" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario_0002_joinAccount -->

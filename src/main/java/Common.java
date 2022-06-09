@@ -87,6 +87,13 @@ public class Common {
 		
 		}
 	
+	public void waitForElementByText(String text) {
+
+		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(), '" + text + "')]")));
+		
+		}
+		
+	
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------	
 	//엘리먼트 별 존재 확인
@@ -151,35 +158,22 @@ public class Common {
 	
 	public void facebookLogin() throws InterruptedException {
 
-		waitForElementByClassName("home-start-button");
-		driver.findElement(By.className("home-start-button")).click(); //시작하기
-		Thread.sleep(2000); 
-
+		clickByText("시작하기"); //시작하기
 		clickByText("페이스북 계정으로 로그인");
-		Thread.sleep(2000);
+		WinHandle(); //브라우저 탭 핸들링
 
-		for(String winHandle : driver.getWindowHandles()){
-    		driver.switchTo().window(winHandle);
-    	}
-		
-		Thread.sleep(2000); 
 		waitForElementByName("email");
 		driver.findElement(By.name("email")).sendKeys("juikjuil@nate.com");
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 
 		waitForElementByName("pass");
 		driver.findElement(By.name("pass")).sendKeys("ju09260927@");
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 
-		waitForElementByName("login");
-    	driver.findElement(By.name("login")).click();
-    	Thread.sleep(3000);
+    	clickByName("login"); //id, pw 입력 후 login 버튼 선택
+    	WinHandle(); //브라우저 탭 핸들링
     	
-    	for(String winHandle : driver.getWindowHandles()){
-    		driver.switchTo().window(winHandle);
-    	}
-    	
-    	Thread.sleep(3000);
+    	Thread.sleep(2000);
 		}
 
 }

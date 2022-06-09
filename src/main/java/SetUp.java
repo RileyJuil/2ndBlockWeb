@@ -30,7 +30,7 @@ public class SetUp {
 	public static void createAndStartService() throws IOException {
 
 		//File file = new File("lib" + File.separator + "chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Phillip\\Downloads\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\riley\\Downloads\\chromedriver.exe");
 		//System.setProperty("binary_location", "C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe");
 		
 //		ChromeOptions chromeOptions = new ChromeOptions();
@@ -45,7 +45,7 @@ public class SetUp {
 //		driver.get("https://2ndblock.com/");
 
 		ChromeOptions chromeOptions = new ChromeOptions();
-		chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe");
+		//chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe");
 		driver = new ChromeDriver(chromeOptions);
 		driver.manage().window().maximize();
 		driver.get("https://2ndblock.com/");
