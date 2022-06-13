@@ -5,6 +5,7 @@
     <classes>
       <class name="test.java.DeleteAccount"/>
       <class name="test.java.JoinAccount"/>
+      <class name="test.java.Func_01_Home_Gnb"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.java.JoinAccount">
+      <class name="test.java.Func_01_Home_Gnb">
         <methods>
           <include name="createAndStartService"/>
           <include name="quit"/>
-          <include name="scenario_02_joinAccount"/>
+          <include name="Home_002_Gnb_About_Start"/>
         </methods>
-      </class> <!-- test.java.JoinAccount -->
+      </class> <!-- test.java.Func_01_Home_Gnb -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

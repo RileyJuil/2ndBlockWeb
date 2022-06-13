@@ -1,33 +1,30 @@
 package test.java;
 
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import main.java.SetUp;
 
-import static org.testng.Assert.assertTrue;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.firefox.GeckoDriverInfo;
-import org.openqa.selenium.interactions.touch.ScrollAction;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 public class Func_01_Home_Gnb extends SetUp{
 	
 	
 		@Test
 		public void Home_001_Gnb_About() throws InterruptedException {
+	
+			//로그아웃하는 부분을 넎어줌
+			Home_012_Gnb_MyMenu_LogOut();
+			Home_013_Gnb_MyMenu_LogOut_Complete();
 
-			
 			Common.clickByText("세컨블록 소개");
-			//Common.clickByXpath("/html/body/div[1]/div/div/div/div[1]/div/div/div[2]/div[1]"); //GNB - About 클릭
 			Common.Assert_CheckCurrentUrl("https://2ndblock.com/about"); //about 페이지 이동 확인
 	  }
 	
 		@Test
 		public void Home_002_Gnb_About_Start() throws InterruptedException {
 
+			Common.PageScrollBottom();
 			Common.clickByXpath("/html/body/div[1]/main/div/div[6]/div/div/div[2]"); //About 페이지 내의 하단에 "시작하기" 버튼
 			Common.Assert_CheckCurrentUrl("https://2ndblock.com/login"); //로그인 페이지 이동 확인
 
@@ -54,7 +51,10 @@ public class Func_01_Home_Gnb extends SetUp{
 		@Test
 		public void Home_005_Gnb_Start() throws InterruptedException {
 			
-			Common.facebookLogin();
+			//Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
+			Common.clickByText("시작하기"); //시작하기
+			Common.clickByText("페이스북 계정으로 로그인");
+			Common.WinHandle(); //브라우저 탭 핸들링
 	  }
 		
 		@Test
@@ -112,9 +112,16 @@ public class Func_01_Home_Gnb extends SetUp{
 		public void Home_012_Gnb_MyMenu_LogOut() throws InterruptedException {
 			
 			Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/div"); //마이메뉴
-			Common.clickByText("로그아웃"); //로그아웃 클릭
-		    Common.Assert_ExistByText("정말 탈퇴하시겠습니까?"); //탈퇴 버튼 유무로 확인
-			Common.clickByXpath("/html/body/div[6]/div/div/div[1]/img"); //닫기 버튼으로 메인 페이지 이동
+			Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/ul/li[6]"); //로그아웃 클릭
+		    Common.Assert_ExistByText("정말로 로그아웃 하시겠습니까?"); //로그아웃 문구 유무로 확인
+		    Common.clickByText("확인"); //로그아웃 - 확인 클릭
+	  }
+		
+		@Test
+		public void Home_013_Gnb_MyMenu_LogOut_Complete() throws InterruptedException {
+			
+		    Common.clickByText("확인"); //완료-확인 클릭
+		    Common.Assert_ExistByText("시작하기"); //로그아웃 후에 시작하기 버튼 노출 확인
 	  }
 
 }

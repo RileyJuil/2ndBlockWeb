@@ -4,6 +4,7 @@ import java.time.Duration;
 import java.util.Set;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -176,4 +177,22 @@ public class Common {
     	Thread.sleep(2000);
 		}
 
+	
+//--------------------------------------------------------------------------------------------------------------------------------------------------	
+	//페이지 내의 스크롤 동작
+		
+	public void PageScrollBottom() throws InterruptedException {	
+	JavascriptExecutor jsExecuter = (JavascriptExecutor)driver;
+	jsExecuter.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+	}
+	
+	
+	public void PageScrollTop() throws InterruptedException {	
+		JavascriptExecutor jsExecuter = (JavascriptExecutor)driver;
+		jsExecuter.executeScript("window.scrollTo(0, document.body.scrollTop)");
+	}
+	
+	
+	
+	
 }
