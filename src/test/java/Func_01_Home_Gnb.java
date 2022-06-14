@@ -68,7 +68,7 @@ public class Func_01_Home_Gnb extends SetUp{
 		public void Home_007_Gnb_MyMenu_MyBlock() throws InterruptedException {
 			
 			Common.clickByText("마이블록 입장"); //마이블록 입장 클릭
-		    Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span"); //"#페이스북(라일리)의블록" Xpath 확인
+		    Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span"); //블록 제목 Xpath 확인
 		    Common.Back(); //이번 버튼으로 메인 페이지 이동
 	  }
 		

@@ -1,93 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="21" passed="17" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-13T17:39:39 KST" name="Suite" finished-at="2022-06-13T17:42:32 KST" duration-ms="173417">
+  <suite started-at="2022-06-14T20:52:36 KST" name="Default suite" finished-at="2022-06-14T20:54:59 KST" duration-ms="142800">
     <groups>
     </groups>
-    <test started-at="2022-06-13T17:39:39 KST" name="Test" finished-at="2022-06-13T17:42:32 KST" duration-ms="173417">
-      <class name="test.java.DeleteAccount">
-        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.DeleteAccount@25be7b63]" started-at="2022-06-13T17:39:39 KST" name="createAndStartService" finished-at="2022-06-13T17:39:41 KST" duration-ms="2715" status="PASS">
+    <test started-at="2022-06-14T20:52:36 KST" name="Default test" finished-at="2022-06-14T20:54:59 KST" duration-ms="142800">
+      <class name="test.java.Func_02_Home_Middle">
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:52:36 KST" name="createAndStartService" finished-at="2022-06-14T20:52:39 KST" duration-ms="2829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method signature="scenario_01_facebookLogin()[pri:0, instance:test.java.DeleteAccount@25be7b63]" started-at="2022-06-13T17:39:41 KST" name="scenario_01_facebookLogin" finished-at="2022-06-13T17:40:05 KST" duration-ms="23110" status="PASS">
+        <test-method signature="Home_001_Middle_Banner_Logout()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:52:39 KST" name="Home_001_Middle_Banner_Logout" finished-at="2022-06-14T20:53:51 KST" duration-ms="72193" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scenario_01_facebookLogin -->
-        <test-method signature="scenario_02_deleteAccount()[pri:0, instance:test.java.DeleteAccount@25be7b63]" started-at="2022-06-13T17:40:05 KST" name="scenario_02_deleteAccount" finished-at="2022-06-13T17:40:15 KST" duration-ms="10764" status="PASS">
+        </test-method> <!-- Home_001_Middle_Banner_Logout -->
+        <test-method signature="Home_002_Middle_Banner_Top()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:53:51 KST" name="Home_002_Middle_Banner_Top" finished-at="2022-06-14T20:54:15 KST" duration-ms="23320" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scenario_02_deleteAccount -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.DeleteAccount@25be7b63]" started-at="2022-06-13T17:42:32 KST" name="quit" finished-at="2022-06-13T17:42:32 KST" duration-ms="173" status="PASS">
+        </test-method> <!-- Home_002_Middle_Banner_Top -->
+        <test-method signature="Home_003_Middle_OwnBlock_Info()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:54:15 KST" name="Home_003_Middle_OwnBlock_Info" finished-at="2022-06-14T20:54:21 KST" duration-ms="6129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_003_Middle_OwnBlock_Info -->
+        <test-method signature="Home_004_Middle_MyBlock_Star()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:54:21 KST" name="Home_004_Middle_MyBlock_Star" finished-at="2022-06-14T20:54:23 KST" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_004_Middle_MyBlock_Star -->
+        <test-method signature="Home_005_Middle_MyBlock_Enter()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:54:23 KST" name="Home_005_Middle_MyBlock_Enter" finished-at="2022-06-14T20:54:29 KST" duration-ms="6374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_005_Middle_MyBlock_Enter -->
+        <test-method signature="Home_006_Middle_Make_Block()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:54:29 KST" name="Home_006_Middle_Make_Block" finished-at="2022-06-14T20:54:35 KST" duration-ms="6153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_006_Middle_Make_Block -->
+        <test-method signature="Home_007_Middle_Join_Block()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:54:35 KST" name="Home_007_Middle_Join_Block" finished-at="2022-06-14T20:54:42 KST" duration-ms="6316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_007_Middle_Join_Block -->
+        <test-method signature="Home_008_Middle_LineBanner()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:54:42 KST" name="Home_008_Middle_LineBanner" finished-at="2022-06-14T20:54:52 KST" duration-ms="10792" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_008_Middle_LineBanner -->
+        <test-method signature="Home_009_Middle_Recommended_Block()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:54:52 KST" name="Home_009_Middle_Recommended_Block" finished-at="2022-06-14T20:54:59 KST" duration-ms="6356" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_009_Middle_Recommended_Block -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_02_Home_Middle@548a24a]" started-at="2022-06-14T20:54:59 KST" name="quit" finished-at="2022-06-14T20:54:59 KST" duration-ms="232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- test.java.DeleteAccount -->
-      <class name="test.java.JoinAccount">
-        <test-method signature="scenario_0001_facebookLogin()[pri:0, instance:test.java.JoinAccount@536f2a7e]" started-at="2022-06-13T17:40:15 KST" name="scenario_0001_facebookLogin" finished-at="2022-06-13T17:40:26 KST" duration-ms="10232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario_0001_facebookLogin -->
-        <test-method signature="scenario_0002_joinAccount()[pri:0, instance:test.java.JoinAccount@536f2a7e]" started-at="2022-06-13T17:40:26 KST" name="scenario_0002_joinAccount" finished-at="2022-06-13T17:40:38 KST" duration-ms="12301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario_0002_joinAccount -->
-      </class> <!-- test.java.JoinAccount -->
-      <class name="test.java.Func_01_Home_Gnb">
-        <test-method signature="Home_001_Gnb_About()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:40:38 KST" name="Home_001_Gnb_About" finished-at="2022-06-13T17:40:55 KST" duration-ms="16912" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_001_Gnb_About -->
-        <test-method signature="Home_002_Gnb_About_Start()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:40:55 KST" name="Home_002_Gnb_About_Start" finished-at="2022-06-13T17:40:59 KST" duration-ms="4635" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_002_Gnb_About_Start -->
-        <test-method signature="Home_003_Gnb_MainLogo()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:40:59 KST" name="Home_003_Gnb_MainLogo" finished-at="2022-06-13T17:41:04 KST" duration-ms="4142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_003_Gnb_MainLogo -->
-        <test-method signature="Home_004_Gnb_CustormerCenter()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:41:04 KST" name="Home_004_Gnb_CustormerCenter" finished-at="2022-06-13T17:41:20 KST" duration-ms="16179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_004_Gnb_CustormerCenter -->
-        <test-method signature="Home_005_Gnb_Start()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:41:20 KST" name="Home_005_Gnb_Start" finished-at="2022-06-13T17:41:30 KST" duration-ms="10199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_005_Gnb_Start -->
-        <test-method signature="Home_006_Gnb_MyMenu()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:41:30 KST" name="Home_006_Gnb_MyMenu" finished-at="2022-06-13T17:41:34 KST" duration-ms="4097" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_006_Gnb_MyMenu -->
-        <test-method signature="Home_007_Gnb_MyMenu_MyBlock()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:41:34 KST" name="Home_007_Gnb_MyMenu_MyBlock" finished-at="2022-06-13T17:41:46 KST" duration-ms="12168" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_007_Gnb_MyMenu_MyBlock -->
-        <test-method signature="Home_008_Gnb_MyMenu_OwnBlock()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:41:46 KST" name="Home_008_Gnb_MyMenu_OwnBlock" finished-at="2022-06-13T17:41:54 KST" duration-ms="8226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_008_Gnb_MyMenu_OwnBlock -->
-        <test-method signature="Home_009_Gnb_MyMenu_MakeBlock()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:41:54 KST" name="Home_009_Gnb_MyMenu_MakeBlock" finished-at="2022-06-13T17:42:03 KST" duration-ms="8225" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_009_Gnb_MyMenu_MakeBlock -->
-        <test-method signature="Home_010_Gnb_MyMenu_Character()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:42:03 KST" name="Home_010_Gnb_MyMenu_Character" finished-at="2022-06-13T17:42:11 KST" duration-ms="8280" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_010_Gnb_MyMenu_Character -->
-        <test-method signature="Home_011_Gnb_MyMenu_Setting()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:42:11 KST" name="Home_011_Gnb_MyMenu_Setting" finished-at="2022-06-13T17:42:19 KST" duration-ms="8264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_011_Gnb_MyMenu_Setting -->
-        <test-method signature="Home_012_Gnb_MyMenu_LogOut()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:42:19 KST" name="Home_012_Gnb_MyMenu_LogOut" finished-at="2022-06-13T17:42:27 KST" duration-ms="8232" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_012_Gnb_MyMenu_LogOut -->
-        <test-method signature="Home_013_Gnb_MyMenu_LogOut_Complete()[pri:0, instance:test.java.Func_01_Home_Gnb@70cf32e3]" started-at="2022-06-13T17:42:27 KST" name="Home_013_Gnb_MyMenu_LogOut_Complete" finished-at="2022-06-13T17:42:32 KST" duration-ms="4509" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Home_013_Gnb_MyMenu_LogOut_Complete -->
-      </class> <!-- test.java.Func_01_Home_Gnb -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- test.java.Func_02_Home_Middle -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
