@@ -6,6 +6,7 @@
       <class name="test.java.DeleteAccount"/>
       <class name="test.java.JoinAccount"/>
       <class name="test.java.Func_01_Home_Gnb"/>
+      <class name="test.java.Func_02_Home_Middle"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
