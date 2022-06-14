@@ -40,7 +40,10 @@ public class Func_02_Home_Middle extends SetUp{
 			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
 			Common.Back(); //메인으로 이동
 			
-			Common.facebookLogin(); //로그인 진행
+			//Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
+			Common.clickByText("시작하기"); //시작하기
+			Common.clickByText("페이스북 계정으로 로그인");
+			Common.WinHandle(); //브라우저 탭 핸들링
 	  }
 	
 		@Test

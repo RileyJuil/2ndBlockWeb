@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.java.Func_01_Home_Gnb">
+      <class name="test.java.Func_02_Home_Middle">
         <methods>
           <include name="createAndStartService"/>
+          <include name="Home_001_Middle_Banner_Logout"/>
           <include name="quit"/>
-          <include name="Home_011_Gnb_MyMenu_Setting"/>
         </methods>
-      </class> <!-- test.java.Func_01_Home_Gnb -->
+      </class> <!-- test.java.Func_02_Home_Middle -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
