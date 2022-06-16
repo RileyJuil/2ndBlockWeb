@@ -165,11 +165,11 @@ public class Common {
 
 		waitForElementByName("email");
 		driver.findElement(By.name("email")).sendKeys("juikjuil@nate.com");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
 		waitForElementByName("pass");
 		driver.findElement(By.name("pass")).sendKeys("ju09260927@");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 
     	clickByName("login"); //id, pw 입력 후 login 버튼 선택
     	WinHandle(); //브라우저 탭 핸들링
