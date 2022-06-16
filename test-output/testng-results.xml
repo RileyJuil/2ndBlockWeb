@@ -1,57 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-16T17:27:18 KST" name="Default suite" finished-at="2022-06-16T17:28:26 KST" duration-ms="68147">
+  <suite started-at="2022-06-16T20:25:21 KST" name="Default suite" finished-at="2022-06-16T20:26:25 KST" duration-ms="64811">
     <groups>
     </groups>
-    <test started-at="2022-06-16T17:27:18 KST" name="Default test" finished-at="2022-06-16T17:28:26 KST" duration-ms="68147">
-      <class name="test.java.JoinAccount">
-        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:27:18 KST" name="createAndStartService" finished-at="2022-06-16T17:27:20 KST" duration-ms="2511" status="PASS">
+    <test started-at="2022-06-16T20:25:21 KST" name="Default test" finished-at="2022-06-16T20:26:25 KST" duration-ms="64811">
+      <class name="test.java.Func_04_InGame">
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:25:21 KST" name="createAndStartService" finished-at="2022-06-16T20:25:26 KST" duration-ms="5462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method signature="Join_001_Login_Facebook()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:27:20 KST" name="Join_001_Login_Facebook" finished-at="2022-06-16T17:27:44 KST" duration-ms="23263" status="PASS">
+        <test-method signature="Home_001_InGame_HomeBtn()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:25:26 KST" name="Home_001_InGame_HomeBtn" finished-at="2022-06-16T20:26:06 KST" duration-ms="40072" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Join_001_Login_Facebook -->
-        <test-method signature="Join_002_Nickname_Placeholder()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:27:44 KST" name="Join_002_Nickname_Placeholder" finished-at="2022-06-16T17:27:45 KST" duration-ms="1047" status="PASS">
+        </test-method> <!-- Home_001_InGame_HomeBtn -->
+        <test-method signature="Home_002_InGame_MyMenu_Character()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:26:06 KST" name="Home_002_InGame_MyMenu_Character" finished-at="2022-06-16T20:26:15 KST" duration-ms="8483" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Join_002_Nickname_Placeholder -->
-        <test-method signature="Join_003_Nickname_GuideText()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:27:45 KST" name="Join_003_Nickname_GuideText" finished-at="2022-06-16T17:27:48 KST" duration-ms="3039" status="PASS">
+        </test-method> <!-- Home_002_InGame_MyMenu_Character -->
+        <test-method signature="Home_003_InGame_MyMenu_Setting()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:26:15 KST" name="Home_003_InGame_MyMenu_Setting" finished-at="2022-06-16T20:26:23 KST" duration-ms="8507" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Join_003_Nickname_GuideText -->
-        <test-method signature="Join_004_Nickname_1Text20()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:27:48 KST" name="Join_004_Nickname_1Text20" finished-at="2022-06-16T17:27:58 KST" duration-ms="10845" status="PASS">
+        </test-method> <!-- Home_003_InGame_MyMenu_Setting -->
+        <test-method signature="Home_004_InGame_BlockTitle()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:26:23 KST" name="Home_004_InGame_BlockTitle" finished-at="2022-06-16T20:26:25 KST" duration-ms="2068" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Join_004_Nickname_1Text20 -->
-        <test-method signature="Join_005_Nickname_NotText()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:27:59 KST" name="Join_005_Nickname_NotText" finished-at="2022-06-16T17:28:01 KST" duration-ms="2609" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Join_005_Nickname_NotText -->
-        <test-method signature="Join_006_Nickname_Duplicate()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:28:01 KST" name="Join_006_Nickname_Duplicate" finished-at="2022-06-16T17:28:07 KST" duration-ms="5646" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Join_006_Nickname_Duplicate -->
-        <test-method signature="Join_007_Nickname_Clear()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:28:07 KST" name="Join_007_Nickname_Clear" finished-at="2022-06-16T17:28:11 KST" duration-ms="4111" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Join_007_Nickname_Clear -->
-        <test-method signature="Join_008_Nickname_Normal()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:28:11 KST" name="Join_008_Nickname_Normal" finished-at="2022-06-16T17:28:13 KST" duration-ms="2576" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Join_008_Nickname_Normal -->
-        <test-method signature="Join_009_Agree_Check()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:28:13 KST" name="Join_009_Agree_Check" finished-at="2022-06-16T17:28:26 KST" duration-ms="12340" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Join_009_Agree_Check -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.JoinAccount@548a24a]" started-at="2022-06-16T17:28:26 KST" name="quit" finished-at="2022-06-16T17:28:26 KST" duration-ms="123" status="PASS">
+        </test-method> <!-- Home_004_InGame_BlockTitle -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:26:25 KST" name="quit" finished-at="2022-06-16T20:26:25 KST" duration-ms="137" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- test.java.JoinAccount -->
+      </class> <!-- test.java.Func_04_InGame -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

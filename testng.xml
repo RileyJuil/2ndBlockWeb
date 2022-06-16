@@ -8,6 +8,7 @@
       <class name="test.java.Func_01_Home_Gnb"/>
       <class name="test.java.Func_02_Home_Middle"/>
       <class name="test.java.Func_03_Home_Footer"/>
+      <class name="test.java.Func_04_InGame"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

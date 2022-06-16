@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.java.JoinAccount">
+      <class name="test.java.Func_04_InGame">
         <methods>
           <include name="createAndStartService"/>
-          <include name="Join_009_Agree_Check"/>
+          <include name="Home_002_InGame_MyMenu_Character"/>
           <include name="quit"/>
+          <include name="Home_003_InGame_MyMenu_Setting"/>
         </methods>
-      </class> <!-- test.java.JoinAccount -->
+      </class> <!-- test.java.Func_04_InGame -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
