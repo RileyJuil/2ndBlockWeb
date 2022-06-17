@@ -1,33 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-16T20:25:21 KST" name="Default suite" finished-at="2022-06-16T20:26:25 KST" duration-ms="64811">
+  <suite started-at="2022-06-17T17:47:06 KST" name="Default suite" finished-at="2022-06-17T17:48:50 KST" duration-ms="103885">
     <groups>
     </groups>
-    <test started-at="2022-06-16T20:25:21 KST" name="Default test" finished-at="2022-06-16T20:26:25 KST" duration-ms="64811">
+    <test started-at="2022-06-17T17:47:06 KST" name="Default test" finished-at="2022-06-17T17:48:50 KST" duration-ms="103885">
       <class name="test.java.Func_04_InGame">
-        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:25:21 KST" name="createAndStartService" finished-at="2022-06-16T20:25:26 KST" duration-ms="5462" status="PASS">
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:47:06 KST" name="createAndStartService" finished-at="2022-06-17T17:47:09 KST" duration-ms="2646" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method signature="Home_001_InGame_HomeBtn()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:25:26 KST" name="Home_001_InGame_HomeBtn" finished-at="2022-06-16T20:26:06 KST" duration-ms="40072" status="PASS">
+        <test-method signature="Home_001_InGame_HomeBtn()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:47:09 KST" name="Home_001_InGame_HomeBtn" finished-at="2022-06-17T17:47:49 KST" duration-ms="40629" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_001_InGame_HomeBtn -->
-        <test-method signature="Home_002_InGame_MyMenu_Character()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:26:06 KST" name="Home_002_InGame_MyMenu_Character" finished-at="2022-06-16T20:26:15 KST" duration-ms="8483" status="PASS">
+        <test-method signature="Home_002_InGame_MyMenu_Character()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:47:49 KST" name="Home_002_InGame_MyMenu_Character" finished-at="2022-06-17T17:47:58 KST" duration-ms="8640" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_002_InGame_MyMenu_Character -->
-        <test-method signature="Home_003_InGame_MyMenu_Setting()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:26:15 KST" name="Home_003_InGame_MyMenu_Setting" finished-at="2022-06-16T20:26:23 KST" duration-ms="8507" status="PASS">
+        <test-method signature="Home_003_InGame_MyMenu_Setting()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:47:58 KST" name="Home_003_InGame_MyMenu_Setting" finished-at="2022-06-17T17:48:07 KST" duration-ms="8624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_003_InGame_MyMenu_Setting -->
-        <test-method signature="Home_004_InGame_BlockTitle()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:26:23 KST" name="Home_004_InGame_BlockTitle" finished-at="2022-06-16T20:26:25 KST" duration-ms="2068" status="PASS">
+        <test-method signature="Home_004_InGame_BlockTitle()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:07 KST" name="Home_004_InGame_BlockTitle" finished-at="2022-06-17T17:48:09 KST" duration-ms="2088" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Home_004_InGame_BlockTitle -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-16T20:26:25 KST" name="quit" finished-at="2022-06-16T20:26:25 KST" duration-ms="137" status="PASS">
+        <test-method signature="Home_005_InGame_BlockFollow()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:09 KST" name="Home_005_InGame_BlockFollow" finished-at="2022-06-17T17:48:13 KST" duration-ms="4219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_005_InGame_BlockFollow -->
+        <test-method signature="Home_006_InGame_BlockUnfollow()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:13 KST" name="Home_006_InGame_BlockUnfollow" finished-at="2022-06-17T17:48:19 KST" duration-ms="6250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_006_InGame_BlockUnfollow -->
+        <test-method signature="Home_007_InGame_ZoomOut()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:19 KST" name="Home_007_InGame_ZoomOut" finished-at="2022-06-17T17:48:21 KST" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_007_InGame_ZoomOut -->
+        <test-method signature="Home_008_InGame_ZoomIn()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:21 KST" name="Home_008_InGame_ZoomIn" finished-at="2022-06-17T17:48:23 KST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_008_InGame_ZoomIn -->
+        <test-method signature="Home_009_InGame_User()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:23 KST" name="Home_009_InGame_User" finished-at="2022-06-17T17:48:23 KST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_009_InGame_User -->
+        <test-method signature="Home_010_InGame_MenuBtn()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:23 KST" name="Home_010_InGame_MenuBtn" finished-at="2022-06-17T17:48:28 KST" duration-ms="4186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_010_InGame_MenuBtn -->
+        <test-method signature="Home_011_InGame_SearchNickname()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:28 KST" name="Home_011_InGame_SearchNickname" finished-at="2022-06-17T17:48:31 KST" duration-ms="3204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_011_InGame_SearchNickname -->
+        <test-method signature="Home_012_InGame_CloseMenu()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:31 KST" name="Home_012_InGame_CloseMenu" finished-at="2022-06-17T17:48:33 KST" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_012_InGame_CloseMenu -->
+        <test-method signature="Home_013_InGame_Open_Minimap()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:33 KST" name="Home_013_InGame_Open_Minimap" finished-at="2022-06-17T17:48:37 KST" duration-ms="4223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_013_InGame_Open_Minimap -->
+        <test-method signature="Home_014_InGame_Close_Minimap()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:37 KST" name="Home_014_InGame_Close_Minimap" finished-at="2022-06-17T17:48:41 KST" duration-ms="4126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_014_InGame_Close_Minimap -->
+        <test-method signature="Home_015_InGame_Open_Notice()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:41 KST" name="Home_015_InGame_Open_Notice" finished-at="2022-06-17T17:48:46 KST" duration-ms="4195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_015_InGame_Open_Notice -->
+        <test-method signature="Home_016_InGame_Close_Notice()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:46 KST" name="Home_016_InGame_Close_Notice" finished-at="2022-06-17T17:48:50 KST" duration-ms="4115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_016_InGame_Close_Notice -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_04_InGame@723ca036]" started-at="2022-06-17T17:48:50 KST" name="quit" finished-at="2022-06-17T17:48:50 KST" duration-ms="262" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

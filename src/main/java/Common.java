@@ -102,16 +102,41 @@ public class Common {
 	public void Assert_ExistByText(String text) throws InterruptedException {
 
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(), '" + text + "')]")));
-		Assert.assertNotNull(driver.findElement(By.xpath("//*[contains(text(), '" + text + "')]")));
-		Thread.sleep(2000); 
+		Thread.sleep(1000); 
+		Assert.assertTrue(driver.findElement(By.xpath("//*[contains(text(), '" + text + "')]")).isDisplayed());
+		Thread.sleep(1000); 
+		}
+	
+	public void Assert_NotExistByText(String text) throws InterruptedException {
+		
+		Thread.sleep(1000);
+		Assert.assertFalse(driver.findElement(By.xpath("//*[contains(text(), '" + text + "')]")).isDisplayed());
+		Thread.sleep(1000); 
 		}
 	
 	public void Assert_ExistByXpath(String text) throws InterruptedException {
 		
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("" + text + "")));
-		Assert.assertNotNull(driver.findElement(By.xpath("" + text + "")));
-		Thread.sleep(2000); 
+		Thread.sleep(1000); 
+		Assert.assertTrue(driver.findElement(By.xpath("" + text + "")).isDisplayed());
+		Thread.sleep(1000); 
 		}
+	
+	public void Assert_NotExistByXpath(String text) throws InterruptedException {
+
+		Thread.sleep(1000); 
+		Assert.assertFalse(driver.findElement(By.xpath("" + text + "")).isDisplayed());
+		Thread.sleep(1000); 
+		}
+	
+	
+	public void Assert_NoSuch_ByXpath(String text) throws InterruptedException {
+
+		Thread.sleep(1000); 
+		Assert.assertTrue(driver.findElements(By.xpath("" + text + "")).isEmpty());
+		Thread.sleep(1000); 
+		}
+	
 	
 	
 //--------------------------------------------------------------------------------------------------------------------------------------------------	

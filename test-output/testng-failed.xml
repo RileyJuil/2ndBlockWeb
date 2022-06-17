@@ -6,9 +6,8 @@
       <class name="test.java.Func_04_InGame">
         <methods>
           <include name="createAndStartService"/>
-          <include name="Home_002_InGame_MyMenu_Character"/>
           <include name="quit"/>
-          <include name="Home_003_InGame_MyMenu_Setting"/>
+          <include name="Home_015_InGame_Close_Notice"/>
         </methods>
       </class> <!-- test.java.Func_04_InGame -->
     </classes>
