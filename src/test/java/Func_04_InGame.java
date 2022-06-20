@@ -16,7 +16,7 @@ public class Func_04_InGame extends SetUp{
 		@Test
 		public void Home_001_InGame_HomeBtn() throws InterruptedException {
 			
-			Common.facebookLogin(); //페이스북 로그인
+			//Common.facebookLogin(); //페이스북 로그인
 	
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[3]"); //빅배너에서 소개 블록 선택
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[4]/div/div/div[4]/span");//자세히 보기
