@@ -45,7 +45,8 @@ public class SetUp {
 //		driver.get("https://2ndblock.com/");
 
 		ChromeOptions chromeOptions = new ChromeOptions();
-		//chromeOptions.setBinary("C:\\Program Files\\Google\\Chrome Beta\\Application\\chrome.exe");
+		//chromeOptions.addArguments("--disable-user-media-security=true");
+		chromeOptions.addArguments("--use-fake-ui-for-media-stream"); //카메라, 마이크 권한 자동 허용
 		driver = new ChromeDriver(chromeOptions);
 		driver.manage().window().maximize();
 		driver.get("https://2ndblock.com/");

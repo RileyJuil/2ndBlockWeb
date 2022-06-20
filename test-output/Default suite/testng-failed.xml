@@ -7,7 +7,7 @@
         <methods>
           <include name="createAndStartService"/>
           <include name="quit"/>
-          <include name="Home_015_InGame_Close_Notice"/>
+          <include name="Home_023_InGame_OnOff_Camera"/>
         </methods>
       </class> <!-- test.java.Func_04_InGame -->
     </classes>

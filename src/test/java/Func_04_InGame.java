@@ -2,6 +2,7 @@ package test.java;
 
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
@@ -145,10 +146,71 @@ public class Func_04_InGame extends SetUp{
 			Common.Assert_NoSuch_ByXpath("/html/body/div[1]/div[1]/div[1]/div[3]/div[2]/div[2]/div"); // 공지사항 닫힘 확인
 	  }
 		
+		@Test
+		public void Home_017_InGame_AllChatting() throws InterruptedException {
+
+			Common.waitForElementByClassName("chatting-input");
+			driver.findElement(By.className("chatting-input")).sendKeys("It's UI Test Automaiton Chatting with Quality Assurance."); //전체 채팅 입력
+			driver.findElement(By.className("chatting-input")).sendKeys(Keys.ENTER); //전체 채팅 입력 후 엔터
+			Thread.sleep(1000);
+			Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[3]/div/div[2]/div[2]")).getText(), "It's UI Test Automaiton Chatting with Quality Assurance."); //채팅 내용 전송 확인
+	  }
 		
+		@Test
+		public void Home_018_InGame_OnOff_Chatting() throws InterruptedException {
+
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[3]/img"); //채팅 창 닫기
+			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[1]/div[3]/div[1]/img"); // 채팅 창 닫힘 확인
+			
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[1]/div[3]/div[1]/img"); //채팅 창 열기
+			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[3]/img"); // 채팅 창 열림 확인
+	  }
 		
+		@Test
+		public void Home_019_InGame_FilterEffect() throws InterruptedException {
+
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[1]"); //필터 효과 모달 열기
+			Common.Assert_ExistByText("미디어 설정"); // 미디어 설정 모달 열림 확인		
+			Common.clickByXpath("/html/body/div[6]/div/div/div[1]/img"); // 설정 모달 닫기
+	  }
 		
+		@Test
+		public void Home_020_InGame_Emoji() throws InterruptedException {
+
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]"); // 1번 이모티콘
+			Thread.sleep(1000);
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]"); // 2번 이모티콘
+			Thread.sleep(1000);
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[3]"); // 3번 이모티콘
+			Thread.sleep(1000);
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[4]"); // 4번 이모티콘
+			Thread.sleep(1000);
+	  }
 		
+		@Test
+		public void Home_021_InGame_ShareScreen() throws InterruptedException {
+
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div/img"); // 화면 공유 클릭
+			Thread.sleep(1000);
+	  }
 		
+		@Test
+		public void Home_022_InGame_OnOff_Mike() throws InterruptedException {
+
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[4]/div[2]/div/div"); //마이크 on
+			Thread.sleep(2000);
+			
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[4]/div[2]/div/div"); //마이크 off
+			Thread.sleep(2000);
+	  }
 		
+		@Test
+		public void Home_023_InGame_OnOff_Camera() throws InterruptedException {
+
+			Common.clickByText("카메라 off"); //카메라 on
+			Thread.sleep(2000);
+			
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[5]/div/div/div/img"); //카메라 off
+			Thread.sleep(2000);
+	  }
 }
