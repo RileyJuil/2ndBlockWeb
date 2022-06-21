@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.java.Func_04_InGame">
+      <class name="test.java.Func_05_Character_Customization">
         <methods>
           <include name="createAndStartService"/>
           <include name="quit"/>
-          <include name="Home_023_InGame_OnOff_Camera"/>
+          <include name="Character_004_Top"/>
         </methods>
-      </class> <!-- test.java.Func_04_InGame -->
+      </class> <!-- test.java.Func_05_Character_Customization -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

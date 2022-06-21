@@ -1,37 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-20T16:16:55 KST" name="Default suite" finished-at="2022-06-20T16:17:55 KST" duration-ms="60849">
+  <suite started-at="2022-06-21T11:32:31 KST" name="Default suite" finished-at="2022-06-21T11:34:46 KST" duration-ms="134544">
     <groups>
     </groups>
-    <test started-at="2022-06-20T16:16:55 KST" name="Default test" finished-at="2022-06-20T16:17:55 KST" duration-ms="60849">
-      <class name="test.java.Func_04_InGame">
-        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-20T16:16:55 KST" name="createAndStartService" finished-at="2022-06-20T16:16:57 KST" duration-ms="2555" status="PASS">
+    <test started-at="2022-06-21T11:32:31 KST" name="Default test" finished-at="2022-06-21T11:34:46 KST" duration-ms="134544">
+      <class name="test.java.Func_05_Character_Customization">
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:32:31 KST" name="createAndStartService" finished-at="2022-06-21T11:32:34 KST" duration-ms="2578" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method signature="Home_001_InGame_HomeBtn()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-20T16:16:57 KST" name="Home_001_InGame_HomeBtn" finished-at="2022-06-20T16:17:36 KST" duration-ms="38342" status="PASS">
+        <test-method signature="Character_001_MyMenu_Character()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:32:34 KST" name="Character_001_MyMenu_Character" finished-at="2022-06-21T11:33:01 KST" duration-ms="27415" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home_001_InGame_HomeBtn -->
-        <test-method signature="Home_021_InGame_ShareScreen()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-20T16:17:36 KST" name="Home_021_InGame_ShareScreen" finished-at="2022-06-20T16:17:39 KST" duration-ms="3129" status="PASS">
+        </test-method> <!-- Character_001_MyMenu_Character -->
+        <test-method signature="Character_002_Skin()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:33:01 KST" name="Character_002_Skin" finished-at="2022-06-21T11:33:07 KST" duration-ms="6167" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home_021_InGame_ShareScreen -->
-        <test-method signature="Home_022_InGame_OnOff_Mike()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-20T16:17:39 KST" name="Home_022_InGame_OnOff_Mike" finished-at="2022-06-20T16:17:47 KST" duration-ms="8240" status="PASS">
+        </test-method> <!-- Character_002_Skin -->
+        <test-method signature="Character_003_Hair()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:33:07 KST" name="Character_003_Hair" finished-at="2022-06-21T11:33:15 KST" duration-ms="8217" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home_022_InGame_OnOff_Mike -->
-        <test-method signature="Home_023_InGame_OnOff_Camera()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-20T16:17:47 KST" name="Home_023_InGame_OnOff_Camera" finished-at="2022-06-20T16:17:55 KST" duration-ms="8237" status="PASS">
+        </test-method> <!-- Character_003_Hair -->
+        <test-method signature="Character_004_Top()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:33:15 KST" name="Character_004_Top" finished-at="2022-06-21T11:33:26 KST" duration-ms="10230" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home_023_InGame_OnOff_Camera -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_04_InGame@514646ef]" started-at="2022-06-20T16:17:55 KST" name="quit" finished-at="2022-06-20T16:17:55 KST" duration-ms="308" status="PASS">
+        </test-method> <!-- Character_004_Top -->
+        <test-method signature="Character_005_Bottom()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:33:26 KST" name="Character_005_Bottom" finished-at="2022-06-21T11:33:38 KST" duration-ms="12306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_005_Bottom -->
+        <test-method signature="Character_006_Bag()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:33:38 KST" name="Character_006_Bag" finished-at="2022-06-21T11:33:54 KST" duration-ms="16281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_006_Bag -->
+        <test-method signature="Character_007_Cap()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:33:54 KST" name="Character_007_Cap" finished-at="2022-06-21T11:34:00 KST" duration-ms="6150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_007_Cap -->
+        <test-method signature="Character_008_Shose()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:34:00 KST" name="Character_008_Shose" finished-at="2022-06-21T11:34:19 KST" duration-ms="18293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_008_Shose -->
+        <test-method signature="Character_009_Socks()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:34:19 KST" name="Character_009_Socks" finished-at="2022-06-21T11:34:25 KST" duration-ms="6192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_009_Socks -->
+        <test-method signature="Character_010_Accessories()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:34:25 KST" name="Character_010_Accessories" finished-at="2022-06-21T11:34:39 KST" duration-ms="14305" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_010_Accessories -->
+        <test-method signature="Character_011_Save()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:34:39 KST" name="Character_011_Save" finished-at="2022-06-21T11:34:45 KST" duration-ms="6163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_011_Save -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_05_Character_Customization@2a693f59]" started-at="2022-06-21T11:34:45 KST" name="quit" finished-at="2022-06-21T11:34:46 KST" duration-ms="196" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- test.java.Func_04_InGame -->
+      </class> <!-- test.java.Func_05_Character_Customization -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
