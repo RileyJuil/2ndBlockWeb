@@ -150,7 +150,7 @@ public class Func_05_InGame extends SetUp{
 		public void InGame_017_AllChatting() throws InterruptedException {
 
 			Common.waitForElementByClassName("chatting-input");
-			driver.findElement(By.className("chatting-input")).sendKeys("It's UI Test Automaiton Chatting with Quality Assurance."); //전체 채팅 입력
+			driver.findElement(By.className("chatting-input")).sendKeys("It's UI Test Automation Chatting with Quality Assurance."); //전체 채팅 입력
 			driver.findElement(By.className("chatting-input")).sendKeys(Keys.ENTER); //전체 채팅 입력 후 엔터
 			Thread.sleep(1000);
 			Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[3]/div/div[2]/div[2]")).getText(), "It's UI Test Automaiton Chatting with Quality Assurance."); //채팅 내용 전송 확인
