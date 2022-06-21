@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 import main.java.SetUp;
 
 
-public class Func_03_Home_Footer extends SetUp{
+public class Func_04_Home_Footer extends SetUp{
 	
 	
 		@Test

@@ -7,9 +7,9 @@
       <class name="test.java.JoinAccount"/>
       <class name="test.java.Func_01_Home_Gnb"/>
       <class name="test.java.Func_02_Home_Middle"/>
-      <class name="test.java.Func_03_Home_Footer"/>
-      <class name="test.java.Func_04_InGame"/>
-      <class name="test.java.Func_05_Character_Customization"/>
+      <class name="test.java.Func_03_Character_Customization"/>
+      <class name="test.java.Func_04_Home_Footer"/>
+      <class name="test.java.Func_05_InGame"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

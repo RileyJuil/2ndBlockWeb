@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import main.java.SetUp;
 
 
-public class Func_04_InGame extends SetUp{
+public class Func_05_InGame extends SetUp{
 	
 	
 		@Test

@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 import main.java.SetUp;
 
 
-public class Func_05_Character_Customization extends SetUp{
+public class Func_03_Character_Customization extends SetUp{
 	
 	
 		@Test
@@ -29,9 +29,9 @@ public class Func_05_Character_Customization extends SetUp{
 			
 //			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[3]"); //빅배너에서 소개 블록 선택
 //			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[4]/div/div/div[4]/span");//자세히 보기
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img"); //마이메뉴
+//			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img"); //마이메뉴
 			
-			//Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/div"); //마이메뉴
+			Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/div"); //마이메뉴
 			Common.clickByText("캐릭터 꾸미기"); //"캐릭터 꾸미기" 클릭
 			
 	  }
