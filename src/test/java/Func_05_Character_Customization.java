@@ -119,12 +119,14 @@ public class Func_05_Character_Customization extends SetUp{
 			Common.clickByXpath("/html/body/div[3]/div/div/div[2]/div[2]/div[2]/ul/li[7]"); //악세사리 7 선택
 			Thread.sleep(2000);
 			Common.clickByXpath("/html/body/div[3]/div/div/div[2]/div[2]/div[2]/ul/li[8]"); //악세사리 8 선택
+			Thread.sleep(2000);
 	  }
 		
 		@Test
 		public void Character_011_Save() throws InterruptedException {
 			
 			Common.clickByText("저장");
+			Thread.sleep(2000);
 			Common.clickByText("확인");
 			Thread.sleep(2000);
 	  }
