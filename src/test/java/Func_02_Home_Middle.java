@@ -40,6 +40,8 @@ public class Func_02_Home_Middle extends SetUp{
 			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
 			Common.Back(); //메인으로 이동
 			
+			System.out.println("미로그인 상태에서 ");
+			
 			//Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
 			Common.clickByText("시작하기"); //시작하기
 			Common.clickByText("페이스북 계정으로 로그인");
@@ -109,7 +111,7 @@ public class Func_02_Home_Middle extends SetUp{
 		
 		@Test
 		public void Home_009_Middle_Recommended_Block() throws InterruptedException {
-	
+			Thread.sleep(2000);
 			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[3]/div[2]/div[1]/div[1]/div/img"); //이런 블록 어때요? 첫번째 클릭
 			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span"); //인게임 블록 제목 Xpath 확인
 		    Common.Back(); //이번 버튼으로 메인 페이지 이동
