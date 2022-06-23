@@ -156,7 +156,7 @@ public class Common {
 	
 	public void Back() throws InterruptedException {
 
-		Thread.sleep(1000); 
+		Thread.sleep(2000); 
 		driver.navigate().back();
 		Thread.sleep(1000); 
 		}
