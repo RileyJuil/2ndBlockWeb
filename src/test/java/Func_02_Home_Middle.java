@@ -16,7 +16,7 @@ public class Func_02_Home_Middle extends SetUp{
 			//미로그인 상태에서 각 배너 클릭하여 로그인 페이지로 이동 확인
 
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[5]"); //최상단 5번 배너
-			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[6]/div/div/div[4]/span");//자세히 보기
+			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[6]/div/div/div[1]");//자세히 보기
 			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
 			Common.Back(); //메인으로 이동
 			
