@@ -70,27 +70,27 @@ public class Func_05_InGame extends SetUp{
 		@Test
 		public void InGame_007_ZoomOut() throws InterruptedException {
 
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[3]/img"); //축소 돋보기 버튼 클릭
-			Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]")).getText(), "50%");
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]"); //축소 돋보기 버튼 클릭
+			Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]")).getText(), "50%");
 	  }
 		
 		@Test
 		public void InGame_008_ZoomIn() throws InterruptedException {
 
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]/img"); //확대 돋보기 버튼 클릭
-			Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[1]")).getText(), "100%");
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]"); //확대 돋보기 버튼 클릭
+			Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]")).getText(), "100%");
 	  }
 		
 		@Test
 		public void InGame_009_User() throws InterruptedException {
 
-			System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[3]/div[2]")).getText()); //현재 인원수 프린트
-	  }
+			System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[2]")).getText()); //현재 인원수 프린트
+	  }                                                     
 		
 		@Test
 		public void InGame_010_MenuBtn() throws InterruptedException {
 
-			Common.clickByXpath("//html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[3]/div[3]/img"); //햄버거 메뉴 버튼 클릭
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[3]"); //햄버거 메뉴 버튼 클릭
 			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[1]/div[2]/div/div/div[4]/div/div/div/div/div/div[2]/div"); //참가 중인 인원 확인
 	  }
 		
@@ -116,7 +116,7 @@ public class Func_05_InGame extends SetUp{
 		@Test
 		public void InGame_012_CloseMenu() throws InterruptedException {
 
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[3]/div[3]/img"); //햄버거 메뉴 닫기
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/div[2]/div[3]"); //햄버거 메뉴 닫기
 	  }
 		
 		@Test
