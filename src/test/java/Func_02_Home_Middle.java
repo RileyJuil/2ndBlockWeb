@@ -46,10 +46,10 @@ public class Func_02_Home_Middle extends SetUp{
 			Common.Back(); //메인으로 이동
 			System.out.println("미로그인-이런 블록 어때요? 확인 완료 ");
 			
-			Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
-//			Common.clickByText("시작하기"); //시작하기
-//			Common.clickByText("페이스북 계정으로 로그인");
-//			Common.WinHandle(); //브라우저 탭 핸들링
+			//Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
+			Common.clickByText("시작하기"); //시작하기
+			Common.clickByText("페이스북 계정으로 로그인");
+			Common.WinHandle(); //브라우저 탭 핸들링
 	  }
 	
 		@Test
