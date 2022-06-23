@@ -20,7 +20,8 @@ public class Func_05_InGame extends SetUp{
 			//Common.facebookLogin(); //페이스북 로그인
 	
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[3]"); //빅배너에서 소개 블록 선택
-			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[4]/div/div/div[4]/span");//자세히 보기
+			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[4]/div/div/div[1]");//자세히 보기
+			Common.clickByText("블록 입장하기"); //최상단 배너에서 블록 입장하기 생김
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/img"); //홈버튼 클릭
 			Common.Assert_ExistByXpath("/html/body/div[1]/header/div/div[1]/a/img"); //메인으로 이동하여 메인 로고 있는지 확인
 			Common.Back();
@@ -60,9 +61,9 @@ public class Func_05_InGame extends SetUp{
 		@Test
 		public void InGame_006_BlockUnfollow() throws InterruptedException {
 
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			Common.clickByText(" 팔로우 중"); //블록 팔로우 버튼 클릭
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			Common.Assert_ExistByText("블록 팔로우"); //팔로우 중 상태 확인
 	  }
 		
@@ -159,6 +160,7 @@ public class Func_05_InGame extends SetUp{
 		@Test
 		public void InGame_018_OnOff_Chatting() throws InterruptedException {
 
+			Thread.sleep(1000);
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[3]/img"); //채팅 창 닫기
 			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[1]/div[3]/div[1]/img"); // 채팅 창 닫힘 확인
 			
