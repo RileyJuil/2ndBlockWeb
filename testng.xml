@@ -10,6 +10,7 @@
       <class name="test.java.Func_03_Character_Customization"/>
       <class name="test.java.Func_04_Home_Footer"/>
       <class name="test.java.Func_05_InGame"/>
+      <class name="test.java.Func_06_Setting"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

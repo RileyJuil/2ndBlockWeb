@@ -53,8 +53,10 @@ public class Func_05_InGame extends SetUp{
 		
 		@Test
 		public void InGame_005_BlockFollow() throws InterruptedException {
-
+			
+			Thread.sleep(1000);
 			Common.clickByText("블록 팔로우"); //블록 팔로우 버튼 클릭
+			Thread.sleep(2000);
 			Common.Assert_ExistByText(" 팔로우 중"); //팔로우 중 상태 확인
 	  }
 		

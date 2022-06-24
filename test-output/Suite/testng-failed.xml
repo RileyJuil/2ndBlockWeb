@@ -3,11 +3,91 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="test.java.Func_01_Home_Gnb">
+        <methods>
+          <include name="createAndStartService"/>
+          <include name="Home_007_Gnb_MyMenu_MyBlock"/>
+          <include name="Home_013_Gnb_MyMenu_LogOut_Complete"/>
+          <include name="quit"/>
+          <include name="Home_012_Gnb_MyMenu_LogOut"/>
+          <include name="Home_006_Gnb_MyMenu"/>
+          <include name="Home_009_Gnb_MyMenu_MakeBlock"/>
+          <include name="Home_004_Gnb_CustormerCenter"/>
+          <include name="Home_008_Gnb_MyMenu_OwnBlock"/>
+          <include name="Home_011_Gnb_MyMenu_Setting"/>
+          <include name="Home_005_Gnb_Start"/>
+          <include name="Home_010_Gnb_MyMenu_Character"/>
+        </methods>
+      </class> <!-- test.java.Func_01_Home_Gnb -->
+      <class name="test.java.Func_05_InGame">
+        <methods>
+          <include name="InGame_013_Open_Minimap"/>
+          <include name="InGame_021_ShareScreen"/>
+          <include name="InGame_001_HomeBtn"/>
+          <include name="InGame_011_SearchNickname"/>
+          <include name="InGame_004_BlockTitle"/>
+          <include name="InGame_005_BlockFollow"/>
+          <include name="InGame_018_OnOff_Chatting"/>
+          <include name="InGame_009_User"/>
+          <include name="InGame_006_BlockUnfollow"/>
+          <include name="InGame_012_CloseMenu"/>
+          <include name="InGame_020_Emoji"/>
+          <include name="InGame_016_Close_Notice"/>
+          <include name="InGame_015_Open_Notice"/>
+          <include name="InGame_002_MyMenu_Character"/>
+          <include name="InGame_014_Close_Minimap"/>
+          <include name="InGame_023_OnOff_Camera"/>
+          <include name="createAndStartService"/>
+          <include name="InGame_019_FilterEffect"/>
+          <include name="InGame_007_ZoomOut"/>
+          <include name="quit"/>
+          <include name="InGame_022_OnOff_Mike"/>
+          <include name="InGame_010_MenuBtn"/>
+          <include name="InGame_008_ZoomIn"/>
+          <include name="InGame_017_AllChatting"/>
+          <include name="InGame_003_MyMenu_Setting"/>
+        </methods>
+      </class> <!-- test.java.Func_05_InGame -->
+      <class name="test.java.Func_04_Home_Footer">
+        <methods>
+          <include name="createAndStartService"/>
+          <include name="Home_004_Footer_Address"/>
+          <include name="quit"/>
+          <include name="Home_002_Footer_Term"/>
+          <include name="Home_001_Footer_MailTo"/>
+          <include name="Home_003_Footer_Privacy"/>
+        </methods>
+      </class> <!-- test.java.Func_04_Home_Footer -->
+      <class name="test.java.Func_03_Character_Customization">
+        <methods>
+          <include name="Character_007_Cap"/>
+          <include name="Character_011_Save"/>
+          <include name="createAndStartService"/>
+          <include name="Character_006_Bag"/>
+          <include name="quit"/>
+          <include name="Character_003_Hair"/>
+          <include name="Character_005_Bottom"/>
+          <include name="Character_004_Top"/>
+          <include name="Character_001_MyMenu_Character"/>
+          <include name="Character_002_Skin"/>
+          <include name="Character_008_Shose"/>
+          <include name="Character_010_Accessories"/>
+          <include name="Character_009_Socks"/>
+        </methods>
+      </class> <!-- test.java.Func_03_Character_Customization -->
       <class name="test.java.Func_02_Home_Middle">
         <methods>
           <include name="createAndStartService"/>
+          <include name="Home_007_Middle_Join_Block"/>
           <include name="Home_001_Middle_Banner_Logout"/>
           <include name="quit"/>
+          <include name="Home_002_Middle_Banner_Top"/>
+          <include name="Home_005_Middle_MyBlock_Enter"/>
+          <include name="Home_006_Middle_Make_Block"/>
+          <include name="Home_003_Middle_OwnBlock_Info"/>
+          <include name="Home_004_Middle_MyBlock_Star"/>
+          <include name="Home_009_Middle_Recommended_Block"/>
+          <include name="Home_008_Middle_LineBanner"/>
         </methods>
       </class> <!-- test.java.Func_02_Home_Middle -->
     </classes>
