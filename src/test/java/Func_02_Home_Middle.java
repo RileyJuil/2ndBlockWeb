@@ -36,10 +36,10 @@ public class Func_02_Home_Middle extends SetUp{
 			Common.Back(); //메인으로 이동
 			System.out.println("미로그인-띠배너 확인 완료 ");
 			
-			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[2]/div[2]/a[1]/div[1]/div"); //지금 가장 참여가 활발한 블록
-			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
-			Common.Back(); //메인으로 이동
-			System.out.println("미로그인-지금 가장 참여가 활발한 블록 확인 완료 ");
+//			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[2]/div[2]/a[1]/div[1]/div"); //지금 가장 참여가 활발한 블록
+//			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
+//			Common.Back(); //메인으로 이동
+//			System.out.println("미로그인-지금 가장 참여가 활발한 블록 확인 완료 ");
 			
 			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[3]/div[2]/a[1]/div[1]/div"); //이런 블록 어때요?
 			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
