@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -157,7 +158,7 @@ public class Func_06_Setting extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/div"); //마이메뉴
 			Common.clickByText("설정"); //설정 클릭
 			Thread.sleep(1000);
-			Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[6]/div/div/div[3]/div/div[1]/div[1]/div[2]/div[2]/input")).getText(), "페이스북(라일리)new");
+			Common.Assert_ExistByText("페이스북(라일리)new");
 			Thread.sleep(1000);
 		    
 		  }
