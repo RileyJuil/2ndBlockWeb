@@ -160,7 +160,7 @@ public class Func_06_Setting extends SetUp{
 			Thread.sleep(1000);
 			Common.Assert_ExistByText("페이스북(라일리)new");
 			Thread.sleep(1000);
-		    
+		    Common.clickByXpath("/html/body/div[6]/div/div/div[1]/img"); //설정 모달 닫기
 		  }
 		
 		
