@@ -35,7 +35,7 @@ public class DeleteAccount extends SetUp{
 	    Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/div"); //마이메뉴
 	    Common.clickByText("설정");
 	    Common.clickByText("정말 탈퇴하시겠습니까?");
-	    Common.clickByText("회원 탈퇴");//회원탈퇴 버튼
+	    Common.clickByXpath("/html/body/div[16]/div/div/div/div[4]/div[2]/button");//회원탈퇴 버튼
 	    
 	    Common.clickByText("확인");
 	    
