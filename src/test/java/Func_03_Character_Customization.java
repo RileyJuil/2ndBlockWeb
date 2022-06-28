@@ -33,7 +33,7 @@ public class Func_03_Character_Customization extends SetUp{
 			
 			Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/div"); //마이메뉴
 			Common.clickByText("캐릭터 꾸미기"); //"캐릭터 꾸미기" 클릭
-			
+			Thread.sleep(2000);
 	  }
 
 		@Test
