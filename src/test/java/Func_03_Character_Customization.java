@@ -64,7 +64,7 @@ public class Func_03_Character_Customization extends SetUp{
 		
 		@Test
 		public void Character_005_Bottom() throws InterruptedException {
-			Common.clickByXpath_Hidden("/html/body/div[3]/div/div/div[2]/div[2]/div[1]/div[2]/button");
+			Common.clickByXpath_Hidden("/html/body/div[5]/div/div/div[2]/div[2]/div[1]/div[2]/button");
 			Common.clickByText("하의");
 			Thread.sleep(2000);
 			Common.clickByXpath("/html/body/div[5]/div/div/div[2]/div[2]/div[2]/ul/li[9]"); //하의 선택
