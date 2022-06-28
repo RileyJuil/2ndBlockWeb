@@ -117,13 +117,13 @@ public class Func_02_Home_Middle extends SetUp{
 		    Common.Back(); //이번 버튼으로 메인 페이지 이동
 	  }	
 		
-		@Test
-		public void Home_009_Middle_Recommended_Block() throws InterruptedException {
-			Thread.sleep(2000);
-			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[3]/div[2]/a[1]/div[1]/div"); //이런 블록 어때요? 첫번째 클릭
-			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span"); //인게임 블록 제목 Xpath 확인
-		    Common.Back(); //이번 버튼으로 메인 페이지 이동
-	  }
+//		@Test
+//		public void Home_009_Middle_Recommended_Block() throws InterruptedException {
+//			Thread.sleep(2000);
+//			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[3]/div[2]/a[1]/div[1]/div"); //이런 블록 어때요? 첫번째 클릭
+//			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span"); //인게임 블록 제목 Xpath 확인
+//		    Common.Back(); //이번 버튼으로 메인 페이지 이동
+//	  }
 		
 		
 		
