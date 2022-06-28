@@ -115,6 +115,7 @@ public class Func_02_Home_Middle extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[1]/div/div[2]/div[2]/img"); //띠배너1 클릭
 			Common.Assert_CheckCurrentUrl("https://2ndblock.com/space#100"); //url로 비교
 		    Common.Back(); //이번 버튼으로 메인 페이지 이동
+		    Thread.sleep(2000);
 	  }	
 		
 //		@Test
