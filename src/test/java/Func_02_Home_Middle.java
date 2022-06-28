@@ -35,16 +35,18 @@ public class Func_02_Home_Middle extends SetUp{
 			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
 			Common.Back(); //메인으로 이동
 			System.out.println("미로그인-띠배너 확인 완료 ");
-			
+		
+			//지금 참여가 활발한 블록은 사람이 없으면 메인페이지에 노출이 안됨 
+			//지금 참여가 활발한 블록이 노출이 안되면 이런 블록 어때요? 또한 xpath가 변경되는 것 같음 
 //			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[2]/div[2]/a[1]/div[1]/div"); //지금 가장 참여가 활발한 블록
 //			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
 //			Common.Back(); //메인으로 이동
 //			System.out.println("미로그인-지금 가장 참여가 활발한 블록 확인 완료 ");
 			
-			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[3]/div[2]/a[1]/div[1]/div"); //이런 블록 어때요?
-			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
-			Common.Back(); //메인으로 이동
-			System.out.println("미로그인-이런 블록 어때요? 확인 완료 ");
+//			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[3]/div[2]/a[1]/div[1]/div"); //이런 블록 어때요?
+//			Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
+//			Common.Back(); //메인으로 이동
+//			System.out.println("미로그인-이런 블록 어때요? 확인 완료 ");
 			
 			//Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
 			Common.clickByText("시작하기"); //시작하기
