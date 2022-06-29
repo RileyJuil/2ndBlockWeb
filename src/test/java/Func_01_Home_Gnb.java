@@ -13,6 +13,7 @@ public class Func_01_Home_Gnb extends SetUp{
 		@Test
 		public void Home_001_Gnb_About() throws InterruptedException {
 	
+			//Common.facebookLogin(); //페이스북 로그인
 			//로그아웃하는 부분을 넎어줌
 			Home_012_Gnb_MyMenu_LogOut();
 			Home_013_Gnb_MyMenu_LogOut_Complete();
@@ -96,7 +97,7 @@ public class Func_01_Home_Gnb extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/div"); //마이메뉴
 			Common.clickByText("캐릭터 꾸미기"); //"캐릭터 꾸미기" 클릭
 			Common.Assert_ExistByText("피부"); //캐릭터꾸미기 모달 확인
-			Common.clickByXpath("/html/body/div[5]/div/div/div[1]/div[2]/img"); //닫기 버튼으로 메인 페이지 이동
+			Common.clickByXpath("/html/body/div[5]/div/div/div[1]/div[2]"); //닫기 버튼으로 메인 페이지 이동
 	  }
 		
 		@Test

@@ -21,7 +21,7 @@ public class Func_05_InGame extends SetUp{
 	
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[3]"); //빅배너에서 소개 블록 선택
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[4]/div/div/div[1]");//자세히 보기
-			Common.clickByText("블록 입장하기"); //최상단 배너에서 블록 입장하기 생김
+			//Common.clickByText("블록 입장하기"); //최상단 배너에서 블록 입장하기 생김
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/img"); //홈버튼 클릭
 			Common.Assert_ExistByXpath("/html/body/div[1]/header/div/div[1]/a/img"); //메인으로 이동하여 메인 로고 있는지 확인
 			Common.Back();
@@ -33,7 +33,7 @@ public class Func_05_InGame extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img"); //마이메뉴
 			Common.clickByText("캐릭터 꾸미기"); //"캐릭터 꾸미기" 클릭
 			Common.Assert_ExistByText("피부"); //캐릭터꾸미기 모달 확인
-			Common.clickByXpath("/html/body/div[3]/div/div/div[1]/div[2]/img"); //닫기 버튼으로 메인 페이지 이동
+			Common.clickByXpath("/html/body/div[5]/div/div/div[1]/div[2]"); //닫기 버튼으로 메인 페이지 이동
 	  }
 
 		@Test
@@ -42,7 +42,7 @@ public class Func_05_InGame extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img"); //마이메뉴
 			Common.clickByText("설정"); //설정 클릭
 		    Common.Assert_ExistByText("미디어 설정"); //미디어 설정 탭 유무로 확인
-			Common.clickByXpath("/html/body/div[6]/div/div/div[1]/img"); //닫기 버튼으로 메인 페이지 이동
+			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/img"); //닫기 버튼으로 메인 페이지 이동
 	  }
 		
 		@Test
@@ -54,7 +54,7 @@ public class Func_05_InGame extends SetUp{
 		@Test
 		public void InGame_005_BlockFollow() throws InterruptedException {
 			
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			Common.clickByText("블록 팔로우"); //블록 팔로우 버튼 클릭
 			Thread.sleep(2000);
 			Common.Assert_ExistByText(" 팔로우 중"); //팔로우 중 상태 확인
@@ -175,7 +175,7 @@ public class Func_05_InGame extends SetUp{
 
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[1]"); //필터 효과 모달 열기
 			Common.Assert_ExistByText("미디어 설정"); // 미디어 설정 모달 열림 확인		
-			Common.clickByXpath("/html/body/div[6]/div/div/div[1]/img"); // 설정 모달 닫기
+			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/img"); // 설정 모달 닫기
 	  }
 		
 		@Test

@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.java.Func_06_Setting">
+      <class name="test.java.Func_05_InGame">
         <methods>
           <include name="createAndStartService"/>
           <include name="quit"/>
-          <include name="Setting_010_ProfileSetting_Nick_1Text20"/>
-          <include name="Setting_011_ProfileSetting_Nick_NotText"/>
+          <include name="InGame_001_HomeBtn"/>
+          <include name="InGame_005_BlockFollow"/>
         </methods>
-      </class> <!-- test.java.Func_06_Setting -->
+      </class> <!-- test.java.Func_05_InGame -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

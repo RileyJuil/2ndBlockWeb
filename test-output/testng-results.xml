@@ -2,84 +2,84 @@
 <testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-24T17:15:27 KST" name="Default suite" finished-at="2022-06-24T17:17:48 KST" duration-ms="140232">
+  <suite started-at="2022-06-29T10:51:37 KST" name="Default suite" finished-at="2022-06-29T10:53:59 KST" duration-ms="141651">
     <groups>
     </groups>
-    <test started-at="2022-06-24T17:15:27 KST" name="Default test" finished-at="2022-06-24T17:17:48 KST" duration-ms="140232">
+    <test started-at="2022-06-29T10:51:37 KST" name="Default test" finished-at="2022-06-29T10:53:59 KST" duration-ms="141651">
       <class name="test.java.Func_06_Setting">
-        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:15:27 KST" name="createAndStartService" finished-at="2022-06-24T17:15:32 KST" duration-ms="4430" status="PASS">
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:51:37 KST" name="createAndStartService" finished-at="2022-06-29T10:51:40 KST" duration-ms="2453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method signature="InGame_000_HomeBtn()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:15:32 KST" name="InGame_000_HomeBtn" finished-at="2022-06-24T17:16:02 KST" duration-ms="29761" status="PASS">
+        <test-method signature="InGame_000_HomeBtn()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:51:40 KST" name="InGame_000_HomeBtn" finished-at="2022-06-29T10:52:08 KST" duration-ms="28378" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- InGame_000_HomeBtn -->
-        <test-method signature="Setting_001_MyMenu_MediaSetting()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:16:02 KST" name="Setting_001_MyMenu_MediaSetting" finished-at="2022-06-24T17:16:12 KST" duration-ms="10293" status="PASS">
+        <test-method signature="Setting_001_MyMenu_MediaSetting()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:52:08 KST" name="Setting_001_MyMenu_MediaSetting" finished-at="2022-06-29T10:52:19 KST" duration-ms="11089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_001_MyMenu_MediaSetting -->
-        <test-method signature="Setting_002_MediaSetting_OnOffMike()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:16:12 KST" name="Setting_002_MediaSetting_OnOffMike" finished-at="2022-06-24T17:16:20 KST" duration-ms="8324" status="PASS">
+        <test-method signature="Setting_002_MediaSetting_OnOffMike()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:52:19 KST" name="Setting_002_MediaSetting_OnOffMike" finished-at="2022-06-29T10:52:28 KST" duration-ms="8327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_002_MediaSetting_OnOffMike -->
-        <test-method signature="Setting_003_MediaSetting_OnOffCamera()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:16:20 KST" name="Setting_003_MediaSetting_OnOffCamera" finished-at="2022-06-24T17:16:29 KST" duration-ms="8297" status="PASS">
+        <test-method signature="Setting_003_MediaSetting_OnOffCamera()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:52:28 KST" name="Setting_003_MediaSetting_OnOffCamera" finished-at="2022-06-29T10:52:36 KST" duration-ms="8319" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_003_MediaSetting_OnOffCamera -->
-        <test-method signature="Setting_004_MediaSetting_Filter()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:16:29 KST" name="Setting_004_MediaSetting_Filter" finished-at="2022-06-24T17:16:37 KST" duration-ms="8366" status="PASS">
+        <test-method signature="Setting_004_MediaSetting_Filter()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:52:36 KST" name="Setting_004_MediaSetting_Filter" finished-at="2022-06-29T10:52:44 KST" duration-ms="8242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_004_MediaSetting_Filter -->
-        <test-method signature="Setting_005_MediaSetting_BG()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:16:37 KST" name="Setting_005_MediaSetting_BG" finished-at="2022-06-24T17:16:43 KST" duration-ms="6354" status="PASS">
+        <test-method signature="Setting_005_MediaSetting_BG()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:52:44 KST" name="Setting_005_MediaSetting_BG" finished-at="2022-06-29T10:52:51 KST" duration-ms="6390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_005_MediaSetting_BG -->
-        <test-method signature="Setting_006_MediaSetting_Save()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:16:43 KST" name="Setting_006_MediaSetting_Save" finished-at="2022-06-24T17:16:51 KST" duration-ms="7826" status="PASS">
+        <test-method signature="Setting_006_MediaSetting_Save()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:52:51 KST" name="Setting_006_MediaSetting_Save" finished-at="2022-06-29T10:52:58 KST" duration-ms="7881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_006_MediaSetting_Save -->
-        <test-method signature="Setting_007_ProfileSetting()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:16:51 KST" name="Setting_007_ProfileSetting" finished-at="2022-06-24T17:16:59 KST" duration-ms="8349" status="PASS">
+        <test-method signature="Setting_007_ProfileSetting()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:52:58 KST" name="Setting_007_ProfileSetting" finished-at="2022-06-29T10:53:07 KST" duration-ms="8275" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_007_ProfileSetting -->
-        <test-method signature="Setting_008_ProfileSetting_Nick_Guide()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:16:59 KST" name="Setting_008_ProfileSetting_Nick_Guide" finished-at="2022-06-24T17:17:01 KST" duration-ms="2065" status="PASS">
+        <test-method signature="Setting_008_ProfileSetting_Nick_Guide()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:07 KST" name="Setting_008_ProfileSetting_Nick_Guide" finished-at="2022-06-29T10:53:09 KST" duration-ms="2060" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_008_ProfileSetting_Nick_Guide -->
-        <test-method signature="Setting_009_ProfileSetting_Nick_Xbtn()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:17:01 KST" name="Setting_009_ProfileSetting_Nick_Xbtn" finished-at="2022-06-24T17:17:06 KST" duration-ms="4131" status="PASS">
+        <test-method signature="Setting_009_ProfileSetting_Nick_Xbtn()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:09 KST" name="Setting_009_ProfileSetting_Nick_Xbtn" finished-at="2022-06-29T10:53:13 KST" duration-ms="4142" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_009_ProfileSetting_Nick_Xbtn -->
-        <test-method signature="Setting_010_ProfileSetting_Nick_1Text20()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:17:06 KST" name="Setting_010_ProfileSetting_Nick_1Text20" finished-at="2022-06-24T17:17:16 KST" duration-ms="10865" status="PASS">
+        <test-method signature="Setting_010_ProfileSetting_Nick_1Text20()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:13 KST" name="Setting_010_ProfileSetting_Nick_1Text20" finished-at="2022-06-29T10:53:24 KST" duration-ms="10798" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_010_ProfileSetting_Nick_1Text20 -->
-        <test-method signature="Setting_011_ProfileSetting_Nick_NotText()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:17:16 KST" name="Setting_011_ProfileSetting_Nick_NotText" finished-at="2022-06-24T17:17:20 KST" duration-ms="3130" status="PASS">
+        <test-method signature="Setting_011_ProfileSetting_Nick_NotText()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:24 KST" name="Setting_011_ProfileSetting_Nick_NotText" finished-at="2022-06-29T10:53:27 KST" duration-ms="3110" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_011_ProfileSetting_Nick_NotText -->
-        <test-method signature="Setting_012_ProfileSetting_Nick_Duplicate()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:17:20 KST" name="Setting_012_ProfileSetting_Nick_Duplicate" finished-at="2022-06-24T17:17:27 KST" duration-ms="7187" status="PASS">
+        <test-method signature="Setting_012_ProfileSetting_Nick_Duplicate()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:27 KST" name="Setting_012_ProfileSetting_Nick_Duplicate" finished-at="2022-06-29T10:53:34 KST" duration-ms="7202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_012_ProfileSetting_Nick_Duplicate -->
-        <test-method signature="Setting_013_ProfileSetting_Nick_Clear()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:17:27 KST" name="Setting_013_ProfileSetting_Nick_Clear" finished-at="2022-06-24T17:17:33 KST" duration-ms="6127" status="PASS">
+        <test-method signature="Setting_013_ProfileSetting_Nick_Clear()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:34 KST" name="Setting_013_ProfileSetting_Nick_Clear" finished-at="2022-06-29T10:53:40 KST" duration-ms="6146" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_013_ProfileSetting_Nick_Clear -->
-        <test-method signature="Setting_014_ProfileSetting_Nick_Normal()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:17:33 KST" name="Setting_014_ProfileSetting_Nick_Normal" finished-at="2022-06-24T17:17:33 KST" duration-ms="42" status="PASS">
+        <test-method signature="Setting_014_ProfileSetting_Nick_Normal()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:40 KST" name="Setting_014_ProfileSetting_Nick_Normal" finished-at="2022-06-29T10:53:40 KST" duration-ms="43" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_014_ProfileSetting_Nick_Normal -->
-        <test-method signature="Setting_015_ProfileSetting_ADagree()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:17:33 KST" name="Setting_015_ProfileSetting_ADagree" finished-at="2022-06-24T17:17:41 KST" duration-ms="8220" status="PASS">
+        <test-method signature="Setting_015_ProfileSetting_ADagree()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:40 KST" name="Setting_015_ProfileSetting_ADagree" finished-at="2022-06-29T10:53:48 KST" duration-ms="8246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_015_ProfileSetting_ADagree -->
-        <test-method signature="Setting_016_ProfileSetting_ReCheck()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:17:41 KST" name="Setting_016_ProfileSetting_ReCheck" finished-at="2022-06-24T17:17:47 KST" duration-ms="6172" status="PASS">
+        <test-method signature="Setting_016_ProfileSetting_ReCheck()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:48 KST" name="Setting_016_ProfileSetting_ReCheck" finished-at="2022-06-29T10:53:59 KST" duration-ms="10292" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setting_016_ProfileSetting_ReCheck -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-24T17:17:47 KST" name="quit" finished-at="2022-06-24T17:17:48 KST" duration-ms="230" status="PASS">
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_06_Setting@25be7b63]" started-at="2022-06-29T10:53:59 KST" name="quit" finished-at="2022-06-29T10:53:59 KST" duration-ms="201" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

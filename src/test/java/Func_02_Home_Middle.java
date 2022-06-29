@@ -63,8 +63,8 @@ public class Func_02_Home_Middle extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[4]");
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[5]"); //최상단 5번 배너
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[6]/div/div/div[1]");//자세히 보기
-			Common.clickByText("블록 입장하기"); //크롬 정책으로 인해 한번이라도 클릭해야 마이크가 활성화되기 때문에 이 버튼을 넣어줌
-			Thread.sleep(2000);
+			//Common.clickByText("블록 입장하기"); //크롬 정책으로 인해 한번이라도 클릭해야 마이크가 활성화되기 때문에 이 버튼을 넣어줌
+			//Thread.sleep(2000);
 			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span"); //인게임 블록 제목 Xpath 확인
 		    Common.Back(); //이번 버튼으로 메인 페이지 이동
 	  }
