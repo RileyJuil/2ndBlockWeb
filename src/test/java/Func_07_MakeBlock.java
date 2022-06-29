@@ -15,11 +15,11 @@ import main.java.SetUp;
 public class Func_07_MakeBlock extends SetUp{
 	
 	
-		@Test
-		public void Home_000_Login() throws InterruptedException {
-	
-		Common.facebookLogin(); //페이스북 로그인
-		}
+//		@Test
+//		public void Home_000_Login() throws InterruptedException {
+//	
+//		Common.facebookLogin(); //페이스북 로그인
+//		}
 	
 		@Test
 		public void MakeBlock_001_Enter() throws InterruptedException {
@@ -53,7 +53,7 @@ public class Func_07_MakeBlock extends SetUp{
 		@Test
 		public void MakeBlock_005_Preset_InputName() throws InterruptedException {
 			
-			Common.InputText("/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input", "라일리"); //블록 제목 라일리 입력
+			Common.InputText("/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input", "라일리첫블록"); //블록 제목 라일리 입력
 			Common.Enter("/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input"); //엔터
 			
 		}
@@ -61,7 +61,7 @@ public class Func_07_MakeBlock extends SetUp{
 		@Test
 		public void MakeBlock_006_Preset_Make() throws InterruptedException {
 			
-			Common.clickByXpath("/html/body/div[14]/div/div/div[2]/div[2]/button"); //블록 만들기 버튼 클릭
+			Common.clickByXpath("/html/body/div[15]/div/div/div[2]/div[2]/button"); //블록 만들기 버튼 클릭
 			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span"); //인게임 블록 제목 Xpath 확인
 			Thread.sleep(1000);
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/img"); //홈버튼 클릭
