@@ -39,8 +39,11 @@ public class Func_07_MakeBlock extends SetUp{
 		public void MakeBlock_003_Preset_Check() throws InterruptedException {
 			
 		    Common.Assert_ExistByText("#화이트컨퍼런스홀"); //템플릿 제목
+		    Thread.sleep(1000);
 		    Common.Assert_ExistByXpath("/html/body/div[15]/div/div/div[2]/div[1]/div[1]/img"); //썸네일
+		    Thread.sleep(1000);
 		    Assert.assertEquals(driver.findElement(By.xpath("/html/body/div[15]/div/div/div[2]/div[1]/p[2]")).getText(), "깔끔한 화이트톤의 약 300인 좌석 컨퍼런스 홀입니다."); //설명
+		    Thread.sleep(1000);
 		    Common.Assert_ExistByXpath("/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input"); //블록 이름 입력란
 		}
 		
