@@ -18,11 +18,11 @@ import main.java.SetUp;
 public class Func_07_MakeBlock extends SetUp{
 	
 	
-		@Test
-		public void Home_000_Login() throws InterruptedException {
-	
-		//Common.facebookLogin(); //페이스북 로그인
-		}
+//		@Test
+//		public void Home_000_Login() throws InterruptedException {
+//	
+//		Common.facebookLogin(); //페이스북 로그인
+//		}
 	
 		@Test
 		public void MakeBlock_001_Enter() throws InterruptedException {

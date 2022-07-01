@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>71/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>66/8/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jun 21 16:40:39 KST 2022</td>
+<td>Started on:</td><td>Fri Jul 01 17:09:49 KST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>573 seconds (573865 ms)</td>
+<tr><td>Total time:</td><td>606 seconds (606147 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,502 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='test.java.Func_02_Home_Middle.Home_006_Middle_Make_Block()'><b>Home_006_Middle_Make_Block</b><br>Test class: test.java.Func_02_Home_Middle</td>
+<td><div><pre>java.lang.AssertionError: expected [https://2ndblock.com/space] but found [https://2ndblock.com/room/IqTReceUpCUHWomkwYBF]
+	at main.java.Common.Assert_CheckCurrentUrl(Common.java:155)
+	at test.java.Func_02_Home_Middle.Home_006_Middle_Make_Block(Func_02_Home_Middle.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1540277886", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1540277886'><pre>java.lang.AssertionError: expected [https://2ndblock.com/space] but found [https://2ndblock.com/room/IqTReceUpCUHWomkwYBF]
+	at org.testng.Assert.fail(Assert.java:99)
+	at org.testng.Assert.failNotEquals(Assert.java:1037)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+	at org.testng.Assert.assertEquals(Assert.java:122)
+	at org.testng.Assert.assertEquals(Assert.java:629)
+	at org.testng.Assert.assertEquals(Assert.java:639)
+	at main.java.Common.Assert_CheckCurrentUrl(Common.java:155)
+	at test.java.Func_02_Home_Middle.Home_006_Middle_Make_Block(Func_02_Home_Middle.java:98)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>2</td>
+<td>test.java.Func_02_Home_Middle@68c9d179</td></tr>
+<tr>
+<td title='test.java.Func_07_MakeBlock.MakeBlock_006_Preset_Make()'><b>MakeBlock_006_Preset_Make</b><br>Test class: test.java.Func_07_MakeBlock</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[15]/div/div/div[2]/div[2]/button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByXpath(Common.java:39)
+	at test.java.Func_07_MakeBlock.MakeBlock_006_Preset_Make(Func_07_MakeBlock.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace498884733", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace498884733'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[15]/div/div/div[2]/div[2]/button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByXpath(Common.java:39)
+	at test.java.Func_07_MakeBlock.MakeBlock_006_Preset_Make(Func_07_MakeBlock.java:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>test.java.Func_07_MakeBlock@14fc5f04</td></tr>
+<tr>
+<td title='test.java.Func_07_MakeBlock.MakeBlock_001_Enter()'><b>MakeBlock_001_Enter</b><br>Test class: test.java.Func_07_MakeBlock</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/main/div/div[2]/section/div[1]/div[2]/a[2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByXpath(Common.java:39)
+	at test.java.Func_07_MakeBlock.MakeBlock_001_Enter(Func_07_MakeBlock.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1257745445", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1257745445'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/main/div/div[2]/section/div[1]/div[2]/a[2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByXpath(Common.java:39)
+	at test.java.Func_07_MakeBlock.MakeBlock_001_Enter(Func_07_MakeBlock.java:30)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>test.java.Func_07_MakeBlock@14fc5f04</td></tr>
+<tr>
+<td title='test.java.Func_07_MakeBlock.MakeBlock_005_Preset_InputName()'><b>MakeBlock_005_Preset_InputName</b><br>Test class: test.java.Func_07_MakeBlock</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input&quot;}
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fa32fc1c745d2b91d28697145b1e0cc, findElement {using=xpath, value=/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at main.java.Common.InputTextXpath(Common.java:167)
+	at test.java.Func_07_MakeBlock.MakeBlock_005_Preset_InputName(Func_07_MakeBlock.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1191985705", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1191985705'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input&quot;}
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fa32fc1c745d2b91d28697145b1e0cc, findElement {using=xpath, value=/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at main.java.Common.InputTextXpath(Common.java:167)
+	at test.java.Func_07_MakeBlock.MakeBlock_005_Preset_InputName(Func_07_MakeBlock.java:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>test.java.Func_07_MakeBlock@14fc5f04</td></tr>
+<tr>
+<td title='test.java.Func_02_Home_Middle.Home_007_Middle_Join_Block()'><b>Home_007_Middle_Join_Block</b><br>Test class: test.java.Func_02_Home_Middle</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/main/div/div[2]/section/div[2]/div[2]/a[1]/div[1]/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByXpath(Common.java:39)
+	at test.java.Func_02_Home_Middle.Home_007_Middle_Join_Block(Func_02_Home_Middle.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace831931099", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace831931099'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/main/div/div[2]/section/div[2]/div[2]/a[1]/div[1]/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByXpath(Common.java:39)
+	at test.java.Func_02_Home_Middle.Home_007_Middle_Join_Block(Func_02_Home_Middle.java:105)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>test.java.Func_02_Home_Middle@68c9d179</td></tr>
+<tr>
+<td title='test.java.Func_07_MakeBlock.MakeBlock_002_Preset()'><b>MakeBlock_002_Preset</b><br>Test class: test.java.Func_07_MakeBlock</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), &apos;#화이트컨퍼런스홀&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByText(Common.java:31)
+	at test.java.Func_07_MakeBlock.MakeBlock_002_Preset(Func_07_MakeBlock.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1573805059", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1573805059'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), &apos;#화이트컨퍼런스홀&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByText(Common.java:31)
+	at test.java.Func_07_MakeBlock.MakeBlock_002_Preset(Func_07_MakeBlock.java:38)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>test.java.Func_07_MakeBlock@14fc5f04</td></tr>
+<tr>
+<td title='test.java.Func_07_MakeBlock.MakeBlock_003_Preset_Check()'><b>MakeBlock_003_Preset_Check</b><br>Test class: test.java.Func_07_MakeBlock</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), &apos;#화이트컨퍼런스홀&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.Assert_ExistByText(Common.java:112)
+	at test.java.Func_07_MakeBlock.MakeBlock_003_Preset_Check(Func_07_MakeBlock.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace567859829", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace567859829'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), &apos;#화이트컨퍼런스홀&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.Assert_ExistByText(Common.java:112)
+	at test.java.Func_07_MakeBlock.MakeBlock_003_Preset_Check(Func_07_MakeBlock.java:45)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>test.java.Func_07_MakeBlock@14fc5f04</td></tr>
+<tr>
+<td title='test.java.Func_07_MakeBlock.MakeBlock_004_Preset_CheckBtn()'><b>MakeBlock_004_Preset_CheckBtn</b><br>Test class: test.java.Func_07_MakeBlock</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[15]/div/div/div[2]/div[2]/button&quot;}
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fa32fc1c745d2b91d28697145b1e0cc, findElement {using=xpath, value=/html/body/div[15]/div/div/div[2]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at test.java.Func_07_MakeBlock.MakeBlock_004_Preset_CheckBtn(Func_07_MakeBlock.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace580515543", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace580515543'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[15]/div/div/div[2]/div[2]/button&quot;}
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fa32fc1c745d2b91d28697145b1e0cc, findElement {using=xpath, value=/html/body/div[15]/div/div/div[2]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at test.java.Func_07_MakeBlock.MakeBlock_004_Preset_CheckBtn(Func_07_MakeBlock.java:58)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>10</td>
+<td>test.java.Func_07_MakeBlock@14fc5f04</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,360 +571,335 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='test.java.Func_05_InGame.InGame_018_OnOff_Chatting()'><b>InGame_018_OnOff_Chatting</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>8</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_010_Gnb_MyMenu_Character()'><b>Home_010_Gnb_MyMenu_Character</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>8</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_02_Home_Middle.Home_001_Middle_Banner_Logout()'><b>Home_001_Middle_Banner_Logout</b><br>Test class: test.java.Func_02_Home_Middle</td>
-<td></td>
-<td>56</td>
-<td>test.java.Func_02_Home_Middle@5e7cd6cc</td></tr>
-<tr>
-<td title='test.java.Func_03_Character_Customization.Character_007_Cap()'><b>Character_007_Cap</b><br>Test class: test.java.Func_03_Character_Customization</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
-<tr>
-<td title='test.java.Func_03_Character_Customization.Character_008_Shose()'><b>Character_008_Shose</b><br>Test class: test.java.Func_03_Character_Customization</td>
-<td></td>
-<td>18</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_001_Gnb_About()'><b>Home_001_Gnb_About</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>16</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_04_Home_Footer.Home_004_Footer_Address()'><b>Home_004_Footer_Address</b><br>Test class: test.java.Func_04_Home_Footer</td>
-<td></td>
-<td>0</td>
-<td>test.java.Func_04_Home_Footer@d554c5f</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_004_BlockTitle()'><b>InGame_004_BlockTitle</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>2</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_009_User()'><b>InGame_009_User</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>0</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
 <td title='test.java.Func_01_Home_Gnb.Home_009_Gnb_MyMenu_MakeBlock()'><b>Home_009_Gnb_MyMenu_MakeBlock</b><br>Test class: test.java.Func_01_Home_Gnb</td>
 <td></td>
-<td>8</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
+<td>9</td>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
 <tr>
-<td title='test.java.DeleteAccount.scenario_02_deleteAccount()'><b>scenario_02_deleteAccount</b><br>Test class: test.java.DeleteAccount</td>
+<td title='test.java.Func_03_Character_Customization.Character_009_Socks()'><b>Character_009_Socks</b><br>Test class: test.java.Func_03_Character_Customization</td>
 <td></td>
-<td>10</td>
-<td>test.java.DeleteAccount@f1da57d</td></tr>
-<tr>
-<td title='test.java.Func_03_Character_Customization.Character_002_Skin()'><b>Character_002_Skin</b><br>Test class: test.java.Func_03_Character_Customization</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_017_AllChatting()'><b>InGame_017_AllChatting</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>1</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.JoinAccount.Join_004_Nickname_1Text20()'><b>Join_004_Nickname_1Text20</b><br>Test class: test.java.JoinAccount</td>
-<td></td>
-<td>10</td>
-<td>test.java.JoinAccount@5fb759d6</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_003_MyMenu_Setting()'><b>InGame_003_MyMenu_Setting</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>8</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_02_Home_Middle.Home_003_Middle_OwnBlock_Info()'><b>Home_003_Middle_OwnBlock_Info</b><br>Test class: test.java.Func_02_Home_Middle</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_02_Home_Middle@5e7cd6cc</td></tr>
-<tr>
-<td title='test.java.Func_04_Home_Footer.Home_002_Footer_Term()'><b>Home_002_Footer_Term</b><br>Test class: test.java.Func_04_Home_Footer</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_04_Home_Footer@d554c5f</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_007_Gnb_MyMenu_MyBlock()'><b>Home_007_Gnb_MyMenu_MyBlock</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>11</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_002_Gnb_About_Start()'><b>Home_002_Gnb_About_Start</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>4</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_012_CloseMenu()'><b>InGame_012_CloseMenu</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>2</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.JoinAccount.Join_008_Nickname_Normal()'><b>Join_008_Nickname_Normal</b><br>Test class: test.java.JoinAccount</td>
-<td></td>
-<td>2</td>
-<td>test.java.JoinAccount@5fb759d6</td></tr>
-<tr>
-<td title='test.java.Func_03_Character_Customization.Character_010_Accessories()'><b>Character_010_Accessories</b><br>Test class: test.java.Func_03_Character_Customization</td>
-<td></td>
-<td>16</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
-<tr>
-<td title='test.java.Func_04_Home_Footer.Home_001_Footer_MailTo()'><b>Home_001_Footer_MailTo</b><br>Test class: test.java.Func_04_Home_Footer</td>
-<td></td>
-<td>0</td>
-<td>test.java.Func_04_Home_Footer@d554c5f</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_006_BlockUnfollow()'><b>InGame_006_BlockUnfollow</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.JoinAccount.Join_001_Login_Facebook()'><b>Join_001_Login_Facebook</b><br>Test class: test.java.JoinAccount</td>
-<td></td>
-<td>10</td>
-<td>test.java.JoinAccount@5fb759d6</td></tr>
-<tr>
-<td title='test.java.DeleteAccount.scenario_01_facebookLogin()'><b>scenario_01_facebookLogin</b><br>Test class: test.java.DeleteAccount</td>
-<td></td>
-<td>23</td>
-<td>test.java.DeleteAccount@f1da57d</td></tr>
-<tr>
-<td title='test.java.JoinAccount.Join_003_Nickname_GuideText()'><b>Join_003_Nickname_GuideText</b><br>Test class: test.java.JoinAccount</td>
-<td></td>
-<td>3</td>
-<td>test.java.JoinAccount@5fb759d6</td></tr>
-<tr>
-<td title='test.java.Func_02_Home_Middle.Home_004_Middle_MyBlock_Star()'><b>Home_004_Middle_MyBlock_Star</b><br>Test class: test.java.Func_02_Home_Middle</td>
-<td></td>
-<td>2</td>
-<td>test.java.Func_02_Home_Middle@5e7cd6cc</td></tr>
-<tr>
-<td title='test.java.Func_02_Home_Middle.Home_009_Middle_Recommended_Block()'><b>Home_009_Middle_Recommended_Block</b><br>Test class: test.java.Func_02_Home_Middle</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_02_Home_Middle@5e7cd6cc</td></tr>
+<td>5</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
 <tr>
 <td title='test.java.Func_01_Home_Gnb.Home_003_Gnb_MainLogo()'><b>Home_003_Gnb_MainLogo</b><br>Test class: test.java.Func_01_Home_Gnb</td>
 <td></td>
 <td>4</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
 <tr>
-<td title='test.java.Func_02_Home_Middle.Home_008_Middle_LineBanner()'><b>Home_008_Middle_LineBanner</b><br>Test class: test.java.Func_02_Home_Middle</td>
-<td></td>
-<td>10</td>
-<td>test.java.Func_02_Home_Middle@5e7cd6cc</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_010_MenuBtn()'><b>InGame_010_MenuBtn</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>4</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_03_Character_Customization.Character_004_Top()'><b>Character_004_Top</b><br>Test class: test.java.Func_03_Character_Customization</td>
-<td></td>
-<td>10</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
-<tr>
-<td title='test.java.Func_03_Character_Customization.Character_011_Save()'><b>Character_011_Save</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td title='test.java.Func_05_InGame.InGame_006_BlockUnfollow()'><b>InGame_006_BlockUnfollow</b><br>Test class: test.java.Func_05_InGame</td>
 <td></td>
 <td>8</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_022_OnOff_Mike()'><b>InGame_022_OnOff_Mike</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>8</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_03_Character_Customization.Character_009_Socks()'><b>Character_009_Socks</b><br>Test class: test.java.Func_03_Character_Customization</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_005_Gnb_Start()'><b>Home_005_Gnb_Start</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>10</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_004_Gnb_CustormerCenter()'><b>Home_004_Gnb_CustormerCenter</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>16</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_012_Gnb_MyMenu_LogOut()'><b>Home_012_Gnb_MyMenu_LogOut</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>8</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_013_Open_Minimap()'><b>InGame_013_Open_Minimap</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>4</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_03_Character_Customization.Character_006_Bag()'><b>Character_006_Bag</b><br>Test class: test.java.Func_03_Character_Customization</td>
-<td></td>
-<td>16</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
-<tr>
-<td title='test.java.Func_02_Home_Middle.Home_006_Middle_Make_Block()'><b>Home_006_Middle_Make_Block</b><br>Test class: test.java.Func_02_Home_Middle</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_02_Home_Middle@5e7cd6cc</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_013_Gnb_MyMenu_LogOut_Complete()'><b>Home_013_Gnb_MyMenu_LogOut_Complete</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>4</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_008_Gnb_MyMenu_OwnBlock()'><b>Home_008_Gnb_MyMenu_OwnBlock</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>8</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_04_Home_Footer.Home_003_Footer_Privacy()'><b>Home_003_Footer_Privacy</b><br>Test class: test.java.Func_04_Home_Footer</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_04_Home_Footer@d554c5f</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_005_BlockFollow()'><b>InGame_005_BlockFollow</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>4</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_021_ShareScreen()'><b>InGame_021_ShareScreen</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>3</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_002_MyMenu_Character()'><b>InGame_002_MyMenu_Character</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>8</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_001_HomeBtn()'><b>InGame_001_HomeBtn</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>10</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_007_ZoomOut()'><b>InGame_007_ZoomOut</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>2</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_01_Home_Gnb.Home_006_Gnb_MyMenu()'><b>Home_006_Gnb_MyMenu</b><br>Test class: test.java.Func_01_Home_Gnb</td>
-<td></td>
-<td>4</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.Func_02_Home_Middle.Home_005_Middle_MyBlock_Enter()'><b>Home_005_Middle_MyBlock_Enter</b><br>Test class: test.java.Func_02_Home_Middle</td>
-<td></td>
-<td>6</td>
-<td>test.java.Func_02_Home_Middle@5e7cd6cc</td></tr>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 <tr>
 <td title='test.java.Func_05_InGame.InGame_023_OnOff_Camera()'><b>InGame_023_OnOff_Camera</b><br>Test class: test.java.Func_05_InGame</td>
 <td></td>
 <td>8</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 <tr>
-<td title='test.java.Func_03_Character_Customization.Character_003_Hair()'><b>Character_003_Hair</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td title='test.java.Func_01_Home_Gnb.Home_010_Gnb_MyMenu_Character()'><b>Home_010_Gnb_MyMenu_Character</b><br>Test class: test.java.Func_01_Home_Gnb</td>
 <td></td>
 <td>8</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
 <tr>
-<td title='test.java.JoinAccount.Join_006_Nickname_Duplicate()'><b>Join_006_Nickname_Duplicate</b><br>Test class: test.java.JoinAccount</td>
-<td></td>
-<td>5</td>
-<td>test.java.JoinAccount@5fb759d6</td></tr>
-<tr>
-<td title='test.java.JoinAccount.Join_009_Agree_Check()'><b>Join_009_Agree_Check</b><br>Test class: test.java.JoinAccount</td>
-<td></td>
-<td>12</td>
-<td>test.java.JoinAccount@5fb759d6</td></tr>
-<tr>
-<td title='test.java.Func_05_InGame.InGame_020_Emoji()'><b>InGame_020_Emoji</b><br>Test class: test.java.Func_05_InGame</td>
-<td></td>
-<td>12</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
-<tr>
-<td title='test.java.Func_02_Home_Middle.Home_002_Middle_Banner_Top()'><b>Home_002_Middle_Banner_Top</b><br>Test class: test.java.Func_02_Home_Middle</td>
+<td title='test.java.Func_03_Character_Customization.Character_008_Shose()'><b>Character_008_Shose</b><br>Test class: test.java.Func_03_Character_Customization</td>
 <td></td>
 <td>17</td>
-<td>test.java.Func_02_Home_Middle@5e7cd6cc</td></tr>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
 <tr>
-<td title='test.java.Func_05_InGame.InGame_011_SearchNickname()'><b>InGame_011_SearchNickname</b><br>Test class: test.java.Func_05_InGame</td>
+<td title='test.java.Func_03_Character_Customization.Character_011_Save()'><b>Character_011_Save</b><br>Test class: test.java.Func_03_Character_Customization</td>
 <td></td>
-<td>3</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
+<td>6</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
 <tr>
-<td title='test.java.Func_01_Home_Gnb.Home_011_Gnb_MyMenu_Setting()'><b>Home_011_Gnb_MyMenu_Setting</b><br>Test class: test.java.Func_01_Home_Gnb</td>
+<td title='test.java.Func_05_InGame.InGame_009_User()'><b>InGame_009_User</b><br>Test class: test.java.Func_05_InGame</td>
 <td></td>
-<td>8</td>
-<td>test.java.Func_01_Home_Gnb@4b8d604b</td></tr>
-<tr>
-<td title='test.java.JoinAccount.Join_002_Nickname_Placeholder()'><b>Join_002_Nickname_Placeholder</b><br>Test class: test.java.JoinAccount</td>
-<td></td>
-<td>1</td>
-<td>test.java.JoinAccount@5fb759d6</td></tr>
+<td>0</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 <tr>
 <td title='test.java.Func_05_InGame.InGame_014_Close_Minimap()'><b>InGame_014_Close_Minimap</b><br>Test class: test.java.Func_05_InGame</td>
 <td></td>
 <td>4</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 <tr>
-<td title='test.java.JoinAccount.Join_005_Nickname_NotText()'><b>Join_005_Nickname_NotText</b><br>Test class: test.java.JoinAccount</td>
+<td title='test.java.Func_05_InGame.InGame_001_HomeBtn()'><b>InGame_001_HomeBtn</b><br>Test class: test.java.Func_05_InGame</td>
 <td></td>
-<td>2</td>
-<td>test.java.JoinAccount@5fb759d6</td></tr>
+<td>11</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 <tr>
-<td title='test.java.Func_02_Home_Middle.Home_007_Middle_Join_Block()'><b>Home_007_Middle_Join_Block</b><br>Test class: test.java.Func_02_Home_Middle</td>
+<td title='test.java.Func_05_InGame.InGame_011_SearchNickname()'><b>InGame_011_SearchNickname</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>3</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_02_Home_Middle.Home_001_Middle_Banner_Logout()'><b>Home_001_Middle_Banner_Logout</b><br>Test class: test.java.Func_02_Home_Middle</td>
+<td></td>
+<td>47</td>
+<td>test.java.Func_02_Home_Middle@68c9d179</td></tr>
+<tr>
+<td title='test.java.Func_04_Home_Footer.Home_004_Footer_Address()'><b>Home_004_Footer_Address</b><br>Test class: test.java.Func_04_Home_Footer</td>
+<td></td>
+<td>0</td>
+<td>test.java.Func_04_Home_Footer@2dfaea86</td></tr>
+<tr>
+<td title='test.java.Func_02_Home_Middle.Home_003_Middle_OwnBlock_Info()'><b>Home_003_Middle_OwnBlock_Info</b><br>Test class: test.java.Func_02_Home_Middle</td>
 <td></td>
 <td>6</td>
-<td>test.java.Func_02_Home_Middle@5e7cd6cc</td></tr>
+<td>test.java.Func_02_Home_Middle@68c9d179</td></tr>
 <tr>
-<td title='test.java.JoinAccount.Join_007_Nickname_Clear()'><b>Join_007_Nickname_Clear</b><br>Test class: test.java.JoinAccount</td>
+<td title='test.java.Func_02_Home_Middle.Home_008_Middle_LineBanner()'><b>Home_008_Middle_LineBanner</b><br>Test class: test.java.Func_02_Home_Middle</td>
+<td></td>
+<td>19</td>
+<td>test.java.Func_02_Home_Middle@68c9d179</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_005_BlockFollow()'><b>InGame_005_BlockFollow</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_022_OnOff_Mike()'><b>InGame_022_OnOff_Mike</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_02_Home_Middle.Home_004_Middle_MyBlock_Star()'><b>Home_004_Middle_MyBlock_Star</b><br>Test class: test.java.Func_02_Home_Middle</td>
+<td></td>
+<td>2</td>
+<td>test.java.Func_02_Home_Middle@68c9d179</td></tr>
+<tr>
+<td title='test.java.Func_04_Home_Footer.Home_001_Footer_MailTo()'><b>Home_001_Footer_MailTo</b><br>Test class: test.java.Func_04_Home_Footer</td>
+<td></td>
+<td>0</td>
+<td>test.java.Func_04_Home_Footer@2dfaea86</td></tr>
+<tr>
+<td title='test.java.Func_03_Character_Customization.Character_001_MyMenu_Character()'><b>Character_001_MyMenu_Character</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td></td>
+<td>5</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
+<tr>
+<td title='test.java.Func_03_Character_Customization.Character_007_Cap()'><b>Character_007_Cap</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td></td>
+<td>5</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_018_OnOff_Chatting()'><b>InGame_018_OnOff_Chatting</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>9</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_01_Home_Gnb.Home_006_Gnb_MyMenu()'><b>Home_006_Gnb_MyMenu</b><br>Test class: test.java.Func_01_Home_Gnb</td>
 <td></td>
 <td>4</td>
-<td>test.java.JoinAccount@5fb759d6</td></tr>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
+<tr>
+<td title='test.java.Func_06_Setting.Setting_001_MyMenu_MediaSetting()'><b>Setting_001_MyMenu_MediaSetting</b><br>Test class: test.java.Func_06_Setting</td>
+<td></td>
+<td>6</td>
+<td>test.java.Func_06_Setting@33ecda92</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_002_MyMenu_Character()'><b>InGame_002_MyMenu_Character</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>9</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_02_Home_Middle.Home_005_Middle_MyBlock_Enter()'><b>Home_005_Middle_MyBlock_Enter</b><br>Test class: test.java.Func_02_Home_Middle</td>
+<td></td>
+<td>7</td>
+<td>test.java.Func_02_Home_Middle@68c9d179</td></tr>
+<tr>
+<td title='test.java.Func_03_Character_Customization.Character_002_Skin()'><b>Character_002_Skin</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td></td>
+<td>5</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
+<tr>
+<td title='test.java.Func_03_Character_Customization.Character_003_Hair()'><b>Character_003_Hair</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td></td>
+<td>7</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_020_Emoji()'><b>InGame_020_Emoji</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>12</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_06_Setting.Setting_004_MediaSetting_Filter()'><b>Setting_004_MediaSetting_Filter</b><br>Test class: test.java.Func_06_Setting</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_06_Setting@33ecda92</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_010_MenuBtn()'><b>InGame_010_MenuBtn</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>4</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_01_Home_Gnb.Home_007_Gnb_MyMenu_MyBlock()'><b>Home_007_Gnb_MyMenu_MyBlock</b><br>Test class: test.java.Func_01_Home_Gnb</td>
+<td></td>
+<td>14</td>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
+<tr>
+<td title='test.java.Func_01_Home_Gnb.Home_005_Gnb_Start()'><b>Home_005_Gnb_Start</b><br>Test class: test.java.Func_01_Home_Gnb</td>
+<td></td>
+<td>22</td>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_021_ShareScreen()'><b>InGame_021_ShareScreen</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>3</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 <tr>
 <td title='test.java.Func_05_InGame.InGame_016_Close_Notice()'><b>InGame_016_Close_Notice</b><br>Test class: test.java.Func_05_InGame</td>
 <td></td>
 <td>14</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 <tr>
-<td title='test.java.Func_03_Character_Customization.Character_005_Bottom()'><b>Character_005_Bottom</b><br>Test class: test.java.Func_03_Character_Customization</td>
-<td></td>
-<td>12</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
-<tr>
-<td title='test.java.Func_03_Character_Customization.Character_001_MyMenu_Character()'><b>Character_001_MyMenu_Character</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td title='test.java.Func_01_Home_Gnb.Home_001_Gnb_About()'><b>Home_001_Gnb_About</b><br>Test class: test.java.Func_01_Home_Gnb</td>
 <td></td>
 <td>4</td>
-<td>test.java.Func_03_Character_Customization@68c9d179</td></tr>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
 <tr>
-<td title='test.java.Func_05_InGame.InGame_008_ZoomIn()'><b>InGame_008_ZoomIn</b><br>Test class: test.java.Func_05_InGame</td>
+<td title='test.java.Func_01_Home_Gnb.Home_013_Gnb_MyMenu_LogOut_Complete()'><b>Home_013_Gnb_MyMenu_LogOut_Complete</b><br>Test class: test.java.Func_01_Home_Gnb</td>
+<td></td>
+<td>5</td>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
+<tr>
+<td title='test.java.Func_03_Character_Customization.Character_010_Accessories()'><b>Character_010_Accessories</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td></td>
+<td>12</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
+<tr>
+<td title='test.java.Func_06_Setting.Setting_003_MediaSetting_OnOffCamera()'><b>Setting_003_MediaSetting_OnOffCamera</b><br>Test class: test.java.Func_06_Setting</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_06_Setting@33ecda92</td></tr>
+<tr>
+<td title='test.java.Func_03_Character_Customization.Character_004_Top()'><b>Character_004_Top</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td></td>
+<td>9</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_007_ZoomOut()'><b>InGame_007_ZoomOut</b><br>Test class: test.java.Func_05_InGame</td>
 <td></td>
 <td>2</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_004_BlockTitle()'><b>InGame_004_BlockTitle</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>2</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_01_Home_Gnb.Home_004_Gnb_CustormerCenter()'><b>Home_004_Gnb_CustormerCenter</b><br>Test class: test.java.Func_01_Home_Gnb</td>
+<td></td>
+<td>16</td>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
+<tr>
+<td title='test.java.Func_01_Home_Gnb.Home_002_Gnb_About_Start()'><b>Home_002_Gnb_About_Start</b><br>Test class: test.java.Func_01_Home_Gnb</td>
+<td></td>
+<td>4</td>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
+<tr>
+<td title='test.java.Func_06_Setting.Setting_006_MediaSetting_Save()'><b>Setting_006_MediaSetting_Save</b><br>Test class: test.java.Func_06_Setting</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_06_Setting@33ecda92</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_017_AllChatting()'><b>InGame_017_AllChatting</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>1</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 <tr>
 <td title='test.java.Func_05_InGame.InGame_015_Open_Notice()'><b>InGame_015_Open_Notice</b><br>Test class: test.java.Func_05_InGame</td>
 <td></td>
 <td>4</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_01_Home_Gnb.Home_012_Gnb_MyMenu_LogOut()'><b>Home_012_Gnb_MyMenu_LogOut</b><br>Test class: test.java.Func_01_Home_Gnb</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
+<tr>
+<td title='test.java.Func_01_Home_Gnb.Home_011_Gnb_MyMenu_Setting()'><b>Home_011_Gnb_MyMenu_Setting</b><br>Test class: test.java.Func_01_Home_Gnb</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_003_MyMenu_Setting()'><b>InGame_003_MyMenu_Setting</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 <tr>
 <td title='test.java.Func_05_InGame.InGame_019_FilterEffect()'><b>InGame_019_FilterEffect</b><br>Test class: test.java.Func_05_InGame</td>
 <td></td>
 <td>6</td>
-<td>test.java.Func_05_InGame@2dfaea86</td></tr>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_03_Character_Customization.Character_005_Bottom()'><b>Character_005_Bottom</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td></td>
+<td>11</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
+<tr>
+<td title='test.java.Func_06_Setting.Setting_008_ProfileSetting_Nick_Guide()'><b>Setting_008_ProfileSetting_Nick_Guide</b><br>Test class: test.java.Func_06_Setting</td>
+<td></td>
+<td>2</td>
+<td>test.java.Func_06_Setting@33ecda92</td></tr>
+<tr>
+<td title='test.java.Func_04_Home_Footer.Home_002_Footer_Term()'><b>Home_002_Footer_Term</b><br>Test class: test.java.Func_04_Home_Footer</td>
+<td></td>
+<td>7</td>
+<td>test.java.Func_04_Home_Footer@2dfaea86</td></tr>
+<tr>
+<td title='test.java.Func_06_Setting.Setting_005_MediaSetting_BG()'><b>Setting_005_MediaSetting_BG</b><br>Test class: test.java.Func_06_Setting</td>
+<td></td>
+<td>6</td>
+<td>test.java.Func_06_Setting@33ecda92</td></tr>
+<tr>
+<td title='test.java.Func_01_Home_Gnb.Home_008_Gnb_MyMenu_OwnBlock()'><b>Home_008_Gnb_MyMenu_OwnBlock</b><br>Test class: test.java.Func_01_Home_Gnb</td>
+<td></td>
+<td>9</td>
+<td>test.java.Func_01_Home_Gnb@431cd9b2</td></tr>
+<tr>
+<td title='test.java.Func_06_Setting.Setting_002_MediaSetting_OnOffMike()'><b>Setting_002_MediaSetting_OnOffMike</b><br>Test class: test.java.Func_06_Setting</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_06_Setting@33ecda92</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_013_Open_Minimap()'><b>InGame_013_Open_Minimap</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>4</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_012_CloseMenu()'><b>InGame_012_CloseMenu</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>2</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
+<tr>
+<td title='test.java.Func_06_Setting.Setting_007_ProfileSetting()'><b>Setting_007_ProfileSetting</b><br>Test class: test.java.Func_06_Setting</td>
+<td></td>
+<td>8</td>
+<td>test.java.Func_06_Setting@33ecda92</td></tr>
+<tr>
+<td title='test.java.Func_07_MakeBlock.Home_000_Login()'><b>Home_000_Login</b><br>Test class: test.java.Func_07_MakeBlock</td>
+<td></td>
+<td>0</td>
+<td>test.java.Func_07_MakeBlock@14fc5f04</td></tr>
+<tr>
+<td title='test.java.Func_02_Home_Middle.Home_002_Middle_Banner_Top()'><b>Home_002_Middle_Banner_Top</b><br>Test class: test.java.Func_02_Home_Middle</td>
+<td></td>
+<td>17</td>
+<td>test.java.Func_02_Home_Middle@68c9d179</td></tr>
+<tr>
+<td title='test.java.Func_03_Character_Customization.Character_006_Bag()'><b>Character_006_Bag</b><br>Test class: test.java.Func_03_Character_Customization</td>
+<td></td>
+<td>14</td>
+<td>test.java.Func_03_Character_Customization@d554c5f</td></tr>
+<tr>
+<td title='test.java.Func_04_Home_Footer.Home_003_Footer_Privacy()'><b>Home_003_Footer_Privacy</b><br>Test class: test.java.Func_04_Home_Footer</td>
+<td></td>
+<td>7</td>
+<td>test.java.Func_04_Home_Footer@2dfaea86</td></tr>
+<tr>
+<td title='test.java.Func_05_InGame.InGame_008_ZoomIn()'><b>InGame_008_ZoomIn</b><br>Test class: test.java.Func_05_InGame</td>
+<td></td>
+<td>2</td>
+<td>test.java.Func_05_InGame@15888343</td></tr>
 </table><p>
 </body>
 </html>

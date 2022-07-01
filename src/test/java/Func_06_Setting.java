@@ -85,6 +85,10 @@ public class Func_06_Setting extends SetUp{
 		public void Setting_008_ProfileSetting_Nick_Guide() throws InterruptedException {
 			
 			Common.Assert_ExistByXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[1]/div[2]/div[3]/div"); //닉네임 변경 가이드 문구 확인
+			
+			//탈퇴 후 재가입 30일 때문에 잠시 넣어둠
+			Thread.sleep(1000);
+		    Common.clickByXpath("/html/body/div[7]/div/div/div[1]/img"); //설정 모달 닫기
 		}
 		
 		//탈퇴 및 가입 30일 이슈로 잠시 닫음

@@ -66,6 +66,13 @@ public class Common {
 
 		}
 	
+	public void clickById(String text) throws InterruptedException {
+
+		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.id("" + text + "")));
+		driver.findElement(By.id("" + text + "")).click();
+		Thread.sleep(2000); 
+
+		}
 	
 //--------------------------------------------------------------------------------------------------------------------------------------------------
 	//엘리먼트 별 대기
@@ -153,15 +160,20 @@ public class Common {
 	
 	
 //--------------------------------------------------------------------------------------------------------------------------------------------------	
-		//URL로 해당 페이지 이동했는지 확인
-	public void InputText(String text1, String text2) throws InterruptedException {
+		//텍스트 입력하기
+	public void InputTextXpath(String text1, String text2) throws InterruptedException {
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.findElement(By.xpath("" + text1 + "")).sendKeys("" + text2 + "");
 		Thread.sleep(2000); 
 		}
 	
-	
+	public void InputTextClass(String text1, String text2) throws InterruptedException {
+
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.findElement(By.className("" + text1 + "")).sendKeys("" + text2 + "");
+		Thread.sleep(2000); 
+		}
 	
 //--------------------------------------------------------------------------------------------------------------------------------------------------	
 	

@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.java.Func_05_InGame">
+      <class name="test.java.Func_07_MakeBlock">
         <methods>
           <include name="createAndStartService"/>
+          <include name="MakeBlock_003_Preset_Check"/>
           <include name="quit"/>
-          <include name="InGame_001_HomeBtn"/>
-          <include name="InGame_005_BlockFollow"/>
+          <include name="MakeBlock_001_Enter"/>
+          <include name="MakeBlock_005_Preset_InputName"/>
+          <include name="MakeBlock_002_Preset"/>
+          <include name="MakeBlock_006_Preset_Make"/>
+          <include name="MakeBlock_004_Preset_CheckBtn"/>
         </methods>
-      </class> <!-- test.java.Func_05_InGame -->
+      </class> <!-- test.java.Func_07_MakeBlock -->
+      <class name="test.java.Func_02_Home_Middle">
+        <methods>
+          <include name="createAndStartService"/>
+          <include name="Home_007_Middle_Join_Block"/>
+          <include name="quit"/>
+          <include name="Home_006_Middle_Make_Block"/>
+        </methods>
+      </class> <!-- test.java.Func_02_Home_Middle -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

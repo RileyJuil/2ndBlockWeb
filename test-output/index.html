@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,8 +39,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Default_suite" class="navigator-link">
-              <span class="suite-name border-passed">Default suite</span>
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,37 +50,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\riley\AppData\Local\Temp\testng-eclipse-279646242\testng-customsuite.xml</span>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\riley\eclipse-workspace\secondBlock\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Default_suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -93,101 +93,395 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">17 methods,   17 passed</span>
+                    <span class="method-stats">74 methods, 8 failed,   66 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_02_Home_Middle" class="method navigator-link" hash-for-method="Home_006_Middle_Make_Block">Home_006_Middle_Make_Block</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_02_Home_Middle" class="method navigator-link" hash-for-method="Home_007_Middle_Join_Block">Home_007_Middle_Join_Block</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_07_MakeBlock" class="method navigator-link" hash-for-method="MakeBlock_001_Enter">MakeBlock_001_Enter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_07_MakeBlock" class="method navigator-link" hash-for-method="MakeBlock_002_Preset">MakeBlock_002_Preset</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_07_MakeBlock" class="method navigator-link" hash-for-method="MakeBlock_003_Preset_Check">MakeBlock_003_Preset_Check</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_07_MakeBlock" class="method navigator-link" hash-for-method="MakeBlock_004_Preset_CheckBtn">MakeBlock_004_Preset_CheckBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_07_MakeBlock" class="method navigator-link" hash-for-method="MakeBlock_005_Preset_InputName">MakeBlock_005_Preset_InputName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_07_MakeBlock" class="method navigator-link" hash-for-method="MakeBlock_006_Preset_Make">MakeBlock_006_Preset_Make</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
                     <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
-                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
-                    <div class="method-list-content passed suite-Default_suite">
+                    <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="InGame_000_HomeBtn">InGame_000_HomeBtn</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_001_MyMenu_Character">Character_001_MyMenu_Character</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_001_MyMenu_MediaSetting">Setting_001_MyMenu_MediaSetting</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_002_Skin">Character_002_Skin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_002_MediaSetting_OnOffMike">Setting_002_MediaSetting_OnOffMike</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_003_Hair">Character_003_Hair</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_003_MediaSetting_OnOffCamera">Setting_003_MediaSetting_OnOffCamera</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_004_Top">Character_004_Top</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_004_MediaSetting_Filter">Setting_004_MediaSetting_Filter</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_005_Bottom">Character_005_Bottom</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_005_MediaSetting_BG">Setting_005_MediaSetting_BG</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_006_Bag">Character_006_Bag</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_006_MediaSetting_Save">Setting_006_MediaSetting_Save</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_007_Cap">Character_007_Cap</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_007_ProfileSetting">Setting_007_ProfileSetting</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_008_Shose">Character_008_Shose</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_008_ProfileSetting_Nick_Guide">Setting_008_ProfileSetting_Nick_Guide</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_009_Socks">Character_009_Socks</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_009_ProfileSetting_Nick_Xbtn">Setting_009_ProfileSetting_Nick_Xbtn</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_010_Accessories">Character_010_Accessories</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_010_ProfileSetting_Nick_1Text20">Setting_010_ProfileSetting_Nick_1Text20</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_03_Character_Customization" class="method navigator-link" hash-for-method="Character_011_Save">Character_011_Save</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_011_ProfileSetting_Nick_NotText">Setting_011_ProfileSetting_Nick_NotText</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_07_MakeBlock" class="method navigator-link" hash-for-method="Home_000_Login">Home_000_Login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_012_ProfileSetting_Nick_Duplicate">Setting_012_ProfileSetting_Nick_Duplicate</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_04_Home_Footer" class="method navigator-link" hash-for-method="Home_001_Footer_MailTo">Home_001_Footer_MailTo</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_013_ProfileSetting_Nick_Clear">Setting_013_ProfileSetting_Nick_Clear</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_001_Gnb_About">Home_001_Gnb_About</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_014_ProfileSetting_Nick_Normal">Setting_014_ProfileSetting_Nick_Normal</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_02_Home_Middle" class="method navigator-link" hash-for-method="Home_001_Middle_Banner_Logout">Home_001_Middle_Banner_Logout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_015_ProfileSetting_ADagree">Setting_015_ProfileSetting_ADagree</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_04_Home_Footer" class="method navigator-link" hash-for-method="Home_002_Footer_Term">Home_002_Footer_Term</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_016_ProfileSetting_ReCheck">Setting_016_ProfileSetting_ReCheck</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_002_Gnb_About_Start">Home_002_Gnb_About_Start</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-Default_suite -->
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_02_Home_Middle" class="method navigator-link" hash-for-method="Home_002_Middle_Banner_Top">Home_002_Middle_Banner_Top</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_04_Home_Footer" class="method navigator-link" hash-for-method="Home_003_Footer_Privacy">Home_003_Footer_Privacy</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_003_Gnb_MainLogo">Home_003_Gnb_MainLogo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_02_Home_Middle" class="method navigator-link" hash-for-method="Home_003_Middle_OwnBlock_Info">Home_003_Middle_OwnBlock_Info</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_04_Home_Footer" class="method navigator-link" hash-for-method="Home_004_Footer_Address">Home_004_Footer_Address</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_004_Gnb_CustormerCenter">Home_004_Gnb_CustormerCenter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_02_Home_Middle" class="method navigator-link" hash-for-method="Home_004_Middle_MyBlock_Star">Home_004_Middle_MyBlock_Star</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_005_Gnb_Start">Home_005_Gnb_Start</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_02_Home_Middle" class="method navigator-link" hash-for-method="Home_005_Middle_MyBlock_Enter">Home_005_Middle_MyBlock_Enter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_006_Gnb_MyMenu">Home_006_Gnb_MyMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_007_Gnb_MyMenu_MyBlock">Home_007_Gnb_MyMenu_MyBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_008_Gnb_MyMenu_OwnBlock">Home_008_Gnb_MyMenu_OwnBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_02_Home_Middle" class="method navigator-link" hash-for-method="Home_008_Middle_LineBanner">Home_008_Middle_LineBanner</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_009_Gnb_MyMenu_MakeBlock">Home_009_Gnb_MyMenu_MakeBlock</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_010_Gnb_MyMenu_Character">Home_010_Gnb_MyMenu_Character</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_011_Gnb_MyMenu_Setting">Home_011_Gnb_MyMenu_Setting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_012_Gnb_MyMenu_LogOut">Home_012_Gnb_MyMenu_LogOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_01_Home_Gnb" class="method navigator-link" hash-for-method="Home_013_Gnb_MyMenu_LogOut_Complete">Home_013_Gnb_MyMenu_LogOut_Complete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_001_HomeBtn">InGame_001_HomeBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_002_MyMenu_Character">InGame_002_MyMenu_Character</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_003_MyMenu_Setting">InGame_003_MyMenu_Setting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_004_BlockTitle">InGame_004_BlockTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_005_BlockFollow">InGame_005_BlockFollow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_006_BlockUnfollow">InGame_006_BlockUnfollow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_007_ZoomOut">InGame_007_ZoomOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_008_ZoomIn">InGame_008_ZoomIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_009_User">InGame_009_User</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_010_MenuBtn">InGame_010_MenuBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_011_SearchNickname">InGame_011_SearchNickname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_012_CloseMenu">InGame_012_CloseMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_013_Open_Minimap">InGame_013_Open_Minimap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_014_Close_Minimap">InGame_014_Close_Minimap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_015_Open_Notice">InGame_015_Open_Notice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_016_Close_Notice">InGame_016_Close_Notice</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_017_AllChatting">InGame_017_AllChatting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_018_OnOff_Chatting">InGame_018_OnOff_Chatting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_019_FilterEffect">InGame_019_FilterEffect</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_020_Emoji">InGame_020_Emoji</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_021_ShareScreen">InGame_021_ShareScreen</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_022_OnOff_Mike">InGame_022_OnOff_Mike</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_05_InGame" class="method navigator-link" hash-for-method="InGame_023_OnOff_Camera">InGame_023_OnOff_Camera</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_001_MyMenu_MediaSetting">Setting_001_MyMenu_MediaSetting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_002_MediaSetting_OnOffMike">Setting_002_MediaSetting_OnOffMike</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_003_MediaSetting_OnOffCamera">Setting_003_MediaSetting_OnOffCamera</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_004_MediaSetting_Filter">Setting_004_MediaSetting_Filter</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_005_MediaSetting_BG">Setting_005_MediaSetting_BG</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_006_MediaSetting_Save">Setting_006_MediaSetting_Save</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_007_ProfileSetting">Setting_007_ProfileSetting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="test.java.Func_06_Setting" class="method navigator-link" hash-for-method="Setting_008_ProfileSetting_Nick_Guide">Setting_008_ProfileSetting_Nick_Guide</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -198,20 +492,404 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Default_suite" class="panel Default_suite">
-          <div class="suite-Default_suite-class-passed">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.java.Func_07_MakeBlock</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MakeBlock_001_Enter">
+                  </a> <!-- MakeBlock_001_Enter -->
+                  <span class="method-name">MakeBlock_001_Enter</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/main/div/div[2]/section/div[1]/div[2]/a[2] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByXpath(Common.java:39)
+	at test.java.Func_07_MakeBlock.MakeBlock_001_Enter(Func_07_MakeBlock.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MakeBlock_002_Preset">
+                  </a> <!-- MakeBlock_002_Preset -->
+                  <span class="method-name">MakeBlock_002_Preset</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), &apos;#화이트컨퍼런스홀&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByText(Common.java:31)
+	at test.java.Func_07_MakeBlock.MakeBlock_002_Preset(Func_07_MakeBlock.java:38)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MakeBlock_003_Preset_Check">
+                  </a> <!-- MakeBlock_003_Preset_Check -->
+                  <span class="method-name">MakeBlock_003_Preset_Check</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), &apos;#화이트컨퍼런스홀&apos;)] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.Assert_ExistByText(Common.java:112)
+	at test.java.Func_07_MakeBlock.MakeBlock_003_Preset_Check(Func_07_MakeBlock.java:45)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MakeBlock_004_Preset_CheckBtn">
+                  </a> <!-- MakeBlock_004_Preset_CheckBtn -->
+                  <span class="method-name">MakeBlock_004_Preset_CheckBtn</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[15]/div/div/div[2]/div[2]/button&quot;}
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fa32fc1c745d2b91d28697145b1e0cc, findElement {using=xpath, value=/html/body/div[15]/div/div/div[2]/div[2]/button}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at test.java.Func_07_MakeBlock.MakeBlock_004_Preset_CheckBtn(Func_07_MakeBlock.java:58)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MakeBlock_005_Preset_InputName">
+                  </a> <!-- MakeBlock_005_Preset_InputName -->
+                  <span class="method-name">MakeBlock_005_Preset_InputName</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input&quot;}
+  (Session info: chrome=103.0.5060.66)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1fa32fc1c745d2b91d28697145b1e0cc, findElement {using=xpath, value=/html/body/div[15]/div/div/div[2]/div[2]/div[2]/div/input}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+	at main.java.Common.InputTextXpath(Common.java:167)
+	at test.java.Func_07_MakeBlock.MakeBlock_005_Preset_InputName(Func_07_MakeBlock.java:70)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MakeBlock_006_Preset_Make">
+                  </a> <!-- MakeBlock_006_Preset_Make -->
+                  <span class="method-name">MakeBlock_006_Preset_Make</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[15]/div/div/div[2]/div[2]/button (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByXpath(Common.java:39)
+	at test.java.Func_07_MakeBlock.MakeBlock_006_Preset_Make(Func_07_MakeBlock.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.java.Func_02_Home_Middle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_006_Middle_Make_Block">
+                  </a> <!-- Home_006_Middle_Make_Block -->
+                  <span class="method-name">Home_006_Middle_Make_Block</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [https://2ndblock.com/space] but found [https://2ndblock.com/room/IqTReceUpCUHWomkwYBF]
+	at main.java.Common.Assert_CheckCurrentUrl(Common.java:155)
+	at test.java.Func_02_Home_Middle.Home_006_Middle_Make_Block(Func_02_Home_Middle.java:98)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_007_Middle_Join_Block">
+                  </a> <!-- Home_007_Middle_Join_Block -->
+                  <span class="method-name">Home_007_Middle_Join_Block</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/main/div/div[2]/section/div[2]/div[2]/a[1]/div[1]/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;DESKTOP-IIOPE3V&apos;, ip: &apos;172.17.160.179&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62355/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1fa32fc1c745d2b91d28697145b1e0cc
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at main.java.Common.clickByXpath(Common.java:39)
+	at test.java.Func_02_Home_Middle.Home_007_Middle_Join_Block(Func_02_Home_Middle.java:105)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.Func_03_Character_Customization</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_001_MyMenu_Character">
+                  </a> <!-- Character_001_MyMenu_Character -->
+                  <span class="method-name">Character_001_MyMenu_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_002_Skin">
+                  </a> <!-- Character_002_Skin -->
+                  <span class="method-name">Character_002_Skin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_003_Hair">
+                  </a> <!-- Character_003_Hair -->
+                  <span class="method-name">Character_003_Hair</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_004_Top">
+                  </a> <!-- Character_004_Top -->
+                  <span class="method-name">Character_004_Top</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_005_Bottom">
+                  </a> <!-- Character_005_Bottom -->
+                  <span class="method-name">Character_005_Bottom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_006_Bag">
+                  </a> <!-- Character_006_Bag -->
+                  <span class="method-name">Character_006_Bag</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_007_Cap">
+                  </a> <!-- Character_007_Cap -->
+                  <span class="method-name">Character_007_Cap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_008_Shose">
+                  </a> <!-- Character_008_Shose -->
+                  <span class="method-name">Character_008_Shose</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_009_Socks">
+                  </a> <!-- Character_009_Socks -->
+                  <span class="method-name">Character_009_Socks</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_010_Accessories">
+                  </a> <!-- Character_010_Accessories -->
+                  <span class="method-name">Character_010_Accessories</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Character_011_Save">
+                  </a> <!-- Character_011_Save -->
+                  <span class="method-name">Character_011_Save</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.Func_01_Home_Gnb</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_001_Gnb_About">
+                  </a> <!-- Home_001_Gnb_About -->
+                  <span class="method-name">Home_001_Gnb_About</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_002_Gnb_About_Start">
+                  </a> <!-- Home_002_Gnb_About_Start -->
+                  <span class="method-name">Home_002_Gnb_About_Start</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_003_Gnb_MainLogo">
+                  </a> <!-- Home_003_Gnb_MainLogo -->
+                  <span class="method-name">Home_003_Gnb_MainLogo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_004_Gnb_CustormerCenter">
+                  </a> <!-- Home_004_Gnb_CustormerCenter -->
+                  <span class="method-name">Home_004_Gnb_CustormerCenter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_005_Gnb_Start">
+                  </a> <!-- Home_005_Gnb_Start -->
+                  <span class="method-name">Home_005_Gnb_Start</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_006_Gnb_MyMenu">
+                  </a> <!-- Home_006_Gnb_MyMenu -->
+                  <span class="method-name">Home_006_Gnb_MyMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_007_Gnb_MyMenu_MyBlock">
+                  </a> <!-- Home_007_Gnb_MyMenu_MyBlock -->
+                  <span class="method-name">Home_007_Gnb_MyMenu_MyBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_008_Gnb_MyMenu_OwnBlock">
+                  </a> <!-- Home_008_Gnb_MyMenu_OwnBlock -->
+                  <span class="method-name">Home_008_Gnb_MyMenu_OwnBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_009_Gnb_MyMenu_MakeBlock">
+                  </a> <!-- Home_009_Gnb_MyMenu_MakeBlock -->
+                  <span class="method-name">Home_009_Gnb_MyMenu_MakeBlock</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_010_Gnb_MyMenu_Character">
+                  </a> <!-- Home_010_Gnb_MyMenu_Character -->
+                  <span class="method-name">Home_010_Gnb_MyMenu_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_011_Gnb_MyMenu_Setting">
+                  </a> <!-- Home_011_Gnb_MyMenu_Setting -->
+                  <span class="method-name">Home_011_Gnb_MyMenu_Setting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_012_Gnb_MyMenu_LogOut">
+                  </a> <!-- Home_012_Gnb_MyMenu_LogOut -->
+                  <span class="method-name">Home_012_Gnb_MyMenu_LogOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_013_Gnb_MyMenu_LogOut_Complete">
+                  </a> <!-- Home_013_Gnb_MyMenu_LogOut_Complete -->
+                  <span class="method-name">Home_013_Gnb_MyMenu_LogOut_Complete</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.Func_07_MakeBlock</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_000_Login">
+                  </a> <!-- Home_000_Login -->
+                  <span class="method-name">Home_000_Login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
               <span class="class-name">test.java.Func_06_Setting</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="InGame_000_HomeBtn">
-                  </a> <!-- InGame_000_HomeBtn -->
-                  <span class="method-name">InGame_000_HomeBtn</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="Setting_001_MyMenu_MediaSetting">
@@ -268,291 +946,1043 @@
                   <span class="method-name">Setting_008_ProfileSetting_Nick_Guide</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.Func_04_Home_Footer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Setting_009_ProfileSetting_Nick_Xbtn">
-                  </a> <!-- Setting_009_ProfileSetting_Nick_Xbtn -->
-                  <span class="method-name">Setting_009_ProfileSetting_Nick_Xbtn</span>
+                  <a name="Home_001_Footer_MailTo">
+                  </a> <!-- Home_001_Footer_MailTo -->
+                  <span class="method-name">Home_001_Footer_MailTo</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Setting_010_ProfileSetting_Nick_1Text20">
-                  </a> <!-- Setting_010_ProfileSetting_Nick_1Text20 -->
-                  <span class="method-name">Setting_010_ProfileSetting_Nick_1Text20</span>
+                  <a name="Home_002_Footer_Term">
+                  </a> <!-- Home_002_Footer_Term -->
+                  <span class="method-name">Home_002_Footer_Term</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Setting_011_ProfileSetting_Nick_NotText">
-                  </a> <!-- Setting_011_ProfileSetting_Nick_NotText -->
-                  <span class="method-name">Setting_011_ProfileSetting_Nick_NotText</span>
+                  <a name="Home_003_Footer_Privacy">
+                  </a> <!-- Home_003_Footer_Privacy -->
+                  <span class="method-name">Home_003_Footer_Privacy</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="Setting_012_ProfileSetting_Nick_Duplicate">
-                  </a> <!-- Setting_012_ProfileSetting_Nick_Duplicate -->
-                  <span class="method-name">Setting_012_ProfileSetting_Nick_Duplicate</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Setting_013_ProfileSetting_Nick_Clear">
-                  </a> <!-- Setting_013_ProfileSetting_Nick_Clear -->
-                  <span class="method-name">Setting_013_ProfileSetting_Nick_Clear</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Setting_014_ProfileSetting_Nick_Normal">
-                  </a> <!-- Setting_014_ProfileSetting_Nick_Normal -->
-                  <span class="method-name">Setting_014_ProfileSetting_Nick_Normal</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Setting_015_ProfileSetting_ADagree">
-                  </a> <!-- Setting_015_ProfileSetting_ADagree -->
-                  <span class="method-name">Setting_015_ProfileSetting_ADagree</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="Setting_016_ProfileSetting_ReCheck">
-                  </a> <!-- Setting_016_ProfileSetting_ReCheck -->
-                  <span class="method-name">Setting_016_ProfileSetting_ReCheck</span>
+                  <a name="Home_004_Footer_Address">
+                  </a> <!-- Home_004_Footer_Address -->
+                  <span class="method-name">Home_004_Footer_Address</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Default_suite-class-passed -->
-        </div> <!-- panel Default_suite -->
-        <div panel-name="test-xml-Default_suite" class="panel">
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.Func_02_Home_Middle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_001_Middle_Banner_Logout">
+                  </a> <!-- Home_001_Middle_Banner_Logout -->
+                  <span class="method-name">Home_001_Middle_Banner_Logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_002_Middle_Banner_Top">
+                  </a> <!-- Home_002_Middle_Banner_Top -->
+                  <span class="method-name">Home_002_Middle_Banner_Top</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_003_Middle_OwnBlock_Info">
+                  </a> <!-- Home_003_Middle_OwnBlock_Info -->
+                  <span class="method-name">Home_003_Middle_OwnBlock_Info</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_004_Middle_MyBlock_Star">
+                  </a> <!-- Home_004_Middle_MyBlock_Star -->
+                  <span class="method-name">Home_004_Middle_MyBlock_Star</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_005_Middle_MyBlock_Enter">
+                  </a> <!-- Home_005_Middle_MyBlock_Enter -->
+                  <span class="method-name">Home_005_Middle_MyBlock_Enter</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Home_008_Middle_LineBanner">
+                  </a> <!-- Home_008_Middle_LineBanner -->
+                  <span class="method-name">Home_008_Middle_LineBanner</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.java.Func_05_InGame</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_001_HomeBtn">
+                  </a> <!-- InGame_001_HomeBtn -->
+                  <span class="method-name">InGame_001_HomeBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_002_MyMenu_Character">
+                  </a> <!-- InGame_002_MyMenu_Character -->
+                  <span class="method-name">InGame_002_MyMenu_Character</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_003_MyMenu_Setting">
+                  </a> <!-- InGame_003_MyMenu_Setting -->
+                  <span class="method-name">InGame_003_MyMenu_Setting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_004_BlockTitle">
+                  </a> <!-- InGame_004_BlockTitle -->
+                  <span class="method-name">InGame_004_BlockTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_005_BlockFollow">
+                  </a> <!-- InGame_005_BlockFollow -->
+                  <span class="method-name">InGame_005_BlockFollow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_006_BlockUnfollow">
+                  </a> <!-- InGame_006_BlockUnfollow -->
+                  <span class="method-name">InGame_006_BlockUnfollow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_007_ZoomOut">
+                  </a> <!-- InGame_007_ZoomOut -->
+                  <span class="method-name">InGame_007_ZoomOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_008_ZoomIn">
+                  </a> <!-- InGame_008_ZoomIn -->
+                  <span class="method-name">InGame_008_ZoomIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_009_User">
+                  </a> <!-- InGame_009_User -->
+                  <span class="method-name">InGame_009_User</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_010_MenuBtn">
+                  </a> <!-- InGame_010_MenuBtn -->
+                  <span class="method-name">InGame_010_MenuBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_011_SearchNickname">
+                  </a> <!-- InGame_011_SearchNickname -->
+                  <span class="method-name">InGame_011_SearchNickname</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_012_CloseMenu">
+                  </a> <!-- InGame_012_CloseMenu -->
+                  <span class="method-name">InGame_012_CloseMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_013_Open_Minimap">
+                  </a> <!-- InGame_013_Open_Minimap -->
+                  <span class="method-name">InGame_013_Open_Minimap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_014_Close_Minimap">
+                  </a> <!-- InGame_014_Close_Minimap -->
+                  <span class="method-name">InGame_014_Close_Minimap</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_015_Open_Notice">
+                  </a> <!-- InGame_015_Open_Notice -->
+                  <span class="method-name">InGame_015_Open_Notice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_016_Close_Notice">
+                  </a> <!-- InGame_016_Close_Notice -->
+                  <span class="method-name">InGame_016_Close_Notice</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_017_AllChatting">
+                  </a> <!-- InGame_017_AllChatting -->
+                  <span class="method-name">InGame_017_AllChatting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_018_OnOff_Chatting">
+                  </a> <!-- InGame_018_OnOff_Chatting -->
+                  <span class="method-name">InGame_018_OnOff_Chatting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_019_FilterEffect">
+                  </a> <!-- InGame_019_FilterEffect -->
+                  <span class="method-name">InGame_019_FilterEffect</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_020_Emoji">
+                  </a> <!-- InGame_020_Emoji -->
+                  <span class="method-name">InGame_020_Emoji</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_021_ShareScreen">
+                  </a> <!-- InGame_021_ShareScreen -->
+                  <span class="method-name">InGame_021_ShareScreen</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_022_OnOff_Mike">
+                  </a> <!-- InGame_022_OnOff_Mike -->
+                  <span class="method-name">InGame_022_OnOff_Mike</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="InGame_023_OnOff_Camera">
+                  </a> <!-- InGame_023_OnOff_Camera -->
+                  <span class="method-name">InGame_023_OnOff_Camera</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\riley\AppData\Local\Temp\testng-eclipse-279646242\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\riley\eclipse-workspace\secondBlock\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;test.java.Func_01_Home_Gnb&quot;/&gt;
+      &lt;class name=&quot;test.java.Func_02_Home_Middle&quot;/&gt;
+      &lt;class name=&quot;test.java.Func_03_Character_Customization&quot;/&gt;
+      &lt;class name=&quot;test.java.Func_04_Home_Footer&quot;/&gt;
+      &lt;class name=&quot;test.java.Func_05_InGame&quot;/&gt;
       &lt;class name=&quot;test.java.Func_06_Setting&quot;/&gt;
+      &lt;class name=&quot;test.java.Func_07_MakeBlock&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Default test --&gt;
-&lt;/suite&gt; &lt;!-- Default suite --&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Default_suite" class="panel">
+        <div panel-name="testlist-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Default suite</span>
+            <span class="header-content">Tests for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Default test (1 class)</span>
+                <span class="test-name">Test (7 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Default_suite" class="panel">
+        <div panel-name="group-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Default suite</span>
+            <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Default_suite" class="panel">
+        <div panel-name="times-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Default suite</span>
+            <span class="header-content">Times for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Default_suite');
-function tableData_Default_suite() {
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(17);
+data.addRows(74);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'InGame_000_HomeBtn')
-data.setCell(0, 2, 'test.java.Func_06_Setting')
-data.setCell(0, 3, 28378);
+data.setCell(0, 1, 'Home_001_Middle_Banner_Logout')
+data.setCell(0, 2, 'test.java.Func_02_Home_Middle')
+data.setCell(0, 3, 47249);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'Setting_001_MyMenu_MediaSetting')
-data.setCell(1, 2, 'test.java.Func_06_Setting')
-data.setCell(1, 3, 11089);
+data.setCell(1, 1, 'Home_005_Gnb_Start')
+data.setCell(1, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(1, 3, 22647);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Setting_010_ProfileSetting_Nick_1Text20')
-data.setCell(2, 2, 'test.java.Func_06_Setting')
-data.setCell(2, 3, 10798);
+data.setCell(2, 1, 'Home_008_Middle_LineBanner')
+data.setCell(2, 2, 'test.java.Func_02_Home_Middle')
+data.setCell(2, 3, 19414);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'Setting_016_ProfileSetting_ReCheck')
-data.setCell(3, 2, 'test.java.Func_06_Setting')
-data.setCell(3, 3, 10292);
+data.setCell(3, 1, 'Home_002_Middle_Banner_Top')
+data.setCell(3, 2, 'test.java.Func_02_Home_Middle')
+data.setCell(3, 3, 17946);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Setting_002_MediaSetting_OnOffMike')
-data.setCell(4, 2, 'test.java.Func_06_Setting')
-data.setCell(4, 3, 8327);
+data.setCell(4, 1, 'Character_008_Shose')
+data.setCell(4, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(4, 3, 17304);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'Setting_003_MediaSetting_OnOffCamera')
-data.setCell(5, 2, 'test.java.Func_06_Setting')
-data.setCell(5, 3, 8319);
+data.setCell(5, 1, 'Home_004_Gnb_CustormerCenter')
+data.setCell(5, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(5, 3, 16240);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Setting_007_ProfileSetting')
-data.setCell(6, 2, 'test.java.Func_06_Setting')
-data.setCell(6, 3, 8275);
+data.setCell(6, 1, 'Home_007_Gnb_MyMenu_MyBlock')
+data.setCell(6, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(6, 3, 14689);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'Setting_015_ProfileSetting_ADagree')
-data.setCell(7, 2, 'test.java.Func_06_Setting')
-data.setCell(7, 3, 8246);
+data.setCell(7, 1, 'Character_006_Bag')
+data.setCell(7, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(7, 3, 14269);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'Setting_004_MediaSetting_Filter')
-data.setCell(8, 2, 'test.java.Func_06_Setting')
-data.setCell(8, 3, 8242);
+data.setCell(8, 1, 'InGame_016_Close_Notice')
+data.setCell(8, 2, 'test.java.Func_05_InGame')
+data.setCell(8, 3, 14185);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'Setting_006_MediaSetting_Save')
-data.setCell(9, 2, 'test.java.Func_06_Setting')
-data.setCell(9, 3, 7881);
+data.setCell(9, 1, 'InGame_020_Emoji')
+data.setCell(9, 2, 'test.java.Func_05_InGame')
+data.setCell(9, 3, 12551);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'Setting_012_ProfileSetting_Nick_Duplicate')
-data.setCell(10, 2, 'test.java.Func_06_Setting')
-data.setCell(10, 3, 7202);
+data.setCell(10, 1, 'Character_010_Accessories')
+data.setCell(10, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(10, 3, 12394);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'Setting_005_MediaSetting_BG')
-data.setCell(11, 2, 'test.java.Func_06_Setting')
-data.setCell(11, 3, 6390);
+data.setCell(11, 1, 'InGame_001_HomeBtn')
+data.setCell(11, 2, 'test.java.Func_05_InGame')
+data.setCell(11, 3, 11549);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'Setting_013_ProfileSetting_Nick_Clear')
-data.setCell(12, 2, 'test.java.Func_06_Setting')
-data.setCell(12, 3, 6146);
+data.setCell(12, 1, 'Character_005_Bottom')
+data.setCell(12, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(12, 3, 11279);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'Setting_009_ProfileSetting_Nick_Xbtn')
-data.setCell(13, 2, 'test.java.Func_06_Setting')
-data.setCell(13, 3, 4142);
+data.setCell(13, 1, 'MakeBlock_002_Preset')
+data.setCell(13, 2, 'test.java.Func_07_MakeBlock')
+data.setCell(13, 3, 10076);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'Setting_011_ProfileSetting_Nick_NotText')
-data.setCell(14, 2, 'test.java.Func_06_Setting')
-data.setCell(14, 3, 3110);
+data.setCell(14, 1, 'MakeBlock_003_Preset_Check')
+data.setCell(14, 2, 'test.java.Func_07_MakeBlock')
+data.setCell(14, 3, 10075);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'Setting_008_ProfileSetting_Nick_Guide')
-data.setCell(15, 2, 'test.java.Func_06_Setting')
-data.setCell(15, 3, 2060);
+data.setCell(15, 1, 'MakeBlock_006_Preset_Make')
+data.setCell(15, 2, 'test.java.Func_07_MakeBlock')
+data.setCell(15, 3, 10062);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'Setting_014_ProfileSetting_Nick_Normal')
-data.setCell(16, 2, 'test.java.Func_06_Setting')
-data.setCell(16, 3, 43);
-window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+data.setCell(16, 1, 'Home_007_Middle_Join_Block')
+data.setCell(16, 2, 'test.java.Func_02_Home_Middle')
+data.setCell(16, 3, 10045);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'MakeBlock_005_Preset_InputName')
+data.setCell(17, 2, 'test.java.Func_07_MakeBlock')
+data.setCell(17, 3, 10036);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'MakeBlock_004_Preset_CheckBtn')
+data.setCell(18, 2, 'test.java.Func_07_MakeBlock')
+data.setCell(18, 3, 10029);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'MakeBlock_001_Enter')
+data.setCell(19, 2, 'test.java.Func_07_MakeBlock')
+data.setCell(19, 3, 10016);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Home_008_Gnb_MyMenu_OwnBlock')
+data.setCell(20, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(20, 3, 9437);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'InGame_018_OnOff_Chatting')
+data.setCell(21, 2, 'test.java.Func_05_InGame')
+data.setCell(21, 3, 9425);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Character_004_Top')
+data.setCell(22, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(22, 3, 9371);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Home_009_Gnb_MyMenu_MakeBlock')
+data.setCell(23, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(23, 3, 9249);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'InGame_002_MyMenu_Character')
+data.setCell(24, 2, 'test.java.Func_05_InGame')
+data.setCell(24, 3, 9154);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'InGame_003_MyMenu_Setting')
+data.setCell(25, 2, 'test.java.Func_05_InGame')
+data.setCell(25, 3, 8709);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Setting_002_MediaSetting_OnOffMike')
+data.setCell(26, 2, 'test.java.Func_06_Setting')
+data.setCell(26, 3, 8437);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Home_012_Gnb_MyMenu_LogOut')
+data.setCell(27, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(27, 3, 8419);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Home_010_Gnb_MyMenu_Character')
+data.setCell(28, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(28, 3, 8390);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Setting_007_ProfileSetting')
+data.setCell(29, 2, 'test.java.Func_06_Setting')
+data.setCell(29, 3, 8369);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'InGame_005_BlockFollow')
+data.setCell(30, 2, 'test.java.Func_05_InGame')
+data.setCell(30, 3, 8368);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Home_011_Gnb_MyMenu_Setting')
+data.setCell(31, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(31, 3, 8329);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'InGame_023_OnOff_Camera')
+data.setCell(32, 2, 'test.java.Func_05_InGame')
+data.setCell(32, 3, 8305);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'InGame_022_OnOff_Mike')
+data.setCell(33, 2, 'test.java.Func_05_InGame')
+data.setCell(33, 3, 8295);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Setting_003_MediaSetting_OnOffCamera')
+data.setCell(34, 2, 'test.java.Func_06_Setting')
+data.setCell(34, 3, 8291);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'InGame_006_BlockUnfollow')
+data.setCell(35, 2, 'test.java.Func_05_InGame')
+data.setCell(35, 3, 8218);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'Setting_004_MediaSetting_Filter')
+data.setCell(36, 2, 'test.java.Func_06_Setting')
+data.setCell(36, 3, 8217);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'Setting_006_MediaSetting_Save')
+data.setCell(37, 2, 'test.java.Func_06_Setting')
+data.setCell(37, 3, 8072);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'Home_002_Footer_Term')
+data.setCell(38, 2, 'test.java.Func_04_Home_Footer')
+data.setCell(38, 3, 7886);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'Home_003_Footer_Privacy')
+data.setCell(39, 2, 'test.java.Func_04_Home_Footer')
+data.setCell(39, 3, 7686);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'Home_005_Middle_MyBlock_Enter')
+data.setCell(40, 2, 'test.java.Func_02_Home_Middle')
+data.setCell(40, 3, 7360);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'Character_003_Hair')
+data.setCell(41, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(41, 3, 7241);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'InGame_019_FilterEffect')
+data.setCell(42, 2, 'test.java.Func_05_InGame')
+data.setCell(42, 3, 6570);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'Setting_005_MediaSetting_BG')
+data.setCell(43, 2, 'test.java.Func_06_Setting')
+data.setCell(43, 3, 6431);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'Setting_001_MyMenu_MediaSetting')
+data.setCell(44, 2, 'test.java.Func_06_Setting')
+data.setCell(44, 3, 6387);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'Home_003_Middle_OwnBlock_Info')
+data.setCell(45, 2, 'test.java.Func_02_Home_Middle')
+data.setCell(45, 3, 6171);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'Character_011_Save')
+data.setCell(46, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(46, 3, 6158);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'Character_001_MyMenu_Character')
+data.setCell(47, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(47, 3, 5223);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'Character_002_Skin')
+data.setCell(48, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(48, 3, 5183);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'Character_007_Cap')
+data.setCell(49, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(49, 3, 5173);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'Character_009_Socks')
+data.setCell(50, 2, 'test.java.Func_03_Character_Customization')
+data.setCell(50, 3, 5138);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'Home_013_Gnb_MyMenu_LogOut_Complete')
+data.setCell(51, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(51, 3, 5027);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'Home_001_Gnb_About')
+data.setCell(52, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(52, 3, 4750);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'Home_002_Gnb_About_Start')
+data.setCell(53, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(53, 3, 4665);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'InGame_010_MenuBtn')
+data.setCell(54, 2, 'test.java.Func_05_InGame')
+data.setCell(54, 3, 4269);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'InGame_015_Open_Notice')
+data.setCell(55, 2, 'test.java.Func_05_InGame')
+data.setCell(55, 3, 4230);
+data.setCell(56, 0, 56)
+data.setCell(56, 1, 'InGame_014_Close_Minimap')
+data.setCell(56, 2, 'test.java.Func_05_InGame')
+data.setCell(56, 3, 4220);
+data.setCell(57, 0, 57)
+data.setCell(57, 1, 'InGame_013_Open_Minimap')
+data.setCell(57, 2, 'test.java.Func_05_InGame')
+data.setCell(57, 3, 4215);
+data.setCell(58, 0, 58)
+data.setCell(58, 1, 'Home_003_Gnb_MainLogo')
+data.setCell(58, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(58, 3, 4152);
+data.setCell(59, 0, 59)
+data.setCell(59, 1, 'Home_006_Gnb_MyMenu')
+data.setCell(59, 2, 'test.java.Func_01_Home_Gnb')
+data.setCell(59, 3, 4141);
+data.setCell(60, 0, 60)
+data.setCell(60, 1, 'InGame_011_SearchNickname')
+data.setCell(60, 2, 'test.java.Func_05_InGame')
+data.setCell(60, 3, 3230);
+data.setCell(61, 0, 61)
+data.setCell(61, 1, 'InGame_021_ShareScreen')
+data.setCell(61, 2, 'test.java.Func_05_InGame')
+data.setCell(61, 3, 3166);
+data.setCell(62, 0, 62)
+data.setCell(62, 1, 'InGame_007_ZoomOut')
+data.setCell(62, 2, 'test.java.Func_05_InGame')
+data.setCell(62, 3, 2165);
+data.setCell(63, 0, 63)
+data.setCell(63, 1, 'InGame_008_ZoomIn')
+data.setCell(63, 2, 'test.java.Func_05_InGame')
+data.setCell(63, 3, 2132);
+data.setCell(64, 0, 64)
+data.setCell(64, 1, 'Home_004_Middle_MyBlock_Star')
+data.setCell(64, 2, 'test.java.Func_02_Home_Middle')
+data.setCell(64, 3, 2124);
+data.setCell(65, 0, 65)
+data.setCell(65, 1, 'InGame_012_CloseMenu')
+data.setCell(65, 2, 'test.java.Func_05_InGame')
+data.setCell(65, 3, 2107);
+data.setCell(66, 0, 66)
+data.setCell(66, 1, 'InGame_004_BlockTitle')
+data.setCell(66, 2, 'test.java.Func_05_InGame')
+data.setCell(66, 3, 2103);
+data.setCell(67, 0, 67)
+data.setCell(67, 1, 'Home_006_Middle_Make_Block')
+data.setCell(67, 2, 'test.java.Func_02_Home_Middle')
+data.setCell(67, 3, 2093);
+data.setCell(68, 0, 68)
+data.setCell(68, 1, 'Setting_008_ProfileSetting_Nick_Guide')
+data.setCell(68, 2, 'test.java.Func_06_Setting')
+data.setCell(68, 3, 2058);
+data.setCell(69, 0, 69)
+data.setCell(69, 1, 'InGame_017_AllChatting')
+data.setCell(69, 2, 'test.java.Func_05_InGame')
+data.setCell(69, 3, 1365);
+data.setCell(70, 0, 70)
+data.setCell(70, 1, 'Home_001_Footer_MailTo')
+data.setCell(70, 2, 'test.java.Func_04_Home_Footer')
+data.setCell(70, 3, 48);
+data.setCell(71, 0, 71)
+data.setCell(71, 1, 'InGame_009_User')
+data.setCell(71, 2, 'test.java.Func_05_InGame')
+data.setCell(71, 3, 33);
+data.setCell(72, 0, 72)
+data.setCell(72, 1, 'Home_004_Footer_Address')
+data.setCell(72, 2, 'test.java.Func_04_Home_Footer')
+data.setCell(72, 3, 24);
+data.setCell(73, 0, 73)
+data.setCell(73, 1, 'Home_000_Login')
+data.setCell(73, 2, 'test.java.Func_07_MakeBlock')
+data.setCell(73, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 2 minutes</span>
-              <div id="times-div-Default_suite">
-              </div> <!-- times-div-Default_suite -->
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Default_suite" class="panel">
+        <div panel-name="reporter-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Default suite</span>
+            <span class="header-content">Reporter output for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Default_suite" class="panel">
+        <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">12 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.Func_03_Character_Customization</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createAndStartService</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.Func_07_MakeBlock</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createAndStartService</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.Func_06_Setting</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createAndStartService</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.Func_05_InGame</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createAndStartService</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.Func_04_Home_Footer</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createAndStartService</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.java.Func_02_Home_Middle</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">createAndStartService</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Default_suite" class="panel">
+        <div panel-name="chronological-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.java.Func_06_Setting</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.java.Func_01_Home_Gnb</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">createAndStartService</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
-                <span class="method-name">InGame_000_HomeBtn</span>
-                <span class="method-start">2472 ms</span>
+                <span class="method-name">Home_001_Gnb_About</span>
+                <span class="method-start">3667 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">Home_002_Gnb_About_Start</span>
+                <span class="method-start">8419 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_003_Gnb_MainLogo</span>
+                <span class="method-start">13085 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_004_Gnb_CustormerCenter</span>
+                <span class="method-start">17238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_005_Gnb_Start</span>
+                <span class="method-start">33479 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_006_Gnb_MyMenu</span>
+                <span class="method-start">56129 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_007_Gnb_MyMenu_MyBlock</span>
+                <span class="method-start">60271 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_008_Gnb_MyMenu_OwnBlock</span>
+                <span class="method-start">74967 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_009_Gnb_MyMenu_MakeBlock</span>
+                <span class="method-start">84405 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_010_Gnb_MyMenu_Character</span>
+                <span class="method-start">93656 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_011_Gnb_MyMenu_Setting</span>
+                <span class="method-start">102046 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_012_Gnb_MyMenu_LogOut</span>
+                <span class="method-start">110376 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_013_Gnb_MyMenu_LogOut_Complete</span>
+                <span class="method-start">118796 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.Func_02_Home_Middle</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Home_001_Middle_Banner_Logout</span>
+                <span class="method-start">123826 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_002_Middle_Banner_Top</span>
+                <span class="method-start">171076 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_003_Middle_OwnBlock_Info</span>
+                <span class="method-start">189024 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_004_Middle_MyBlock_Star</span>
+                <span class="method-start">195200 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_005_Middle_MyBlock_Enter</span>
+                <span class="method-start">197325 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Home_006_Middle_Make_Block</span>
+                <span class="method-start">204687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Home_007_Middle_Join_Block</span>
+                <span class="method-start">206782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_008_Middle_LineBanner</span>
+                <span class="method-start">216837 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.Func_03_Character_Customization</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Character_001_MyMenu_Character</span>
+                <span class="method-start">236254 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_002_Skin</span>
+                <span class="method-start">241480 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_003_Hair</span>
+                <span class="method-start">246664 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_004_Top</span>
+                <span class="method-start">253906 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_005_Bottom</span>
+                <span class="method-start">263281 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_006_Bag</span>
+                <span class="method-start">274561 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_007_Cap</span>
+                <span class="method-start">288832 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_008_Shose</span>
+                <span class="method-start">294007 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_009_Socks</span>
+                <span class="method-start">311313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_010_Accessories</span>
+                <span class="method-start">316454 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Character_011_Save</span>
+                <span class="method-start">328848 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.Func_04_Home_Footer</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Home_001_Footer_MailTo</span>
+                <span class="method-start">335009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_002_Footer_Term</span>
+                <span class="method-start">335058 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_003_Footer_Privacy</span>
+                <span class="method-start">342946 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Home_004_Footer_Address</span>
+                <span class="method-start">350632 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.Func_05_InGame</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">InGame_001_HomeBtn</span>
+                <span class="method-start">350658 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_002_MyMenu_Character</span>
+                <span class="method-start">362208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_003_MyMenu_Setting</span>
+                <span class="method-start">371363 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_004_BlockTitle</span>
+                <span class="method-start">380072 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_005_BlockFollow</span>
+                <span class="method-start">382179 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_006_BlockUnfollow</span>
+                <span class="method-start">390547 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_007_ZoomOut</span>
+                <span class="method-start">398767 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_008_ZoomIn</span>
+                <span class="method-start">400933 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_009_User</span>
+                <span class="method-start">403066 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_010_MenuBtn</span>
+                <span class="method-start">403100 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_011_SearchNickname</span>
+                <span class="method-start">407372 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_012_CloseMenu</span>
+                <span class="method-start">410603 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_013_Open_Minimap</span>
+                <span class="method-start">412711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_014_Close_Minimap</span>
+                <span class="method-start">416928 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_015_Open_Notice</span>
+                <span class="method-start">421148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_016_Close_Notice</span>
+                <span class="method-start">425379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_017_AllChatting</span>
+                <span class="method-start">439565 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_018_OnOff_Chatting</span>
+                <span class="method-start">440931 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_019_FilterEffect</span>
+                <span class="method-start">450356 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_020_Emoji</span>
+                <span class="method-start">456927 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_021_ShareScreen</span>
+                <span class="method-start">469481 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_022_OnOff_Mike</span>
+                <span class="method-start">472648 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">InGame_023_OnOff_Camera</span>
+                <span class="method-start">480944 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.Func_06_Setting</div> <!-- chronological-class-name -->
+              <div class="test-method">
                 <span class="method-name">Setting_001_MyMenu_MediaSetting</span>
-                <span class="method-start">30853 ms</span>
+                <span class="method-start">489250 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Setting_002_MediaSetting_OnOffMike</span>
-                <span class="method-start">41943 ms</span>
+                <span class="method-start">495639 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Setting_003_MediaSetting_OnOffCamera</span>
-                <span class="method-start">50271 ms</span>
+                <span class="method-start">504080 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Setting_004_MediaSetting_Filter</span>
-                <span class="method-start">58596 ms</span>
+                <span class="method-start">512374 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Setting_005_MediaSetting_BG</span>
-                <span class="method-start">66840 ms</span>
+                <span class="method-start">520592 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Setting_006_MediaSetting_Save</span>
-                <span class="method-start">73233 ms</span>
+                <span class="method-start">527024 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Setting_007_ProfileSetting</span>
-                <span class="method-start">81116 ms</span>
+                <span class="method-start">535096 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">Setting_008_ProfileSetting_Nick_Guide</span>
-                <span class="method-start">89392 ms</span>
+                <span class="method-start">543465 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.Func_07_MakeBlock</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">Home_000_Login</span>
+                <span class="method-start">545526 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Setting_009_ProfileSetting_Nick_Xbtn</span>
-                <span class="method-start">91454 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MakeBlock_001_Enter</span>
+                <span class="method-start">545528 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Setting_010_ProfileSetting_Nick_1Text20</span>
-                <span class="method-start">95597 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MakeBlock_002_Preset</span>
+                <span class="method-start">555546 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Setting_011_ProfileSetting_Nick_NotText</span>
-                <span class="method-start">106396 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MakeBlock_003_Preset_Check</span>
+                <span class="method-start">565627 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Setting_012_ProfileSetting_Nick_Duplicate</span>
-                <span class="method-start">109507 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MakeBlock_004_Preset_CheckBtn</span>
+                <span class="method-start">575703 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Setting_013_ProfileSetting_Nick_Clear</span>
-                <span class="method-start">116710 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MakeBlock_005_Preset_InputName</span>
+                <span class="method-start">585733 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">Setting_014_ProfileSetting_Nick_Normal</span>
-                <span class="method-start">122859 ms</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MakeBlock_006_Preset_Make</span>
+                <span class="method-start">595775 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Setting_015_ProfileSetting_ADagree</span>
-                <span class="method-start">122904 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">Setting_016_ProfileSetting_ReCheck</span>
-                <span class="method-start">131152 ms</span>
-              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.java.Func_01_Home_Gnb</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">quit</span>
-                <span class="method-start">141446 ms</span>
+                <span class="method-start">605838 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
