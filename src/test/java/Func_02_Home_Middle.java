@@ -94,7 +94,7 @@ public class Func_02_Home_Middle extends SetUp{
 		@Test
 		public void Home_006_Middle_Make_Block() throws InterruptedException {
 	
-			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/section/div[1]/div[2]/a[2]"); // 블록 만들기 + 클릭
+			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/section/div[1]/div[2]/a[3]/div"); // 블록 만들기 + 클릭
 			Common.Assert_CheckCurrentUrl("https://2ndblock.com/space"); //블록 만들기 페이지 확인
 		    Common.Back(); //이번 버튼으로 메인 페이지 이동
 	  }
