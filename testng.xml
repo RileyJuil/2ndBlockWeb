@@ -3,8 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="test.java.DeleteAccount"/>
-      <class name="test.java.JoinAccount"/>
+<!--  <class name="test.java.DeleteAccount"/>
+      <class name="test.java.JoinAccount"/> -->
       <class name="test.java.Func_01_Home_Gnb"/>
       <class name="test.java.Func_02_Home_Middle"/>
       <class name="test.java.Func_03_Character_Customization"/>
