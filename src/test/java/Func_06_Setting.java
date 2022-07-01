@@ -1,6 +1,8 @@
 package test.java;
 
 
+import java.util.Date;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -138,7 +140,10 @@ public class Func_06_Setting extends SetUp{
 		@Test
 		public void Setting_014_ProfileSetting_Nick_Normal() throws InterruptedException {
 
-		    driver.findElement(By.xpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[1]/div[2]/div[2]/input")).sendKeys("페이스북(라일리)new"); //닉네임 입력
+			Date date = new Date();
+			System.out.println(date.toString());
+			
+		    driver.findElement(By.xpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[1]/div[2]/div[2]/input")).sendKeys("라일리"+ date.toString()); //닉네임 입력
 		    
 		  }
 		
