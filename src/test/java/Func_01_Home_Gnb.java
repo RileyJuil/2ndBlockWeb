@@ -15,8 +15,10 @@ public class Func_01_Home_Gnb extends SetUp{
 	
 			//Common.facebookLogin(); //페이스북 로그인
 			//로그아웃하는 부분을 넎어줌
-			Home_012_Gnb_MyMenu_LogOut();
-			Home_013_Gnb_MyMenu_LogOut_Complete();
+			
+			//220701 가입 30일 이슈로 잠시 막음
+			//Home_012_Gnb_MyMenu_LogOut();
+			//Home_013_Gnb_MyMenu_LogOut_Complete();
 
 			Common.clickByText("세컨블록 소개");
 			Common.Assert_CheckCurrentUrl("https://2ndblock.com/about"); //about 페이지 이동 확인
@@ -52,10 +54,13 @@ public class Func_01_Home_Gnb extends SetUp{
 		@Test
 		public void Home_005_Gnb_Start() throws InterruptedException {
 			
-			//Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
-			Common.clickByText("시작하기"); //시작하기
-			Common.clickByText("페이스북 계정으로 로그인");
-			Common.WinHandle(); //브라우저 탭 핸들링
+			//220701 가입 30일 이슈로 잠시 열어놓음
+			Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
+			
+			//220701 가입 30일 이슈로 잠시 막음
+//			Common.clickByText("시작하기"); //시작하기
+//			Common.clickByText("페이스북 계정으로 로그인");
+//			Common.WinHandle(); //브라우저 탭 핸들링
 	  }
 		
 		@Test
