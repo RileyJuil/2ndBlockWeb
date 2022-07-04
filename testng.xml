@@ -11,7 +11,7 @@
       <class name="test.java.Func_04_Home_Footer"/>
       <class name="test.java.Func_05_InGame"/>
       <class name="test.java.Func_06_Setting"/>
-      <class name="test.java.Func_07_MakeBlock"/>
+<!--      <class name="test.java.Func_07_MakeBlock"/> -->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
