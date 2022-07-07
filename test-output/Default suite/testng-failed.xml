@@ -3,16 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.java.Func_07_MakeBlock">
+      <class name="test.java.Func_08_OwnBlock_Setting">
         <methods>
           <include name="createAndStartService"/>
-          <include name="MakeBlock_003_Preset_Check"/>
           <include name="quit"/>
-          <include name="MakeBlock_005_Preset_InputName"/>
-          <include name="MakeBlock_006_Preset_Make"/>
-          <include name="MakeBlock_004_Preset_CheckBtn"/>
+          <include name="OBSetting_008_Close"/>
+          <include name="OBSetting_005_PW_OnOff"/>
         </methods>
-      </class> <!-- test.java.Func_07_MakeBlock -->
+      </class> <!-- test.java.Func_08_OwnBlock_Setting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

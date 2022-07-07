@@ -27,8 +27,7 @@ public class Common {
 	//추가로 숨겨진 메뉴를 클릭할 때 사용하기위해 히든 만들어놓음
 	
 	public void clickByText(String text) throws InterruptedException {
-
-		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("//*[contains(text(), '" + text + "')]")));
+		Thread.sleep(2000); 
 		driver.findElement(By.xpath("//*[contains(text(), '" + text + "')]")).click();
 		Thread.sleep(2000); 
 
@@ -70,6 +69,14 @@ public class Common {
 
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.id("" + text + "")));
 		driver.findElement(By.id("" + text + "")).click();
+		Thread.sleep(2000); 
+
+		}
+	
+	public void clickByLinktext(String text) throws InterruptedException {
+
+		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.linkText("" + text + "")));
+		driver.findElement(By.linkText("" + text + "")).click();
 		Thread.sleep(2000); 
 
 		}

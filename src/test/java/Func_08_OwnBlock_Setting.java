@@ -17,17 +17,17 @@ import main.java.SetUp;
 public class Func_08_OwnBlock_Setting extends SetUp{
 	
 	
-		@Test
-		public void Home_000_Login() throws InterruptedException {
-	
-		Common.facebookLogin(); //페이스북 로그인
-		}
+//		@Test
+//		public void Home_000_Login() throws InterruptedException {
+//	
+//		Common.facebookLogin(); //페이스북 로그인
+//		}
 	
 		@Test
 		public void OBSetting_001_Enter() throws InterruptedException {
 			
 			Common.clickByText("#라일리첫블록"); //마이블록 옆에 내가 만든 블록 첫번째 클릭
-			Thread.sleep(2000);
+			Thread.sleep(6000);
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img"); //마이메뉴
 			Common.clickByText("설정"); //설정 클릭
 			Common.clickByText("블록 설정"); //블록 설정 클릭
@@ -63,12 +63,46 @@ public class Func_08_OwnBlock_Setting extends SetUp{
 		@Test
 		public void OBSetting_005_PW_OnOff() throws InterruptedException {
 			
-			Common.clickById("password-set-toggle"); //마이블록 옆에 내가 만든 블록 첫번째 클릭
+			Common.clickByXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[1]/div[1]/label"); //비밀번호 사용 클릭
 			Thread.sleep(2000);
+			Common.InputTextClass("password-input", "1234");
+			Thread.sleep(2000);
+		}
+		
+		@Test
+		public void OBSetting_006_Hide_OnOff() throws InterruptedException {
+			
+			Common.clickByXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[2]/div[1]/label"); //블록 숨기기 on
+			Thread.sleep(2000);
+
+		}
+		
+		@Test
+		public void OBSetting_007_Save() throws InterruptedException {
+			
+			Common.clickByText(" 변경사항 저장");
+			Thread.sleep(2000);
+			Common.clickByText("확인");
+			Thread.sleep(1000);
+		}
+		
+		@Test
+		public void OBSetting_008_Close() throws InterruptedException {
+			
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img"); //마이메뉴
 			Common.clickByText("설정"); //설정 클릭
 			Common.clickByText("블록 설정"); //블록 설정 클릭
-
+			//Common.Assert_ExistByText("비밀번호 변경"); //비밀번호 변경으로 노출되는지 확인
+			
+			Common.clickByXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[4]/div[2]/div[2]"); //블록 폐쇄 클릭
+			Thread.sleep(1000);
+			Common.clickByText("블록폐쇄"); //블록 폐쇄 클릭
+			Thread.sleep(1000);
+			
+			if (!driver.findElements(By.xpath("//*[contains(text(), '확인')]")).isEmpty()) {
+			Common.clickByText("확인");
+			Thread.sleep(1000);
+			}
 		}
 		
 		
