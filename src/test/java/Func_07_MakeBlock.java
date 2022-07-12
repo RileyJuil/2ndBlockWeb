@@ -29,20 +29,20 @@ public class Func_07_MakeBlock extends SetUp{
 			
 			//Common.clickByXpath("/html/body/div[1]/main/div/div[2]/section/div[1]/div[2]/a[3]"); //블록 만들기 클릭, 뒤에 숫자가 블록 늘어날수록 늘어남
 			Common.clickByLinktext("블록 만들기");
-		    Common.Assert_ExistByText("#화이트컨퍼런스홀"); //블록 프리셋 이름 확인
+		    Common.Assert_ExistByText("#대규모컨퍼런스홀"); //블록 프리셋 이름 확인
 		}
 		
 		@Test
 		public void MakeBlock_002_Preset() throws InterruptedException {
 			
-			Common.clickByText("#화이트컨퍼런스홀"); //화이트컨퍼런스홀 클릭
+			Common.clickByText("#대규모컨퍼런스홀"); //화이트컨퍼런스홀 클릭
 		    Common.Assert_ExistByText("블록 설정하기"); //블록 설정하기 모달 확인
 		}
 		
 		@Test
 		public void MakeBlock_003_Preset_Check() throws InterruptedException {
 			
-		    Common.Assert_ExistByText("#화이트컨퍼런스홀"); //템플릿 제목
+		    Common.Assert_ExistByText("#대규모컨퍼런스홀"); //템플릿 제목
 		    Thread.sleep(1000);
 		    Common.Assert_ExistByXpath("/html/body/div[14]/div/div/div[2]/div[1]/div[1]/img"); //썸네일
 
