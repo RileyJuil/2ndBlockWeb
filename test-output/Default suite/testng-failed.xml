@@ -3,13 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.java.SystemCheck">
+      <class name="test.java.Func_02_Home_Middle">
         <methods>
           <include name="createAndStartService"/>
+          <include name="Home_007_Middle_Join_Block"/>
           <include name="quit"/>
-          <include name="Join_001_Login_Facebook"/>
+          <include name="Home_002_Middle_Banner_Top"/>
+          <include name="Home_005_Middle_MyBlock_Enter"/>
+          <include name="Home_006_Middle_Make_Block"/>
+          <include name="Home_003_Middle_OwnBlock_Info"/>
+          <include name="Home_004_Middle_MyBlock_Star"/>
+          <include name="Home_008_Middle_LineBanner"/>
         </methods>
-      </class> <!-- test.java.SystemCheck -->
+      </class> <!-- test.java.Func_02_Home_Middle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

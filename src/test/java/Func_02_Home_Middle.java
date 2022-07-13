@@ -23,7 +23,7 @@ public class Func_02_Home_Middle extends SetUp{
 //				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "n");
 //				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "d");
 //				
-//				Thread.sleep(2000);
+				Thread.sleep(2000);
 				
 				//미로그인 상태에서 각 배너 클릭하여 로그인 페이지로 이동 확인	
 		Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[5]"); //최상단 5번 배너
@@ -42,7 +42,8 @@ public class Func_02_Home_Middle extends SetUp{
 		Common.Back(); //메인으로 이동
 		System.out.println("미로그인-지금 바로 세컨블록 시작하기 확인 완료 ");
 		
-		Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[1]/div/div[2]/div[4]"); //띠 배너
+		Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[1]/div/div[1]/span[3]"); //띠배너3 포커스
+		Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[1]/div/div[2]/div[4]/img"); //띠배너3 클릭
 		Common.Assert_ExistByText("페이스북 계정으로 로그인"); //From을 물고 있어서 로그인 페이지 내의 로그인 버튼으로 이동 확인
 		Common.Back(); //메인으로 이동
 		System.out.println("미로그인-띠배너 확인 완료 ");
@@ -59,6 +60,9 @@ public class Func_02_Home_Middle extends SetUp{
 //		Common.Back(); //메인으로 이동
 //		System.out.println("미로그인-이런 블록 어때요? 확인 완료 ");
 		
+		
+		
+		//하나만 돌릴때 켜기
 		//Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
 		
 		Common.clickByText("시작하기"); //시작하기
@@ -70,7 +74,7 @@ public class Func_02_Home_Middle extends SetUp{
 	
 		@Test
 		public void Home_002_Middle_Banner_Top() throws InterruptedException {
-	
+			Thread.sleep(3000);
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[1]");
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[2]");
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[3]");
@@ -78,9 +82,9 @@ public class Func_02_Home_Middle extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[5]"); //최상단 5번 배너
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[6]/div/div/div[1]");//자세히 보기
 			//Common.clickByText("블록 입장하기"); //크롬 정책으로 인해 한번이라도 클릭해야 마이크가 활성화되기 때문에 이 버튼을 넣어줌
-			//Thread.sleep(2000);
-			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span"); //인게임 블록 제목 Xpath 확인
-		    Common.Back(); //이번 버튼으로 메인 페이지 이동
+			Thread.sleep(3000);
+			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]"); //인게임 블록 제목 Xpath 확인
+			Common.Back(); //이번 버튼으로 메인 페이지 이동
 	  }
 		
 		@Test
@@ -123,10 +127,11 @@ public class Func_02_Home_Middle extends SetUp{
 		
 		@Test
 		public void Home_008_Middle_LineBanner() throws InterruptedException {
-	
+			
 			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[1]/div/div[1]/span[2]"); //띠배너2 포커스
 			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[1]/div/div[1]/span[1]"); //띠배너1 포커스
-			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[1]/div/div[2]/div[2]/img"); //띠배너1 클릭
+			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[1]/div/div[1]/span[3]"); //띠배너3 포커스
+			Common.clickByXpath("/html/body/div[1]/main/div/div[2]/div[1]/div/div[2]/div[4]/img"); //띠배너3 클릭
 			Common.Assert_CheckCurrentUrl("https://2ndblock.com/space#100"); //url로 비교
 		    Common.Back(); //이번 버튼으로 메인 페이지 이동
 		    Thread.sleep(2000);

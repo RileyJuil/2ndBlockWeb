@@ -14,6 +14,7 @@ public class Func_01_Home_Gnb extends SetUp{
 		@Test
 		public void Home_001_Gnb_About() throws InterruptedException {
 	
+			//하나씩 돌릴 때 해제
 			//Common.facebookLogin(); //페이스북 로그인
 			//로그아웃하는 부분을 넎어줌
 			
@@ -121,7 +122,7 @@ public class Func_01_Home_Gnb extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/div"); //마이메뉴
 			Common.clickByText("설정"); //설정 클릭
 		    Common.Assert_ExistByText("정말 탈퇴하시겠습니까?"); //탈퇴 버튼 유무로 확인
-			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/img"); //닫기 버튼으로 메인 페이지 이동
+			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/span/img"); //닫기 버튼으로 메인 페이지 이동
 	  }
 		
 		@Test

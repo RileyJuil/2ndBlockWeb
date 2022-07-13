@@ -16,7 +16,7 @@ public class Func_05_InGame extends SetUp{
 	
 		@Test
 		public void InGame_001_HomeBtn() throws InterruptedException {
-			
+			//하나만 돌릴 때만 열기
 			//Common.facebookLogin(); //페이스북 로그인
 	
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[3]"); //빅배너에서 소개 블록 선택
@@ -29,11 +29,11 @@ public class Func_05_InGame extends SetUp{
 	
 		@Test
 		public void InGame_002_MyMenu_Character() throws InterruptedException {
-			
+			Thread.sleep(3000);
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img"); //마이메뉴
 			Common.clickByText("캐릭터 꾸미기"); //"캐릭터 꾸미기" 클릭
 			Common.Assert_ExistByText("피부"); //캐릭터꾸미기 모달 확인
-			Common.clickByXpath("/html/body/div[5]/div/div/div[1]/div[2]"); //닫기 버튼으로 메인 페이지 이동
+			Common.clickByXpath("/html/body/div[5]/div/div/div[1]/div[2]/img"); //닫기 버튼으로 모달 닫기
 	  }
 
 		@Test
@@ -42,7 +42,8 @@ public class Func_05_InGame extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img"); //마이메뉴
 			Common.clickByText("설정"); //설정 클릭
 		    Common.Assert_ExistByText("미디어 설정"); //미디어 설정 탭 유무로 확인
-			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/img"); //닫기 버튼으로 메인 페이지 이동
+			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/span/img"); //닫기 버튼으로 메인 페이지 이동
+			
 	  }
 		
 		@Test
@@ -54,9 +55,9 @@ public class Func_05_InGame extends SetUp{
 		@Test
 		public void InGame_005_BlockFollow() throws InterruptedException {
 			
-			Thread.sleep(2000);
+			Thread.sleep(1000);
 			Common.clickByText("블록 팔로우"); //블록 팔로우 버튼 클릭
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			Common.Assert_ExistByText(" 팔로우 중"); //팔로우 중 상태 확인
 	  }
 		
@@ -65,7 +66,7 @@ public class Func_05_InGame extends SetUp{
 
 			Thread.sleep(2000);
 			Common.clickByText(" 팔로우 중"); //블록 팔로우 버튼 클릭
-			Thread.sleep(2000);
+			Thread.sleep(4000);
 			Common.Assert_ExistByText("블록 팔로우"); //팔로우 중 상태 확인
 	  }
 		
@@ -173,38 +174,39 @@ public class Func_05_InGame extends SetUp{
 		@Test
 		public void InGame_019_FilterEffect() throws InterruptedException {
 
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[1]"); //필터 효과 모달 열기
+			Common.clickByText("필터 효과");
+			//Common.clickByXpath("/html/body/div[2]/div[1]/div[2]/div[3]/div[1]"); //필터 효과 모달 열기
 			Common.Assert_ExistByText("미디어 설정"); // 미디어 설정 모달 열림 확인		
-			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/img"); // 설정 모달 닫기
+			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/span/img"); // 설정 모달 닫기
 	  }
 		
 		@Test
 		public void InGame_020_Emoji() throws InterruptedException {
 
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[1]"); // 1번 이모티콘
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]"); // 1번 이모티콘
 			Thread.sleep(1000);
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[2]"); // 2번 이모티콘
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[2]/div[2]"); // 2번 이모티콘
 			Thread.sleep(1000);
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[3]"); // 3번 이모티콘
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[2]/div[3]"); // 3번 이모티콘
 			Thread.sleep(1000);
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[4]"); // 4번 이모티콘
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[2]/div[4]"); // 4번 이모티콘
 			Thread.sleep(1000);
 	  }
 		
 		@Test
 		public void InGame_021_ShareScreen() throws InterruptedException {
 
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div/img"); // 화면 공유 클릭
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[4]/div[2]/div[1]/div/img"); // 화면 공유 클릭
 			Thread.sleep(1000);
 	  }
 		
 		@Test
 		public void InGame_022_OnOff_Mike() throws InterruptedException {
 
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[4]/div[2]/div/div"); //마이크 on
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[4]/div[4]/div[2]/div/div"); //마이크 on
 			Thread.sleep(2000);
 			
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[4]/div[2]/div/div"); //마이크 off
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[4]/div[4]/div[2]/div/div"); //마이크 off
 			Thread.sleep(2000);
 	  }
 		
@@ -214,7 +216,7 @@ public class Func_05_InGame extends SetUp{
 			Common.clickByText("카메라 off"); //카메라 on
 			Thread.sleep(2000);
 			
-			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[3]/div[5]/div/div/div/img"); //카메라 off
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[4]/div[5]/div/div/div/img"); //카메라 off
 			Thread.sleep(2000);
 	  }
 }

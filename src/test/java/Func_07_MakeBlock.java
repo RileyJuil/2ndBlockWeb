@@ -17,7 +17,7 @@ import main.java.SetUp;
 
 public class Func_07_MakeBlock extends SetUp{
 	
-	
+		//하나만 돌릴 때만 열기
 //		@Test
 //		public void Home_000_Login() throws InterruptedException {
 //	
@@ -76,7 +76,7 @@ public class Func_07_MakeBlock extends SetUp{
 		public void MakeBlock_006_Preset_Make() throws InterruptedException {
 			
 			Common.clickByXpath("/html/body/div[14]/div/div/div[2]/div[2]/button"); //블록 만들기 버튼 클릭
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 			Common.Assert_ExistByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span"); //인게임 블록 제목 Xpath 확인
 			Thread.sleep(1000);
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/img"); //홈버튼 클릭

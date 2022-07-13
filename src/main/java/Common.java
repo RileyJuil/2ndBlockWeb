@@ -36,6 +36,7 @@ public class Common {
 	public void clickByXpath(String text) throws InterruptedException {
 
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.xpath("" + text + "")));
+		Thread.sleep(2000); 
 		driver.findElement(By.xpath("" + text + "")).click();
 		Thread.sleep(2000); 
 
@@ -52,6 +53,7 @@ public class Common {
 	public void clickByClassName(String text) throws InterruptedException {
 
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.className("" + text + "")));
+		Thread.sleep(2000); 
 		driver.findElement(By.className("" + text + "")).click();
 		Thread.sleep(2000); 
 
@@ -60,6 +62,7 @@ public class Common {
 	public void clickByName(String text) throws InterruptedException {
 
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.name("" + text + "")));
+		Thread.sleep(2000); 
 		driver.findElement(By.name("" + text + "")).click();
 		Thread.sleep(2000); 
 
@@ -68,6 +71,7 @@ public class Common {
 	public void clickById(String text) throws InterruptedException {
 
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.id("" + text + "")));
+		Thread.sleep(2000); 
 		driver.findElement(By.id("" + text + "")).click();
 		Thread.sleep(2000); 
 
@@ -76,6 +80,7 @@ public class Common {
 	public void clickByLinktext(String text) throws InterruptedException {
 
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(By.linkText("" + text + "")));
+		Thread.sleep(2000); 
 		driver.findElement(By.linkText("" + text + "")).click();
 		Thread.sleep(2000); 
 
