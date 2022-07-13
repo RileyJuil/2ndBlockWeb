@@ -12,6 +12,15 @@ public class JoinAccount extends SetUp{
 	@Test
 	public void Join_001_Login_Facebook() throws InterruptedException {
 
+		//점검화면 뚫기
+//			Thread.sleep(1000);
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "s");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "e");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "c");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "o");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "n");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "d");
+		
 		Common.clickByText("시작하기"); //시작하기
 		Common.clickByText("페이스북 계정으로 로그인");
 		Common.WinHandle(); //브라우저 탭 핸들링
@@ -75,7 +84,7 @@ public class JoinAccount extends SetUp{
 		Thread.sleep(1000);
 		Common.clickByXpath("/html/body/div[1]/main/div/div[1]/section[1]/form/div[2]/div[2]/div/div/img"); //입력한 닉네임 X버튼으로 삭제
 		driver.findElement(By.xpath("/html/body/div[1]/main/div/div[1]/section[1]/form/div[2]/div[2]/div/div/input")).sendKeys("Riley"); //닉네임 중복 입력
-	    Common.Assert_ExistByText("중복된 닉네임입니다."); //닉네임 에러 메시지 확인
+	    Common.Assert_ExistByText("이미 사용중인 닉네임입니다."); //닉네임 에러 메시지 확인
 	    Assert.assertFalse(driver.findElement(By.xpath("/html/body/div[1]/main/div/div[2]/button")).isEnabled());//회원 가입하기 버튼 비활성화 확인
 	  }
 	

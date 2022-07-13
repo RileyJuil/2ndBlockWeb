@@ -1,16 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="test.java.Func_08_OwnBlock_Setting">
+      <class name="test.java.Func_07_MakeBlock">
         <methods>
           <include name="createAndStartService"/>
           <include name="quit"/>
+          <include name="MakeBlock_001_Enter"/>
+          <include name="MakeBlock_002_Preset"/>
+        </methods>
+      </class> <!-- test.java.Func_07_MakeBlock -->
+      <class name="test.java.Func_02_Home_Middle">
+        <methods>
+          <include name="createAndStartService"/>
+          <include name="quit"/>
+          <include name="Home_008_Middle_LineBanner"/>
+        </methods>
+      </class> <!-- test.java.Func_02_Home_Middle -->
+      <class name="test.java.Func_06_Setting">
+        <methods>
+          <include name="createAndStartService"/>
+          <include name="quit"/>
+          <include name="Setting_016_ProfileSetting_ReCheck"/>
+        </methods>
+      </class> <!-- test.java.Func_06_Setting -->
+      <class name="test.java.Func_05_InGame">
+        <methods>
+          <include name="InGame_023_OnOff_Camera"/>
+          <include name="createAndStartService"/>
+          <include name="InGame_019_FilterEffect"/>
+          <include name="InGame_006_BlockUnfollow"/>
+          <include name="InGame_021_ShareScreen"/>
+          <include name="quit"/>
+          <include name="InGame_020_Emoji"/>
+          <include name="InGame_003_MyMenu_Setting"/>
+          <include name="InGame_022_OnOff_Mike"/>
+          <include name="InGame_004_BlockTitle"/>
+          <include name="InGame_005_BlockFollow"/>
+        </methods>
+      </class> <!-- test.java.Func_05_InGame -->
+      <class name="test.java.JoinAccount">
+        <methods>
+          <include name="createAndStartService"/>
+          <include name="quit"/>
+          <include name="Join_006_Nickname_Duplicate"/>
+        </methods>
+      </class> <!-- test.java.JoinAccount -->
+      <class name="test.java.Func_08_OwnBlock_Setting">
+        <methods>
+          <include name="OBSetting_007_Save"/>
+          <include name="createAndStartService"/>
+          <include name="quit"/>
+          <include name="OBSetting_004_Change_Thumbnail"/>
           <include name="OBSetting_008_Close"/>
+          <include name="OBSetting_006_Hide_OnOff"/>
           <include name="OBSetting_005_PW_OnOff"/>
         </methods>
       </class> <!-- test.java.Func_08_OwnBlock_Setting -->
+      <class name="test.java.Func_03_Character_Customization">
+        <methods>
+          <include name="createAndStartService"/>
+          <include name="quit"/>
+          <include name="Character_004_Top"/>
+          <include name="Character_001_MyMenu_Character"/>
+          <include name="Character_002_Skin"/>
+          <include name="Character_003_Hair"/>
+        </methods>
+      </class> <!-- test.java.Func_03_Character_Customization -->
+      <class name="test.java.Func_01_Home_Gnb">
+        <methods>
+          <include name="createAndStartService"/>
+          <include name="Home_013_Gnb_MyMenu_LogOut_Complete"/>
+          <include name="quit"/>
+          <include name="Home_012_Gnb_MyMenu_LogOut"/>
+          <include name="Home_009_Gnb_MyMenu_MakeBlock"/>
+          <include name="Home_011_Gnb_MyMenu_Setting"/>
+        </methods>
+      </class> <!-- test.java.Func_01_Home_Gnb -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

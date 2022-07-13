@@ -1,57 +1,1962 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="18" total="118" passed="73" failed="27" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-07T17:59:10 KST" name="Default suite" finished-at="2022-07-07T18:01:36 KST" duration-ms="145709">
+  <suite started-at="2022-07-13T00:41:50 KST" name="Suite" finished-at="2022-07-13T00:59:16 KST" duration-ms="1046268">
     <groups>
     </groups>
-    <test started-at="2022-07-07T17:59:10 KST" name="Default test" finished-at="2022-07-07T18:01:36 KST" duration-ms="145709">
-      <class name="test.java.Func_08_OwnBlock_Setting">
-        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T17:59:10 KST" name="createAndStartService" finished-at="2022-07-07T17:59:34 KST" duration-ms="23809" status="PASS">
+    <test started-at="2022-07-13T00:41:50 KST" name="Test" finished-at="2022-07-13T00:59:16 KST" duration-ms="1046268">
+      <class name="test.java.DeleteAccount">
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.DeleteAccount@c05fddc]" started-at="2022-07-13T00:41:50 KST" name="createAndStartService" finished-at="2022-07-13T00:41:53 KST" duration-ms="2685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method signature="Home_000_Login()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T17:59:34 KST" name="Home_000_Login" finished-at="2022-07-07T18:00:00 KST" duration-ms="26642" status="PASS">
+        <test-method signature="scenario_01_facebookLogin()[pri:0, instance:test.java.DeleteAccount@c05fddc]" started-at="2022-07-13T00:41:53 KST" name="scenario_01_facebookLogin" finished-at="2022-07-13T00:42:33 KST" duration-ms="39975" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home_000_Login -->
-        <test-method signature="OBSetting_001_Enter()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T18:00:00 KST" name="OBSetting_001_Enter" finished-at="2022-07-07T18:00:27 KST" duration-ms="26604" status="PASS">
+        </test-method> <!-- scenario_01_facebookLogin -->
+        <test-method signature="scenario_02_deleteAccount()[pri:0, instance:test.java.DeleteAccount@c05fddc]" started-at="2022-07-13T00:42:33 KST" name="scenario_02_deleteAccount" finished-at="2022-07-13T00:42:50 KST" duration-ms="17158" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OBSetting_001_Enter -->
-        <test-method signature="OBSetting_002_Change_BlockName()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T18:00:27 KST" name="OBSetting_002_Change_BlockName" finished-at="2022-07-07T18:00:32 KST" duration-ms="5227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_002_Change_BlockName -->
-        <test-method signature="OBSetting_003_Change_Notice()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T18:00:32 KST" name="OBSetting_003_Change_Notice" finished-at="2022-07-07T18:00:35 KST" duration-ms="3180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_003_Change_Notice -->
-        <test-method signature="OBSetting_004_Change_Thumbnail()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T18:00:35 KST" name="OBSetting_004_Change_Thumbnail" finished-at="2022-07-07T18:00:40 KST" duration-ms="4258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_004_Change_Thumbnail -->
-        <test-method signature="OBSetting_005_PW_OnOff()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T18:00:40 KST" name="OBSetting_005_PW_OnOff" finished-at="2022-07-07T18:00:48 KST" duration-ms="8314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_005_PW_OnOff -->
-        <test-method signature="OBSetting_006_Hide_OnOff()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T18:00:48 KST" name="OBSetting_006_Hide_OnOff" finished-at="2022-07-07T18:00:52 KST" duration-ms="4158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_006_Hide_OnOff -->
-        <test-method signature="OBSetting_007_Save()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T18:00:52 KST" name="OBSetting_007_Save" finished-at="2022-07-07T18:01:03 KST" duration-ms="11313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_007_Save -->
-        <test-method signature="OBSetting_008_Close()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T18:01:03 KST" name="OBSetting_008_Close" finished-at="2022-07-07T18:01:35 KST" duration-ms="31925" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_008_Close -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@548a24a]" started-at="2022-07-07T18:01:35 KST" name="quit" finished-at="2022-07-07T18:01:36 KST" duration-ms="196" status="PASS">
+        </test-method> <!-- scenario_02_deleteAccount -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.DeleteAccount@c05fddc]" started-at="2022-07-13T00:59:16 KST" name="quit" finished-at="2022-07-13T00:59:16 KST" duration-ms="709" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
+      </class> <!-- test.java.DeleteAccount -->
+      <class name="test.java.Func_04_Home_Footer">
+        <test-method signature="Home_001_Footer_MailTo()[pri:0, instance:test.java.Func_04_Home_Footer@16150369]" started-at="2022-07-13T00:51:32 KST" name="Home_001_Footer_MailTo" finished-at="2022-07-13T00:51:32 KST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_001_Footer_MailTo -->
+        <test-method signature="Home_002_Footer_Term()[pri:0, instance:test.java.Func_04_Home_Footer@16150369]" started-at="2022-07-13T00:51:32 KST" name="Home_002_Footer_Term" finished-at="2022-07-13T00:51:42 KST" duration-ms="10073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_002_Footer_Term -->
+        <test-method signature="Home_003_Footer_Privacy()[pri:0, instance:test.java.Func_04_Home_Footer@16150369]" started-at="2022-07-13T00:51:42 KST" name="Home_003_Footer_Privacy" finished-at="2022-07-13T00:51:52 KST" duration-ms="9734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_003_Footer_Privacy -->
+        <test-method signature="Home_004_Footer_Address()[pri:0, instance:test.java.Func_04_Home_Footer@16150369]" started-at="2022-07-13T00:51:52 KST" name="Home_004_Footer_Address" finished-at="2022-07-13T00:51:52 KST" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_004_Footer_Address -->
+      </class> <!-- test.java.Func_04_Home_Footer -->
+      <class name="test.java.Func_06_Setting">
+        <test-method signature="Setting_001_MyMenu_MediaSetting()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:54:58 KST" name="Setting_001_MyMenu_MediaSetting" finished-at="2022-07-13T00:55:07 KST" duration-ms="8671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_001_MyMenu_MediaSetting -->
+        <test-method signature="Setting_002_MediaSetting_OnOffMike()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:55:07 KST" name="Setting_002_MediaSetting_OnOffMike" finished-at="2022-07-13T00:55:16 KST" duration-ms="8632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_002_MediaSetting_OnOffMike -->
+        <test-method signature="Setting_003_MediaSetting_OnOffCamera()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:55:16 KST" name="Setting_003_MediaSetting_OnOffCamera" finished-at="2022-07-13T00:55:24 KST" duration-ms="8423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_003_MediaSetting_OnOffCamera -->
+        <test-method signature="Setting_004_MediaSetting_Filter()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:55:24 KST" name="Setting_004_MediaSetting_Filter" finished-at="2022-07-13T00:55:32 KST" duration-ms="8234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_004_MediaSetting_Filter -->
+        <test-method signature="Setting_005_MediaSetting_BG()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:55:32 KST" name="Setting_005_MediaSetting_BG" finished-at="2022-07-13T00:55:39 KST" duration-ms="6469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_005_MediaSetting_BG -->
+        <test-method signature="Setting_006_MediaSetting_Save()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:55:39 KST" name="Setting_006_MediaSetting_Save" finished-at="2022-07-13T00:55:49 KST" duration-ms="10322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_006_MediaSetting_Save -->
+        <test-method signature="Setting_007_ProfileSetting()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:55:49 KST" name="Setting_007_ProfileSetting" finished-at="2022-07-13T00:55:59 KST" duration-ms="10316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_007_ProfileSetting -->
+        <test-method signature="Setting_008_ProfileSetting_Nick_Guide()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:55:59 KST" name="Setting_008_ProfileSetting_Nick_Guide" finished-at="2022-07-13T00:56:03 KST" duration-ms="3070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_008_ProfileSetting_Nick_Guide -->
+        <test-method signature="Setting_009_ProfileSetting_Nick_Xbtn()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:56:03 KST" name="Setting_009_ProfileSetting_Nick_Xbtn" finished-at="2022-07-13T00:56:07 KST" duration-ms="4229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_009_ProfileSetting_Nick_Xbtn -->
+        <test-method signature="Setting_010_ProfileSetting_Nick_1Text20()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:56:07 KST" name="Setting_010_ProfileSetting_Nick_1Text20" finished-at="2022-07-13T00:56:18 KST" duration-ms="10782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_010_ProfileSetting_Nick_1Text20 -->
+        <test-method signature="Setting_011_ProfileSetting_Nick_NotText()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:56:18 KST" name="Setting_011_ProfileSetting_Nick_NotText" finished-at="2022-07-13T00:56:21 KST" duration-ms="3121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_011_ProfileSetting_Nick_NotText -->
+        <test-method signature="Setting_012_ProfileSetting_Nick_Duplicate()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:56:21 KST" name="Setting_012_ProfileSetting_Nick_Duplicate" finished-at="2022-07-13T00:56:28 KST" duration-ms="7258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_012_ProfileSetting_Nick_Duplicate -->
+        <test-method signature="Setting_013_ProfileSetting_Nick_Clear()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:56:28 KST" name="Setting_013_ProfileSetting_Nick_Clear" finished-at="2022-07-13T00:56:34 KST" duration-ms="6243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_013_ProfileSetting_Nick_Clear -->
+        <test-method signature="Setting_014_ProfileSetting_Nick_Normal()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:56:34 KST" name="Setting_014_ProfileSetting_Nick_Normal" finished-at="2022-07-13T00:56:36 KST" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_014_ProfileSetting_Nick_Normal -->
+        <test-method signature="Setting_015_ProfileSetting_ADagree()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:56:36 KST" name="Setting_015_ProfileSetting_ADagree" finished-at="2022-07-13T00:56:48 KST" duration-ms="12246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_015_ProfileSetting_ADagree -->
+        <test-method signature="Setting_016_ProfileSetting_ReCheck()[pri:0, instance:test.java.Func_06_Setting@624ea235]" started-at="2022-07-13T00:56:48 KST" name="Setting_016_ProfileSetting_ReCheck" finished-at="2022-07-13T00:57:09 KST" duration-ms="20330" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[1]/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[1]/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_06_Setting.Setting_016_ProfileSetting_ReCheck(Func_06_Setting.java:174)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setting_016_ProfileSetting_ReCheck -->
+      </class> <!-- test.java.Func_06_Setting -->
+      <class name="test.java.Func_05_InGame">
+        <test-method signature="InGame_001_HomeBtn()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:51:52 KST" name="InGame_001_HomeBtn" finished-at="2022-07-13T00:52:03 KST" duration-ms="11491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_001_HomeBtn -->
+        <test-method signature="InGame_002_MyMenu_Character()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:52:03 KST" name="InGame_002_MyMenu_Character" finished-at="2022-07-13T00:52:14 KST" duration-ms="10500" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_002_MyMenu_Character -->
+        <test-method signature="InGame_003_MyMenu_Setting()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:52:14 KST" name="InGame_003_MyMenu_Setting" finished-at="2022-07-13T00:52:32 KST" duration-ms="18461" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[1]/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[1]/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_05_InGame.InGame_003_MyMenu_Setting(Func_05_InGame.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_003_MyMenu_Setting -->
+        <test-method signature="InGame_004_BlockTitle()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:52:32 KST" name="InGame_004_BlockTitle" finished-at="2022-07-13T00:52:42 KST" duration-ms="10040" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/div[2]/span/span (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.Assert_ExistByXpath(Common.java:134)
+at test.java.Func_05_InGame.InGame_004_BlockTitle(Func_05_InGame.java:51)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_004_BlockTitle -->
+        <test-method signature="InGame_005_BlockFollow()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:52:42 KST" name="InGame_005_BlockFollow" finished-at="2022-07-13T00:52:48 KST" duration-ms="5143" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button class="styles-module__now-unfollowing-status--ldWOe">...</button> is not clickable at point (1438, 24). Other element would receive the click: <div class="ReactModal__Overlay ReactModal__Overlay--after-open" style="position: fixed; inset: 0px; background-color: rgba(0, 0, 0, 0.6); z-index: 999999999;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, clickElement {id=c7125d19-5e8d-4e94-aaa6-7632a71d04e9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cf2edd4a26e39300732c75ddd693cdcc)] -> xpath: //*[contains(text(), '블록 팔로우')]]
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button class="styles-module__now-unfollowing-status--ldWOe">...</button> is not clickable at point (1438, 24). Other element would receive the click: <div class="ReactModal__Overlay ReactModal__Overlay--after-open" style="position: fixed; inset: 0px; background-color: rgba(0, 0, 0, 0.6); z-index: 999999999;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, clickElement {id=c7125d19-5e8d-4e94-aaa6-7632a71d04e9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cf2edd4a26e39300732c75ddd693cdcc)] -> xpath: //*[contains(text(), '블록 팔로우')]]
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at main.java.Common.clickByText(Common.java:31)
+at test.java.Func_05_InGame.InGame_005_BlockFollow(Func_05_InGame.java:58)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_005_BlockFollow -->
+        <test-method signature="InGame_006_BlockUnfollow()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:52:48 KST" name="InGame_006_BlockUnfollow" finished-at="2022-07-13T00:53:02 KST" duration-ms="14035" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), ' 팔로우 중')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), ' 팔로우 중')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), ' 팔로우 중')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), ' 팔로우 중')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at main.java.Common.clickByText(Common.java:31)
+at test.java.Func_05_InGame.InGame_006_BlockUnfollow(Func_05_InGame.java:67)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_006_BlockUnfollow -->
+        <test-method signature="InGame_007_ZoomOut()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:02 KST" name="InGame_007_ZoomOut" finished-at="2022-07-13T00:53:13 KST" duration-ms="11219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_007_ZoomOut -->
+        <test-method signature="InGame_008_ZoomIn()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:13 KST" name="InGame_008_ZoomIn" finished-at="2022-07-13T00:53:15 KST" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_008_ZoomIn -->
+        <test-method signature="InGame_009_User()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:15 KST" name="InGame_009_User" finished-at="2022-07-13T00:53:15 KST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_009_User -->
+        <test-method signature="InGame_010_MenuBtn()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:15 KST" name="InGame_010_MenuBtn" finished-at="2022-07-13T00:53:19 KST" duration-ms="4205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_010_MenuBtn -->
+        <test-method signature="InGame_011_SearchNickname()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:19 KST" name="InGame_011_SearchNickname" finished-at="2022-07-13T00:53:22 KST" duration-ms="3226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_011_SearchNickname -->
+        <test-method signature="InGame_012_CloseMenu()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:22 KST" name="InGame_012_CloseMenu" finished-at="2022-07-13T00:53:25 KST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_012_CloseMenu -->
+        <test-method signature="InGame_013_Open_Minimap()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:25 KST" name="InGame_013_Open_Minimap" finished-at="2022-07-13T00:53:29 KST" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_013_Open_Minimap -->
+        <test-method signature="InGame_014_Close_Minimap()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:29 KST" name="InGame_014_Close_Minimap" finished-at="2022-07-13T00:53:33 KST" duration-ms="4155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_014_Close_Minimap -->
+        <test-method signature="InGame_015_Open_Notice()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:33 KST" name="InGame_015_Open_Notice" finished-at="2022-07-13T00:53:37 KST" duration-ms="4198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_015_Open_Notice -->
+        <test-method signature="InGame_016_Close_Notice()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:37 KST" name="InGame_016_Close_Notice" finished-at="2022-07-13T00:53:51 KST" duration-ms="14165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_016_Close_Notice -->
+        <test-method signature="InGame_017_AllChatting()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:51 KST" name="InGame_017_AllChatting" finished-at="2022-07-13T00:53:53 KST" duration-ms="1287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_017_AllChatting -->
+        <test-method signature="InGame_018_OnOff_Chatting()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:53:53 KST" name="InGame_018_OnOff_Chatting" finished-at="2022-07-13T00:54:02 KST" duration-ms="9426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_018_OnOff_Chatting -->
+        <test-method signature="InGame_019_FilterEffect()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:54:02 KST" name="InGame_019_FilterEffect" finished-at="2022-07-13T00:54:12 KST" duration-ms="10003" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[2]/div[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[2]/div[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_05_InGame.InGame_019_FilterEffect(Func_05_InGame.java:176)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_019_FilterEffect -->
+        <test-method signature="InGame_020_Emoji()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:54:12 KST" name="InGame_020_Emoji" finished-at="2022-07-13T00:54:22 KST" duration-ms="10106" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[2]/div[2]/div[1] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_05_InGame.InGame_020_Emoji(Func_05_InGame.java:184)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_020_Emoji -->
+        <test-method signature="InGame_021_ShareScreen()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:54:22 KST" name="InGame_021_ShareScreen" finished-at="2022-07-13T00:54:32 KST" duration-ms="10098" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[3]/div[2]/div[1]/div/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_05_InGame.InGame_021_ShareScreen(Func_05_InGame.java:197)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_021_ShareScreen -->
+        <test-method signature="InGame_022_OnOff_Mike()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:54:32 KST" name="InGame_022_OnOff_Mike" finished-at="2022-07-13T00:54:42 KST" duration-ms="10058" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[3]/div[4]/div[2]/div/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[3]/div[4]/div[2]/div/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_05_InGame.InGame_022_OnOff_Mike(Func_05_InGame.java:204)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_022_OnOff_Mike -->
+        <test-method signature="InGame_023_OnOff_Camera()[pri:0, instance:test.java.Func_05_InGame@6b09fb41]" started-at="2022-07-13T00:54:42 KST" name="InGame_023_OnOff_Camera" finished-at="2022-07-13T00:54:58 KST" duration-ms="16163" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[3]/div[5]/div/div/div/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[3]/div[5]/div/div/div/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_05_InGame.InGame_023_OnOff_Camera(Func_05_InGame.java:217)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InGame_023_OnOff_Camera -->
+      </class> <!-- test.java.Func_05_InGame -->
+      <class name="test.java.JoinAccount">
+        <test-method signature="Join_001_Login_Facebook()[pri:0, instance:test.java.JoinAccount@aba625]" started-at="2022-07-13T00:42:50 KST" name="Join_001_Login_Facebook" finished-at="2022-07-13T00:43:18 KST" duration-ms="27589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_001_Login_Facebook -->
+        <test-method signature="Join_002_Nickname_Placeholder()[pri:0, instance:test.java.JoinAccount@aba625]" started-at="2022-07-13T00:43:18 KST" name="Join_002_Nickname_Placeholder" finished-at="2022-07-13T00:43:19 KST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_002_Nickname_Placeholder -->
+        <test-method signature="Join_003_Nickname_GuideText()[pri:0, instance:test.java.JoinAccount@aba625]" started-at="2022-07-13T00:43:19 KST" name="Join_003_Nickname_GuideText" finished-at="2022-07-13T00:43:22 KST" duration-ms="3081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_003_Nickname_GuideText -->
+        <test-method signature="Join_004_Nickname_1Text20()[pri:0, instance:test.java.JoinAccount@aba625]" started-at="2022-07-13T00:43:22 KST" name="Join_004_Nickname_1Text20" finished-at="2022-07-13T00:43:32 KST" duration-ms="10553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_004_Nickname_1Text20 -->
+        <test-method signature="Join_005_Nickname_NotText()[pri:0, instance:test.java.JoinAccount@aba625]" started-at="2022-07-13T00:43:32 KST" name="Join_005_Nickname_NotText" finished-at="2022-07-13T00:43:35 KST" duration-ms="2312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_005_Nickname_NotText -->
+        <test-method signature="Join_006_Nickname_Duplicate()[pri:0, instance:test.java.JoinAccount@aba625]" started-at="2022-07-13T00:43:35 KST" name="Join_006_Nickname_Duplicate" finished-at="2022-07-13T00:43:48 KST" duration-ms="13149" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), '중복된 닉네임입니다.')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), '중복된 닉네임입니다.')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.Assert_ExistByText(Common.java:119)
+at test.java.JoinAccount.Join_006_Nickname_Duplicate(JoinAccount.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_006_Nickname_Duplicate -->
+        <test-method signature="Join_007_Nickname_Clear()[pri:0, instance:test.java.JoinAccount@aba625]" started-at="2022-07-13T00:43:48 KST" name="Join_007_Nickname_Clear" finished-at="2022-07-13T00:43:52 KST" duration-ms="4107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_007_Nickname_Clear -->
+        <test-method signature="Join_008_Nickname_Normal()[pri:0, instance:test.java.JoinAccount@aba625]" started-at="2022-07-13T00:43:52 KST" name="Join_008_Nickname_Normal" finished-at="2022-07-13T00:43:54 KST" duration-ms="2392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_008_Nickname_Normal -->
+        <test-method signature="Join_009_Agree_Check()[pri:0, instance:test.java.JoinAccount@aba625]" started-at="2022-07-13T00:43:54 KST" name="Join_009_Agree_Check" finished-at="2022-07-13T00:44:09 KST" duration-ms="14437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Join_009_Agree_Check -->
+      </class> <!-- test.java.JoinAccount -->
+      <class name="test.java.Func_02_Home_Middle">
+        <test-method signature="Home_001_Middle_Banner_Logout()[pri:0, instance:test.java.Func_02_Home_Middle@5a5a729f]" started-at="2022-07-13T00:47:00 KST" name="Home_001_Middle_Banner_Logout" finished-at="2022-07-13T00:48:17 KST" duration-ms="77105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_001_Middle_Banner_Logout -->
+        <test-method signature="Home_002_Middle_Banner_Top()[pri:0, instance:test.java.Func_02_Home_Middle@5a5a729f]" started-at="2022-07-13T00:48:17 KST" name="Home_002_Middle_Banner_Top" finished-at="2022-07-13T00:48:35 KST" duration-ms="17742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_002_Middle_Banner_Top -->
+        <test-method signature="Home_003_Middle_OwnBlock_Info()[pri:0, instance:test.java.Func_02_Home_Middle@5a5a729f]" started-at="2022-07-13T00:48:35 KST" name="Home_003_Middle_OwnBlock_Info" finished-at="2022-07-13T00:48:41 KST" duration-ms="6212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_003_Middle_OwnBlock_Info -->
+        <test-method signature="Home_004_Middle_MyBlock_Star()[pri:0, instance:test.java.Func_02_Home_Middle@5a5a729f]" started-at="2022-07-13T00:48:41 KST" name="Home_004_Middle_MyBlock_Star" finished-at="2022-07-13T00:48:43 KST" duration-ms="2060" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_004_Middle_MyBlock_Star -->
+        <test-method signature="Home_005_Middle_MyBlock_Enter()[pri:0, instance:test.java.Func_02_Home_Middle@5a5a729f]" started-at="2022-07-13T00:48:43 KST" name="Home_005_Middle_MyBlock_Enter" finished-at="2022-07-13T00:48:50 KST" duration-ms="7284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_005_Middle_MyBlock_Enter -->
+        <test-method signature="Home_006_Middle_Make_Block()[pri:0, instance:test.java.Func_02_Home_Middle@5a5a729f]" started-at="2022-07-13T00:48:50 KST" name="Home_006_Middle_Make_Block" finished-at="2022-07-13T00:48:58 KST" duration-ms="7160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_006_Middle_Make_Block -->
+        <test-method signature="Home_007_Middle_Join_Block()[pri:0, instance:test.java.Func_02_Home_Middle@5a5a729f]" started-at="2022-07-13T00:48:58 KST" name="Home_007_Middle_Join_Block" finished-at="2022-07-13T00:49:05 KST" duration-ms="7321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_007_Middle_Join_Block -->
+        <test-method signature="Home_008_Middle_LineBanner()[pri:0, instance:test.java.Func_02_Home_Middle@5a5a729f]" started-at="2022-07-13T00:49:05 KST" name="Home_008_Middle_LineBanner" finished-at="2022-07-13T00:49:11 KST" duration-ms="6234" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://2ndblock.com/space#100] but found [https://2ndblock.com/room/ZTVqoyjWpAfjpjCZaUVD]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://2ndblock.com/space#100] but found [https://2ndblock.com/room/ZTVqoyjWpAfjpjCZaUVD]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at main.java.Common.Assert_CheckCurrentUrl(Common.java:162)
+at test.java.Func_02_Home_Middle.Home_008_Middle_LineBanner(Func_02_Home_Middle.java:129)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_008_Middle_LineBanner -->
+      </class> <!-- test.java.Func_02_Home_Middle -->
+      <class name="test.java.Func_03_Character_Customization">
+        <test-method signature="Character_001_MyMenu_Character()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:49:11 KST" name="Character_001_MyMenu_Character" finished-at="2022-07-13T00:49:21 KST" duration-ms="10037" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/header/div/div[2]/div[2]/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/header/div/div[2]/div[2]/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_03_Character_Customization.Character_001_MyMenu_Character(Func_03_Character_Customization.java:34)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_001_MyMenu_Character -->
+        <test-method signature="Character_002_Skin()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:49:21 KST" name="Character_002_Skin" finished-at="2022-07-13T00:49:31 KST" duration-ms="10019" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), '피부')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //*[contains(text(), '피부')] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.Assert_ExistByText(Common.java:119)
+at test.java.Func_03_Character_Customization.Character_002_Skin(Func_03_Character_Customization.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_002_Skin -->
+        <test-method signature="Character_003_Hair()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:49:31 KST" name="Character_003_Hair" finished-at="2022-07-13T00:49:43 KST" duration-ms="12031" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), '헤어')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), '헤어')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), '헤어')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), '헤어')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at main.java.Common.clickByText(Common.java:31)
+at test.java.Func_03_Character_Customization.Character_003_Hair(Func_03_Character_Customization.java:49)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_003_Hair -->
+        <test-method signature="Character_004_Top()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:49:43 KST" name="Character_004_Top" finished-at="2022-07-13T00:49:55 KST" duration-ms="12047" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[5]/div/div/div[2]/div[2]/div[1]/ul/li[3] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[5]/div/div/div[2]/div[2]/div[1]/ul/li[3] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_03_Character_Customization.Character_004_Top(Func_03_Character_Customization.java:59)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_004_Top -->
+        <test-method signature="Character_005_Bottom()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:49:55 KST" name="Character_005_Bottom" finished-at="2022-07-13T00:50:18 KST" duration-ms="22352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_005_Bottom -->
+        <test-method signature="Character_006_Bag()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:50:18 KST" name="Character_006_Bag" finished-at="2022-07-13T00:50:34 KST" duration-ms="16245" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_006_Bag -->
+        <test-method signature="Character_007_Cap()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:50:34 KST" name="Character_007_Cap" finished-at="2022-07-13T00:50:41 KST" duration-ms="7150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_007_Cap -->
+        <test-method signature="Character_008_Shose()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:50:41 KST" name="Character_008_Shose" finished-at="2022-07-13T00:51:00 KST" duration-ms="19314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_008_Shose -->
+        <test-method signature="Character_009_Socks()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:51:00 KST" name="Character_009_Socks" finished-at="2022-07-13T00:51:08 KST" duration-ms="7130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_009_Socks -->
+        <test-method signature="Character_010_Accessories()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:51:08 KST" name="Character_010_Accessories" finished-at="2022-07-13T00:51:22 KST" duration-ms="14312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_010_Accessories -->
+        <test-method signature="Character_011_Save()[pri:0, instance:test.java.Func_03_Character_Customization@4b520ea8]" started-at="2022-07-13T00:51:22 KST" name="Character_011_Save" finished-at="2022-07-13T00:51:32 KST" duration-ms="10163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Character_011_Save -->
+      </class> <!-- test.java.Func_03_Character_Customization -->
+      <class name="test.java.Func_08_OwnBlock_Setting">
+        <test-method signature="OBSetting_001_Enter()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@782859e]" started-at="2022-07-13T00:57:53 KST" name="OBSetting_001_Enter" finished-at="2022-07-13T00:58:14 KST" duration-ms="21582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OBSetting_001_Enter -->
+        <test-method signature="OBSetting_002_Change_BlockName()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@782859e]" started-at="2022-07-13T00:58:14 KST" name="OBSetting_002_Change_BlockName" finished-at="2022-07-13T00:58:20 KST" duration-ms="5484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OBSetting_002_Change_BlockName -->
+        <test-method signature="OBSetting_003_Change_Notice()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@782859e]" started-at="2022-07-13T00:58:20 KST" name="OBSetting_003_Change_Notice" finished-at="2022-07-13T00:58:23 KST" duration-ms="3419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OBSetting_003_Change_Notice -->
+        <test-method signature="OBSetting_004_Change_Thumbnail()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@782859e]" started-at="2022-07-13T00:58:23 KST" name="OBSetting_004_Change_Thumbnail" finished-at="2022-07-13T00:58:33 KST" duration-ms="10057" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[3]/div/div[1]/div[1]/div[3]/div[2]/div/label/div[1]/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[3]/div/div[1]/div[1]/div[3]/div[2]/div/label/div[1]/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.Assert_ExistByXpath(Common.java:134)
+at test.java.Func_08_OwnBlock_Setting.OBSetting_004_Change_Thumbnail(Func_08_OwnBlock_Setting.java:56)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OBSetting_004_Change_Thumbnail -->
+        <test-method signature="OBSetting_005_PW_OnOff()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@782859e]" started-at="2022-07-13T00:58:33 KST" name="OBSetting_005_PW_OnOff" finished-at="2022-07-13T00:58:43 KST" duration-ms="10103" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[1]/div[1]/label (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[1]/div[1]/label (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_08_OwnBlock_Setting.OBSetting_005_PW_OnOff(Func_08_OwnBlock_Setting.java:66)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OBSetting_005_PW_OnOff -->
+        <test-method signature="OBSetting_006_Hide_OnOff()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@782859e]" started-at="2022-07-13T00:58:43 KST" name="OBSetting_006_Hide_OnOff" finished-at="2022-07-13T00:58:54 KST" duration-ms="10112" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[2]/div[1]/label (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[2]/div[1]/label (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_08_OwnBlock_Setting.OBSetting_006_Hide_OnOff(Func_08_OwnBlock_Setting.java:75)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OBSetting_006_Hide_OnOff -->
+        <test-method signature="OBSetting_007_Save()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@782859e]" started-at="2022-07-13T00:58:54 KST" name="OBSetting_007_Save" finished-at="2022-07-13T00:59:06 KST" duration-ms="12114" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), ' 변경사항 저장')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), ' 변경사항 저장')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), ' 변경사항 저장')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), ' 변경사항 저장')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at main.java.Common.clickByText(Common.java:31)
+at test.java.Func_08_OwnBlock_Setting.OBSetting_007_Save(Func_08_OwnBlock_Setting.java:83)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OBSetting_007_Save -->
+        <test-method signature="OBSetting_008_Close()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@782859e]" started-at="2022-07-13T00:59:06 KST" name="OBSetting_008_Close" finished-at="2022-07-13T00:59:16 KST" duration-ms="10067" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_08_OwnBlock_Setting.OBSetting_008_Close(Func_08_OwnBlock_Setting.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OBSetting_008_Close -->
       </class> <!-- test.java.Func_08_OwnBlock_Setting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test.java.Func_07_MakeBlock">
+        <test-method signature="MakeBlock_001_Enter()[pri:0, instance:test.java.Func_07_MakeBlock@3932c79a]" started-at="2022-07-13T00:57:09 KST" name="MakeBlock_001_Enter" finished-at="2022-07-13T00:57:10 KST" duration-ms="1136" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a class="CreateBlockCard-module__container--2hAJS" href="/space">...</a> is not clickable at point (1392, 778). Other element would receive the click: <div class="ReactModal__Overlay ReactModal__Overlay--after-open" style="position: fixed; inset: 0px; background-color: rgba(0, 0, 0, 0.6); z-index: 999999999;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, clickElement {id=21db90c6-13c2-4e70-99f0-5ac9af3416ea}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cf2edd4a26e39300732c75ddd693cdcc)] -> link text: 블록 만들기]
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a class="CreateBlockCard-module__container--2hAJS" href="/space">...</a> is not clickable at point (1392, 778). Other element would receive the click: <div class="ReactModal__Overlay ReactModal__Overlay--after-open" style="position: fixed; inset: 0px; background-color: rgba(0, 0, 0, 0.6); z-index: 999999999;">...</div>
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, clickElement {id=21db90c6-13c2-4e70-99f0-5ac9af3416ea}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cf2edd4a26e39300732c75ddd693cdcc)] -> link text: 블록 만들기]
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at main.java.Common.clickByLinktext(Common.java:79)
+at test.java.Func_07_MakeBlock.MakeBlock_001_Enter(Func_07_MakeBlock.java:31)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MakeBlock_001_Enter -->
+        <test-method signature="MakeBlock_002_Preset()[pri:0, instance:test.java.Func_07_MakeBlock@3932c79a]" started-at="2022-07-13T00:57:10 KST" name="MakeBlock_002_Preset" finished-at="2022-07-13T00:57:22 KST" duration-ms="12035" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), '#대규모컨퍼런스홀')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), '#대규모컨퍼런스홀')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), '#대규모컨퍼런스홀')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), '#대규모컨퍼런스홀')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at jdk.internal.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at main.java.Common.clickByText(Common.java:31)
+at test.java.Func_07_MakeBlock.MakeBlock_002_Preset(Func_07_MakeBlock.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MakeBlock_002_Preset -->
+        <test-method signature="MakeBlock_003_Preset_Check()[pri:0, instance:test.java.Func_07_MakeBlock@3932c79a]" started-at="2022-07-13T00:57:22 KST" name="MakeBlock_003_Preset_Check" finished-at="2022-07-13T00:57:36 KST" duration-ms="13992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MakeBlock_003_Preset_Check -->
+        <test-method signature="MakeBlock_004_Preset_CheckBtn()[pri:0, instance:test.java.Func_07_MakeBlock@3932c79a]" started-at="2022-07-13T00:57:36 KST" name="MakeBlock_004_Preset_CheckBtn" finished-at="2022-07-13T00:57:36 KST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MakeBlock_004_Preset_CheckBtn -->
+        <test-method signature="MakeBlock_005_Preset_InputName()[pri:0, instance:test.java.Func_07_MakeBlock@3932c79a]" started-at="2022-07-13T00:57:36 KST" name="MakeBlock_005_Preset_InputName" finished-at="2022-07-13T00:57:41 KST" duration-ms="5342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MakeBlock_005_Preset_InputName -->
+        <test-method signature="MakeBlock_006_Preset_Make()[pri:0, instance:test.java.Func_07_MakeBlock@3932c79a]" started-at="2022-07-13T00:57:41 KST" name="MakeBlock_006_Preset_Make" finished-at="2022-07-13T00:57:53 KST" duration-ms="11370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MakeBlock_006_Preset_Make -->
+      </class> <!-- test.java.Func_07_MakeBlock -->
+      <class name="test.java.Func_01_Home_Gnb">
+        <test-method signature="Home_001_Gnb_About()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:44:09 KST" name="Home_001_Gnb_About" finished-at="2022-07-13T00:44:45 KST" duration-ms="36403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_001_Gnb_About -->
+        <test-method signature="Home_002_Gnb_About_Start()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:44:45 KST" name="Home_002_Gnb_About_Start" finished-at="2022-07-13T00:44:50 KST" duration-ms="4665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_002_Gnb_About_Start -->
+        <test-method signature="Home_003_Gnb_MainLogo()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:44:50 KST" name="Home_003_Gnb_MainLogo" finished-at="2022-07-13T00:44:54 KST" duration-ms="4149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_003_Gnb_MainLogo -->
+        <test-method signature="Home_004_Gnb_CustormerCenter()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:44:54 KST" name="Home_004_Gnb_CustormerCenter" finished-at="2022-07-13T00:45:12 KST" duration-ms="18284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_004_Gnb_CustormerCenter -->
+        <test-method signature="Home_005_Gnb_Start()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:45:12 KST" name="Home_005_Gnb_Start" finished-at="2022-07-13T00:45:26 KST" duration-ms="14229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_005_Gnb_Start -->
+        <test-method signature="Home_006_Gnb_MyMenu()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:45:26 KST" name="Home_006_Gnb_MyMenu" finished-at="2022-07-13T00:45:31 KST" duration-ms="4122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_006_Gnb_MyMenu -->
+        <test-method signature="Home_007_Gnb_MyMenu_MyBlock()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:45:31 KST" name="Home_007_Gnb_MyMenu_MyBlock" finished-at="2022-07-13T00:45:44 KST" duration-ms="13475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_007_Gnb_MyMenu_MyBlock -->
+        <test-method signature="Home_008_Gnb_MyMenu_OwnBlock()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:45:44 KST" name="Home_008_Gnb_MyMenu_OwnBlock" finished-at="2022-07-13T00:45:55 KST" duration-ms="11226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_008_Gnb_MyMenu_OwnBlock -->
+        <test-method signature="Home_009_Gnb_MyMenu_MakeBlock()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:45:55 KST" name="Home_009_Gnb_MyMenu_MakeBlock" finished-at="2022-07-13T00:46:09 KST" duration-ms="14085" status="FAIL">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, clickElement {id=0a045950-bb13-4107-aa07-514cf5368539}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cf2edd4a26e39300732c75ddd693cdcc)] -> xpath: //*[contains(text(), '블록 만들기')]]
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, clickElement {id=0a045950-bb13-4107-aa07-514cf5368539}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (cf2edd4a26e39300732c75ddd693cdcc)] -> xpath: //*[contains(text(), '블록 만들기')]]
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at main.java.Common.clickByText(Common.java:31)
+at test.java.Func_01_Home_Gnb.Home_009_Gnb_MyMenu_MakeBlock(Func_01_Home_Gnb.java:103)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_009_Gnb_MyMenu_MakeBlock -->
+        <test-method signature="Home_010_Gnb_MyMenu_Character()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:46:09 KST" name="Home_010_Gnb_MyMenu_Character" finished-at="2022-07-13T00:46:20 KST" duration-ms="10369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_010_Gnb_MyMenu_Character -->
+        <test-method signature="Home_011_Gnb_MyMenu_Setting()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:46:20 KST" name="Home_011_Gnb_MyMenu_Setting" finished-at="2022-07-13T00:46:38 KST" duration-ms="18233" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[1]/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[7]/div/div/div[1]/img (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_01_Home_Gnb.Home_011_Gnb_MyMenu_Setting(Func_01_Home_Gnb.java:123)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_011_Gnb_MyMenu_Setting -->
+        <test-method signature="Home_012_Gnb_MyMenu_LogOut()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:46:38 KST" name="Home_012_Gnb_MyMenu_LogOut" finished-at="2022-07-13T00:46:48 KST" duration-ms="10021" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/header/div/div[2]/div[2]/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: /html/body/div[1]/header/div/div[2]/div[2]/div (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:138)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at main.java.Common.clickByXpath(Common.java:38)
+at test.java.Func_01_Home_Gnb.Home_012_Gnb_MyMenu_LogOut(Func_01_Home_Gnb.java:129)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_012_Gnb_MyMenu_LogOut -->
+        <test-method signature="Home_013_Gnb_MyMenu_LogOut_Complete()[pri:0, instance:test.java.Func_01_Home_Gnb@97e93f1]" started-at="2022-07-13T00:46:48 KST" name="Home_013_Gnb_MyMenu_LogOut_Complete" finished-at="2022-07-13T00:47:00 KST" duration-ms="12059" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), '확인')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), '확인')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(text(), '확인')]"}
+  (Session info: chrome=103.0.5060.114)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'DESKTOP-IIOPE3V', ip: '172.17.160.179', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cf2edd4a26e39300732c75ddd693cdcc, findElement {using=xpath, value=//*[contains(text(), '확인')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\riley\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53741}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53741/devtoo..., se:cdpVersion: 103.0.5060.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf2edd4a26e39300732c75ddd693cdcc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
+at main.java.Common.clickByText(Common.java:31)
+at test.java.Func_01_Home_Gnb.Home_013_Gnb_MyMenu_LogOut_Complete(Func_01_Home_Gnb.java:138)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home_013_Gnb_MyMenu_LogOut_Complete -->
+      </class> <!-- test.java.Func_01_Home_Gnb -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

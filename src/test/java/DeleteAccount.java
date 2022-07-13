@@ -13,6 +13,15 @@ public class DeleteAccount extends SetUp{
 		@Test
 		public void scenario_01_facebookLogin() throws InterruptedException {
 
+			//점검화면 뚫기
+//				Thread.sleep(1000);
+//				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "s");
+//				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "e");
+//				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "c");
+//				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "o");
+//				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "n");
+//				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "d");
+			
 			Common.clickByText("시작하기"); //시작하기
 			Common.clickByText("페이스북 계정으로 로그인");
 			Common.WinHandle(); //브라우저 탭 핸들링

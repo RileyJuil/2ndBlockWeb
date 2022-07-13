@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.java.Func_08_OwnBlock_Setting">
+      <class name="test.java.SystemCheck">
         <methods>
           <include name="createAndStartService"/>
           <include name="quit"/>
-          <include name="OBSetting_008_Close"/>
-          <include name="OBSetting_005_PW_OnOff"/>
+          <include name="Join_001_Login_Facebook"/>
         </methods>
-      </class> <!-- test.java.Func_08_OwnBlock_Setting -->
+      </class> <!-- test.java.SystemCheck -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

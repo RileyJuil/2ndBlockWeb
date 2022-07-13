@@ -20,23 +20,19 @@ public class Func_01_Home_Gnb extends SetUp{
 			Home_012_Gnb_MyMenu_LogOut();
 			Home_013_Gnb_MyMenu_LogOut_Complete();
 
-			if (!driver.findElements(By.xpath("/html/body/div[1]/div/div")).isEmpty()) {
-				Thread.sleep(1000);
-				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "s");
-				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "e");
-				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "c");
-				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "o");
-				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "n");
-				Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "d");
-				
-				Thread.sleep(3000);
-				Common.clickByText("세컨블록 소개");
-				Common.Assert_CheckCurrentUrl("https://2ndblock.com/about"); //about 페이지 이동 확인
-			} 
-			else {
+			//점검화면 뚷기
+//			Thread.sleep(1000);
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "s");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "e");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "c");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "o");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "n");
+//			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "d");
+			
+			
 			Common.clickByText("세컨블록 소개");
 			Common.Assert_CheckCurrentUrl("https://2ndblock.com/about"); //about 페이지 이동 확인
-			}
+			
 			
 	  }
 	
