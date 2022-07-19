@@ -22,6 +22,8 @@ public class Func_05_InGame extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[3]"); //빅배너에서 소개 블록 선택
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[4]/div/div/div[1]");//자세히 보기
 			//Common.clickByText("블록 입장하기"); //최상단 배너에서 블록 입장하기 생김
+			driver.wait(5000);
+			driver.wait(5000);
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/img"); //홈버튼 클릭
 			Common.Assert_ExistByXpath("/html/body/div[1]/header/div/div[1]/a/img"); //메인으로 이동하여 메인 로고 있는지 확인
 			Common.Back();
@@ -42,7 +44,7 @@ public class Func_05_InGame extends SetUp{
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[2]/div/img"); //마이메뉴
 			Common.clickByText("설정"); //설정 클릭
 		    Common.Assert_ExistByText("미디어 설정"); //미디어 설정 탭 유무로 확인
-			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/span/img"); //닫기 버튼으로 메인 페이지 이동
+			Common.clickByXpath("/html/body/div[6]/div/div/div[1]/span/img"); //닫기 버튼으로 메인 페이지 이동
 			
 	  }
 		
@@ -177,7 +179,7 @@ public class Func_05_InGame extends SetUp{
 			Common.clickByText("필터 효과");
 			//Common.clickByXpath("/html/body/div[2]/div[1]/div[2]/div[3]/div[1]"); //필터 효과 모달 열기
 			Common.Assert_ExistByText("미디어 설정"); // 미디어 설정 모달 열림 확인		
-			Common.clickByXpath("/html/body/div[7]/div/div/div[1]/span/img"); // 설정 모달 닫기
+			Common.clickByXpath("/html/body/div[6]/div/div/div[1]/span/img"); // 설정 모달 닫기
 	  }
 		
 		@Test

@@ -3,19 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.java.Func_02_Home_Middle">
+      <class name="test.java.Func_07_MakeBlock">
         <methods>
           <include name="createAndStartService"/>
-          <include name="Home_007_Middle_Join_Block"/>
+          <include name="MakeBlock_003_Preset_Check"/>
           <include name="quit"/>
-          <include name="Home_002_Middle_Banner_Top"/>
-          <include name="Home_005_Middle_MyBlock_Enter"/>
-          <include name="Home_006_Middle_Make_Block"/>
-          <include name="Home_003_Middle_OwnBlock_Info"/>
-          <include name="Home_004_Middle_MyBlock_Star"/>
-          <include name="Home_008_Middle_LineBanner"/>
+          <include name="MakeBlock_005_Preset_InputName"/>
+          <include name="MakeBlock_006_Preset_Make"/>
+          <include name="MakeBlock_004_Preset_CheckBtn"/>
         </methods>
-      </class> <!-- test.java.Func_02_Home_Middle -->
+      </class> <!-- test.java.Func_07_MakeBlock -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

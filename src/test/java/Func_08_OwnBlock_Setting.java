@@ -40,8 +40,8 @@ public class Func_08_OwnBlock_Setting extends SetUp{
 		@Test
 		public void OBSetting_002_Change_BlockName() throws InterruptedException {
 			
-			Common.InputTextXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[1]/div[1]/div[2]/div/input", "테스트"); //블록 제목 라일리 입력
-			Common.Enter("/html/body/div[7]/div/div/div[3]/div/div[1]/div[1]/div[1]/div[2]/div/input"); //엔터
+			Common.InputTextXpath("/html/body/div[6]/div/div/div[3]/div/div[1]/div[1]/div[1]/div[2]/div/input", "테스트"); //블록 제목 라일리 입력
+			Common.Enter("/html/body/div[6]/div/div/div[3]/div/div[1]/div[1]/div[1]/div[2]/div/input"); //엔터
 			
 		}
 		
@@ -56,7 +56,7 @@ public class Func_08_OwnBlock_Setting extends SetUp{
 		@Test
 		public void OBSetting_004_Change_Thumbnail() throws InterruptedException {
 			
-			Common.Assert_ExistByXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[1]/div[4]/div[2]/div/label/div[1]/img");
+			Common.Assert_ExistByXpath("/html/body/div[6]/div/div/div[3]/div/div[1]/div[1]/div[4]/div[2]/div/label/div[1]/img");
 			Thread.sleep(1000); 
 
 			driver.findElement(By.id("thumbnail-upload")).sendKeys("C:\\Users\\riley\\Downloads\\SaveMe.jpg");
@@ -66,14 +66,14 @@ public class Func_08_OwnBlock_Setting extends SetUp{
 		@Test
 		public void OBSetting_005_Public_On() throws InterruptedException {
 			
-			Common.clickByXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[1]/div[2]/label"); //홈에서 공개 off
+			Common.clickByXpath("/html/body/div[6]/div/div/div[3]/div/div[1]/div[2]/div[1]/div[2]/label"); //홈에서 공개 off
 			Thread.sleep(2000);
 		}
 					
 		@Test
 		public void OBSetting_006_PW_OnOff() throws InterruptedException {
 			
-			Common.clickByXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[3]/div[1]/label"); //비밀번호 사용 클릭
+			Common.clickByXpath("/html/body/div[6]/div/div/div[3]/div/div[1]/div[2]/div[3]/div[1]/label"); //비밀번호 사용 클릭
 			Thread.sleep(2000);
 			Common.InputTextClass("password-input", "1234");
 			Thread.sleep(2000);
@@ -82,7 +82,7 @@ public class Func_08_OwnBlock_Setting extends SetUp{
 		@Test
 		public void OBSetting_007_Hide_OnOff() throws InterruptedException {
 			
-			Common.clickByXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[4]/div[2]/label"); //블록 숨기기 on
+			Common.clickByXpath("/html/body/div[6]/div/div/div[3]/div/div[1]/div[2]/div[4]/div[2]/label"); //블록 숨기기 on
 			Thread.sleep(2000);
 
 		}
@@ -104,7 +104,7 @@ public class Func_08_OwnBlock_Setting extends SetUp{
 			Common.clickByText("블록 설정"); //블록 설정 클릭
 			//Common.Assert_ExistByText("비밀번호 변경"); //비밀번호 변경으로 노출되는지 확인
 			
-			Common.clickByXpath("/html/body/div[7]/div/div/div[3]/div/div[1]/div[2]/div[6]/div[2]/div[2]"); //블록 폐쇄 클릭
+			Common.clickByXpath("/html/body/div[6]/div/div/div[3]/div/div[1]/div[2]/div[6]/div[2]/div[2]"); //블록 폐쇄 클릭
 			Thread.sleep(1000);
 			Common.clickByText("블록폐쇄"); //블록 폐쇄 클릭
 			Thread.sleep(1000);

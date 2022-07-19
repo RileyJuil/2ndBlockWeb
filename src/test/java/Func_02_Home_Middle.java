@@ -65,6 +65,7 @@ public class Func_02_Home_Middle extends SetUp{
 		//하나만 돌릴때 켜기
 		//Common.facebookLogin(); //크롬 드라이버가 종료되는 것이 아니니 페이스북 로그인을 id, pw를 입력하지 않아도 바로 로그인 됨
 		
+		//하나만 돌릴때 닫기
 		Common.clickByText("시작하기"); //시작하기
 		Common.clickByText("페이스북 계정으로 로그인");
 		Common.WinHandle(); //브라우저 탭 핸들링
