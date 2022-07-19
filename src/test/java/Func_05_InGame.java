@@ -18,14 +18,14 @@ public class Func_05_InGame extends SetUp{
 		public void InGame_001_HomeBtn() throws InterruptedException {
 			//하나만 돌릴 때만 열기
 			//Common.facebookLogin(); //페이스북 로그인
-	
+			                      
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[3]"); //빅배너에서 소개 블록 선택
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[4]/div/div/div[1]");//자세히 보기
-			//Common.clickByText("블록 입장하기"); //최상단 배너에서 블록 입장하기 생김
-			driver.wait(5000);
-			driver.wait(5000);
+			Common.wait(3000);
 			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/img"); //홈버튼 클릭
+			Common.wait(2000);
 			Common.Assert_ExistByXpath("/html/body/div[1]/header/div/div[1]/a/img"); //메인으로 이동하여 메인 로고 있는지 확인
+			Common.wait(2000);
 			Common.Back();
 	  }
 	
