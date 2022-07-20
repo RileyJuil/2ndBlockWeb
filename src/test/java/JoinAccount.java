@@ -21,6 +21,11 @@ public class JoinAccount extends SetUp{
 //			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "n");
 //			Common.InputTextXpath("/html/body/div[1]/header/div/div[2]/a", "d");
 		
+		//하나만 돌릴 때 열기
+		//Common.facebookLogin(); //페이스북 로그인
+		
+		
+		//연결해서 돌릴 때 열기
 		Common.clickByText("시작하기"); //시작하기
 		Common.clickByText("페이스북 계정으로 로그인");
 		Common.WinHandle(); //브라우저 탭 핸들링

@@ -42,9 +42,10 @@ public class DeleteAccount extends SetUp{
 	  public void scenario_02_deleteAccount() throws InterruptedException {
 
 	    Common.clickByXpath("/html/body/div[1]/header/div/div[2]/div[2]/div"); //마이메뉴
+	    Thread.sleep(2000);
 	    Common.clickByText("설정");
 	    Common.clickByText("정말 탈퇴하시겠습니까?");
-	    Common.clickByXpath("/html/body/div[11]/div/div/div/div[4]/div[2]/button");//회원탈퇴 버튼
+	    Common.clickByXpath("/html/body/div[10]/div/div/div/div[4]/div[2]/button");//회원탈퇴 버튼
 	                        
 	    Common.clickByText("확인");
 	    

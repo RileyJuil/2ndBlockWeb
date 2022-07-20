@@ -1,61 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-19T11:24:02 KST" name="Default suite" finished-at="2022-07-19T11:26:46 KST" duration-ms="164161">
+  <suite started-at="2022-07-20T11:54:35 KST" name="Default suite" finished-at="2022-07-20T11:55:31 KST" duration-ms="55475">
     <groups>
     </groups>
-    <test started-at="2022-07-19T11:24:02 KST" name="Default test" finished-at="2022-07-19T11:26:46 KST" duration-ms="164161">
-      <class name="test.java.Func_08_OwnBlock_Setting">
-        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:24:02 KST" name="createAndStartService" finished-at="2022-07-19T11:24:19 KST" duration-ms="17745" status="PASS">
+    <test started-at="2022-07-20T11:54:35 KST" name="Default test" finished-at="2022-07-20T11:55:31 KST" duration-ms="55475">
+      <class name="test.java.DeleteAccount">
+        <test-method is-config="true" signature="createAndStartService()[pri:0, instance:test.java.DeleteAccount@19932c16]" started-at="2022-07-20T11:54:35 KST" name="createAndStartService" finished-at="2022-07-20T11:54:38 KST" duration-ms="3119" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAndStartService -->
-        <test-method signature="Home_000_Login()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:24:19 KST" name="Home_000_Login" finished-at="2022-07-19T11:24:48 KST" duration-ms="28820" status="PASS">
+        <test-method signature="scenario_01_facebookLogin()[pri:0, instance:test.java.DeleteAccount@19932c16]" started-at="2022-07-20T11:54:38 KST" name="scenario_01_facebookLogin" finished-at="2022-07-20T11:55:07 KST" duration-ms="28763" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Home_000_Login -->
-        <test-method signature="OBSetting_001_Enter()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:24:48 KST" name="OBSetting_001_Enter" finished-at="2022-07-19T11:25:25 KST" duration-ms="36876" status="PASS">
+        </test-method> <!-- scenario_01_facebookLogin -->
+        <test-method signature="scenario_02_deleteAccount()[pri:0, instance:test.java.DeleteAccount@19932c16]" started-at="2022-07-20T11:55:07 KST" name="scenario_02_deleteAccount" finished-at="2022-07-20T11:55:30 KST" duration-ms="23377" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OBSetting_001_Enter -->
-        <test-method signature="OBSetting_002_Change_BlockName()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:25:25 KST" name="OBSetting_002_Change_BlockName" finished-at="2022-07-19T11:25:30 KST" duration-ms="5305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_002_Change_BlockName -->
-        <test-method signature="OBSetting_003_Change_Notice()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:25:30 KST" name="OBSetting_003_Change_Notice" finished-at="2022-07-19T11:25:34 KST" duration-ms="3255" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_003_Change_Notice -->
-        <test-method signature="OBSetting_004_Change_Thumbnail()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:25:34 KST" name="OBSetting_004_Change_Thumbnail" finished-at="2022-07-19T11:25:38 KST" duration-ms="4339" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_004_Change_Thumbnail -->
-        <test-method signature="OBSetting_005_Public_On()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:25:38 KST" name="OBSetting_005_Public_On" finished-at="2022-07-19T11:25:44 KST" duration-ms="6265" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_005_Public_On -->
-        <test-method signature="OBSetting_006_PW_OnOff()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:25:44 KST" name="OBSetting_006_PW_OnOff" finished-at="2022-07-19T11:25:55 KST" duration-ms="10511" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_006_PW_OnOff -->
-        <test-method signature="OBSetting_007_Hide_OnOff()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:25:55 KST" name="OBSetting_007_Hide_OnOff" finished-at="2022-07-19T11:26:01 KST" duration-ms="6309" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_007_Hide_OnOff -->
-        <test-method signature="OBSetting_008_Save()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:26:01 KST" name="OBSetting_008_Save" finished-at="2022-07-19T11:26:12 KST" duration-ms="11359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_008_Save -->
-        <test-method signature="OBSetting_009_Close()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:26:12 KST" name="OBSetting_009_Close" finished-at="2022-07-19T11:26:45 KST" duration-ms="33068" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OBSetting_009_Close -->
-        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.Func_08_OwnBlock_Setting@433defed]" started-at="2022-07-19T11:26:45 KST" name="quit" finished-at="2022-07-19T11:26:46 KST" duration-ms="255" status="PASS">
+        </test-method> <!-- scenario_02_deleteAccount -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:test.java.DeleteAccount@19932c16]" started-at="2022-07-20T11:55:30 KST" name="quit" finished-at="2022-07-20T11:55:31 KST" duration-ms="192" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-      </class> <!-- test.java.Func_08_OwnBlock_Setting -->
+      </class> <!-- test.java.DeleteAccount -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
