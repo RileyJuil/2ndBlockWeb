@@ -16,7 +16,7 @@ import main.java.SetUp;
 
 public class Func_08_OwnBlock_Setting extends SetUp{
 	
-	
+		//하나만 돌릴 때 열기
 //		@Test
 //		public void Home_000_Login() throws InterruptedException {
 //	
