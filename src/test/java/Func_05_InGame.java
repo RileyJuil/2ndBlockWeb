@@ -58,7 +58,8 @@ public class Func_05_InGame extends SetUp{
 		public void InGame_005_BlockFollow() throws InterruptedException {
 			
 			Thread.sleep(1000);
-			Common.clickByText("블록 팔로우"); //블록 팔로우 버튼 클릭
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/button"); //블록 팔로우 버튼 클릭
+			//Common.clickByText("블록 팔로우"); //블록 팔로우 버튼 클릭
 			Thread.sleep(4000);
 			Common.Assert_ExistByText(" 팔로우 중"); //팔로우 중 상태 확인
 	  }
@@ -67,7 +68,8 @@ public class Func_05_InGame extends SetUp{
 		public void InGame_006_BlockUnfollow() throws InterruptedException {
 
 			Thread.sleep(2000);
-			Common.clickByText(" 팔로우 중"); //블록 팔로우 버튼 클릭
+			Common.clickByXpath("/html/body/div[1]/div[1]/div[2]/div[1]/div[2]/button"); //블록 언팔로우 버튼 클릭
+			//Common.clickByText(" 팔로우 중"); //블록 언팔로우 버튼 클릭
 			Thread.sleep(4000);
 			Common.Assert_ExistByText("블록 팔로우"); //팔로우 중 상태 확인
 	  }
