@@ -12,12 +12,14 @@ public class Func_04_Home_Footer extends SetUp{
 	
 	
 		@Test
-		public void Home_001_Footer_MailTo() throws InterruptedException {
+		public void Home_001_Footer_Help() throws InterruptedException {
 	
-			Common.waitForElementByText("문의하기");
-			Assert.assertEquals(driver.findElement(By.xpath("//*[contains(text(), '문의하기')]")).getAttribute("href"), "mailto:cs@2ndblock.com");
+			Common.clickByText("도움말");
+			Common.Assert_CheckCurrentUrl("https://secondblock.zendesk.com/hc/ko/categories/4409499212313-도움말"); //도움말 페이지 확인
+			driver.close(); //도움말 탭 닫기
+
 	  }
-	
+		
 		@Test
 		public void Home_002_Footer_Term() throws InterruptedException {
 	

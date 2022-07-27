@@ -3,6 +3,7 @@ package test.java;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import main.java.SetUp;
@@ -41,7 +42,7 @@ public class Func_01_Home_Gnb extends SetUp{
 		public void Home_002_Gnb_About_Start() throws InterruptedException {
 
 			Common.PageScrollBottom();
-			Common.clickByXpath("/html/body/div[1]/main/div/div[6]/div/div/div[2]"); //About 페이지 내의 하단에 "시작하기" 버튼
+			Common.clickByXpath("/html/body/div[1]/main/div/div[6]/div/div/div[2]/div"); //About 페이지 내의 하단에 "시작하기" 버튼
 			Common.Assert_CheckCurrentUrl("https://2ndblock.com/login"); //로그인 페이지 이동 확인
 
 	  }
@@ -62,6 +63,13 @@ public class Func_01_Home_Gnb extends SetUp{
 			Common.Assert_CheckCurrentUrl("https://secondblock.zendesk.com/hc/ko");
 			driver.close();
 			Common.WinHandle();
+	  }
+		
+		@Test
+		public void Home_001_Footer_MailTo() throws InterruptedException {
+	
+			Common.waitForElementByText("제휴문의");
+			Assert.assertEquals(driver.findElement(By.xpath("//*[contains(text(), '제휴문의')]")).getAttribute("href"), "mailto:partnership@2ndblock.com");
 	  }
 		
 		@Test

@@ -17,7 +17,7 @@ public class Func_05_InGame extends SetUp{
 		@Test
 		public void InGame_001_HomeBtn() throws InterruptedException {
 			//하나만 돌릴 때만 열기
-			//Common.facebookLogin(); //페이스북 로그인
+			Common.facebookLogin(); //페이스북 로그인
 			                    
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[1]/span[3]"); //빅배너에서 소개 블록 선택
 			Common.clickByXpath("/html/body/div[1]/main/div/div[1]/div/div/div[2]/div[4]/div/div/div[1]");//자세히 보기
